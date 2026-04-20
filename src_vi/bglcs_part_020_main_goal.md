@@ -1,101 +1,105 @@
-# The Main Goal
+# Mục tiêu chính
 
 [i[Main goal]<]
 
-> _"Education is not preparation for life; education is life itself."_
+> _"Giáo dục không phải là sự chuẩn bị cho cuộc sống; giáo dục chính là
+> cuộc sống."_
 >
 > —John "Not The Decimal System One" Dewey
 
-> _"The illiterate of the 21st century will not be those who cannot read
-> and write, but those who cannot learn, unlearn, and relearn."_
+> _"Người mù chữ của thế kỷ 21 không phải là những người không biết đọc
+> và viết, mà là những người không biết học, không biết bỏ đi những gì
+> đã học, và không biết học lại."_
 >
 > —Alvin Toffler
 
-What are we learning in school? How to be a Flutter developer? How to be
-a React developer? How to be a Rust developer? How to be a JavaScript
-developer? How to be a C++ developer? How to be a C developer? How to be
-a Pascal developer? How to be a LISP developer? How to be a FORTRAN
-developer? How to be a COBOL developer?
+Chúng ta học gì ở trường? Cách trở thành lập trình viên Flutter? Cách
+trở thành lập trình viên React? Cách trở thành lập trình viên Rust? Cách
+trở thành lập trình viên JavaScript? Cách trở thành lập trình viên C++?
+Cách trở thành lập trình viên C? Cách trở thành lập trình viên Pascal?
+Cách trở thành lập trình viên LISP? Cách trở thành lập trình viên
+FORTRAN? Cách trở thành lập trình viên COBOL?
 
-See what I did there? Besides ask a lot of questions?
+Bạn có thấy điều tôi vừa làm không? Ngoài việc đặt ra rất nhiều câu hỏi?
 
-Yes, you might be wanting to go to school so you can work on web
-development or embedded systems in the latest and greatest languages.
-And maybe if you're lucky, you'll do some of that in school.
+Vâng, bạn có thể muốn vào đại học để làm việc với web development hoặc
+embedded systems bằng những ngôn ngữ mới nhất và tốt nhất. Và nếu may
+mắn, bạn sẽ được làm một phần điều đó ở trường.
 
-But here's the problem:
+Nhưng đây là vấn đề:
 
-1. There are too many technologies to cover in four years.
-2. All that stuff is going to be obsolete soon, anyway. See how I added
-   [flw[COBOL|COBOL]] to the list[^7152]?
+1. Có quá nhiều công nghệ để bao quát trong bốn năm.
+2. Tất cả những thứ đó sẽ sớm lỗi thời dù sao. Bạn thấy tôi đã thêm
+   [flw[COBOL|COBOL]] vào danh sách không[^7152]?
 
-[^7152]: Joke's on me. There are still tons of COBOL jobs out there.
+[^7152]: Thật ra trò đùa quay lại hại tôi. Vẫn còn rất nhiều công việc
+liên quan đến COBOL ngoài kia.
 
-So what can you as a student do? There's no way you're covering it all.
+Vậy là sinh viên bạn phải làm gì? Không có cách nào bạn có thể học hết
+tất cả.
 
-This is where the main goal comes into play. Your job as a student is to
-do one thing:
+Đây là lúc mục tiêu chính phát huy tác dụng. Nhiệm vụ của bạn với tư
+cách là sinh viên là làm một điều duy nhất:
 
-***Learn how to solve any programming problem.***
+***Học cách giải quyết bất kỳ bài toán lập trình nào.***
 
-Even if you've never seen the problem or technology in your entire life.
+Dù bạn chưa từng thấy bài toán hay công nghệ đó trong đời.
 
-That's the whole goal.
+Đó là toàn bộ mục tiêu.
 
-Importantly, it's not to learn to be an iPhone developer or an Android
-developer or a Go developer. All that stuff is covered by the main goal.
-You might not learn Go programming in school, but you'll _learn how to
-learn Go programming on your own_.
+Quan trọng là, mục tiêu không phải là học trở thành lập trình viên
+iPhone hay Android hay Go. Tất cả những thứ đó đều nằm trong mục tiêu
+chính. Bạn có thể không học lập trình Go ở trường, nhưng bạn sẽ _học
+cách tự học lập trình Go_.
 
-***Learn how to solve any programming problem.***
+***Học cách giải quyết bất kỳ bài toán lập trình nào.***
 
-That's it. Everything else is window dressing.
+Chỉ vậy thôi. Mọi thứ khác chỉ là phụ trợ.
 
-Being able to learn things on your own is a **required** skill when it
-comes to software development. It's *really* unlikely that your first
-job will solely use technologies you've used in school. And, in fact,
-recently-graduated students might be surprised to find out that **none**
-of the technologies they've used at school are present in their first
-gig.
+Khả năng tự học là một kỹ năng **bắt buộc** trong lĩnh vực phát triển
+phần mềm. *Thực sự* khó có khả năng công việc đầu tiên của bạn chỉ sử
+dụng các công nghệ bạn đã học ở trường. Và thực tế, những sinh viên mới
+ra trường có thể ngạc nhiên khi phát hiện ra rằng **không có** công nghệ
+nào họ dùng ở trường lại xuất hiện trong công việc đầu tiên của họ.
 
-So why on Earth did we just spend four years learning all this crap
-about operating systems and assembly language and algorithmic analysis
-and—?
+Vậy tại sao trên đời chúng ta lại dành bốn năm học tất cả những thứ
+nhảm nhí này về hệ điều hành, ngôn ngữ assembly, phân tích thuật toán
+và—?
 
-*EERRRNT!* [buzzer sounds] You didn't just spend four years doing that.
-You just spent four years *learning to solve any programming problem*.
+*EERRRNT!* [tiếng còi vang] Bạn không chỉ dành bốn năm làm điều đó.
+Bạn vừa dành bốn năm *học cách giải quyết bất kỳ bài toán lập trình nào*.
 
-And think about it. How would you teach people to solve *any* problem?
-Well, you can't exhaustively teach them [flw[all zillion programming
-languages|List_of_programming_languages]], frameworks, and techniques.
-So that's off the table. And whichever ones you do pick might or might
-not be used for a particular person's job.
+Và hãy nghĩ về điều đó. Làm thế nào bạn có thể dạy mọi người giải quyết
+*bất kỳ* bài toán nào? Bạn không thể dạy toàn bộ [flw[hàng tỷ ngôn ngữ
+lập trình|List_of_programming_languages]], framework, và kỹ thuật. Vậy
+nên điều đó không khả thi. Và dù bạn chọn những thứ nào, chúng có thể
+hoặc không được dùng trong công việc của một người cụ thể.
 
-So we have to get more fundamental. We have to practice solving problems
-so many times that we develop and enhance our problem-solving skills.
-Because you're going to be faced with problems in an interview or at
-work that are completely unfamiliar. You won't be able to draw on any
-specific languages or algorithms you've learned. The one thing you will
-be able to use is your problem-solving skill.
+Vì vậy, chúng ta phải đi sâu hơn vào nền tảng. Chúng ta phải luyện tập
+giải quyết bài toán nhiều lần đến mức phát triển và nâng cao kỹ năng
+giải quyết vấn đề. Bởi vì bạn sẽ đối mặt với những bài toán trong
+phỏng vấn hay ở nơi làm việc hoàn toàn xa lạ. Bạn sẽ không thể dựa vào
+bất kỳ ngôn ngữ hay thuật toán cụ thể nào đã học. Thứ duy nhất bạn có
+thể dùng chính là kỹ năng giải quyết vấn đề của mình.
 
-Finally, there's a bit of a corollary here: when you're learning to do
-something (even if you'll never use it at work), [i[Cheating]] *don't
-cheat*. The goal isn't to learn how to delete the head of a linked list.
-The goal is to practice solving programming problems! And just looking
-up the answer deprives you of that practice. Cheat your way through all
-the assignments at school and you'll never develop the one fundamental
-skill of software developers: being able to solve any programming
-problem.
+Cuối cùng, có một hệ quả nhỏ ở đây: khi bạn đang học làm gì đó (dù bạn
+sẽ không bao giờ dùng nó ở nơi làm việc), [i[Cheating]] *đừng gian
+lận*. Mục tiêu không phải là học cách xóa phần đầu của danh sách liên
+kết. Mục tiêu là luyện tập giải quyết bài toán lập trình! Và việc chỉ
+tra cứu câu trả lời sẽ tước đi cơ hội luyện tập đó của bạn. Gian lận
+qua hết các bài tập ở trường và bạn sẽ không bao giờ phát triển được kỹ
+năng nền tảng duy nhất của các lập trình viên phần mềm: khả năng giải
+quyết bất kỳ bài toán lập trình nào.
 
-## Chapter Reflection
+## Suy ngẫm về chương
 
-* What is the main goal of a computer science student?
+* Mục tiêu chính của một sinh viên khoa học máy tính là gì?
 
-* Why is learning languages and frameworks *not* the main goal?
+* Tại sao việc học ngôn ngữ và framework *không phải* là mục tiêu chính?
 
-* What do you have to do to accomplish the main goal?
+* Bạn phải làm gì để đạt được mục tiêu chính?
 
-* Why is cheating in computer science classes a bad idea in terms of
-  your learning?
+* Tại sao gian lận trong các lớp khoa học máy tính lại là ý tưởng tồi
+  xét về phương diện học tập của bạn?
 
 [i[Main goal]>]
