@@ -1,524 +1,523 @@
-# Problem Solving
+# Giải quyết vấn đề
 
 [i[Problem solving]<]
 
-This is an idea completely stolen from the book [i[How to Solve It
-book]] [flw[_How to Solve It_|How_to_Solve_It]] by George Pólya. It's a
-book about attacking math problems. And since computer science is just
-math under the hood, it completely applies!
+Đây là ý tưởng được "đánh cắp" hoàn toàn từ cuốn sách [i[How to Solve It
+book]] [flw[_How to Solve It_|How_to_Solve_It]] của George Pólya. Đó là
+cuốn sách về cách tiếp cận các bài toán toán học. Và vì khoa học máy
+tính về bản chất cũng là toán học, nó hoàn toàn áp dụng được!
 
-Actually it doesn't completely apply, and I just said that because it
-sounded so good. But it can be bent into shape pretty easily. And I
-recommend reading the book.
+Thực ra không hoàn toàn áp dụng được, và tôi chỉ nói vậy vì nghe hay.
+Nhưng có thể uốn nắn cho phù hợp khá dễ. Và tôi khuyên bạn nên đọc cuốn
+sách này.
 
-So what is it? It's short and pretty easy to memorize:
+Vậy nó là gì? Ngắn gọn và khá dễ thuộc:
 
 [i[Problem solving-->Steps]]
 
-1. **Understand** the problem
-2. **Plan** how you're going to solve it
-3. **Code** up the solution
-4. **Reflect** on what you could do better
+1. **Hiểu** vấn đề
+2. **Lên kế hoạch** giải quyết nó
+3. **Viết code** cho giải pháp
+4. **Nhìn lại** những gì có thể làm tốt hơn
 
-That's it.
+Chỉ vậy thôi.
 
-And if you think about it, that's really just a four-step process for
-solving just about any problem at all. Is your living-room light not
-working? You can solve it with these steps.
+Và nếu bạn nghĩ về nó, đó thực chất chỉ là quy trình bốn bước để giải
+quyết hầu như bất kỳ vấn đề nào. Đèn phòng khách không sáng à? Bạn có
+thể giải quyết nó bằng các bước này.
 
-> _"Math ain't about numbers. If you think math is about numbers, you
-> probably think that Shakespeare is all about words. You probably think
-> that dancing is all about shoes. You probably think that music is all
-> about notes. Math ain't about numbers. Math is about logic, it's about
-> beauty, it's about connections, it's about how you get from one place
-> to another."_
+> _"Toán học không phải là về con số. Nếu bạn nghĩ toán học là về con
+> số, bạn có thể nghĩ rằng Shakespeare chỉ là về các từ ngữ. Bạn có thể
+> nghĩ rằng khiêu vũ chỉ là về giày. Bạn có thể nghĩ rằng âm nhạc chỉ
+> là về nốt nhạc. Toán học không phải là về con số. Toán học là về logic,
+> về vẻ đẹp, về các kết nối, về cách bạn đi từ nơi này đến nơi khác."_
 >
 > —Cliff Stoll
 
-Programming ain't about writing code. **Steps 1, 2, and 4 do not involve
-coding**[^3cfe]. These steps are all in your head and on paper. I would
-argue that ***solving programming problems does not involve a
-computer***. That seems clearly nonsensical, but that's where the action
-actually is! Especially in step 2, coming up with a _Plan_. That's the
-hard part. That's why you get paid the big bucks. Anyone can type a
-program in once the problem has been solved.
+Lập trình không phải là về viết code. **Bước 1, 2, và 4 không liên quan
+đến việc viết code**[^3cfe]. Những bước này đều diễn ra trong đầu bạn và
+trên giấy. Tôi sẽ lập luận rằng ***giải quyết các bài toán lập trình
+không liên quan đến máy tính***. Nghe có vẻ vô lý rõ ràng, nhưng đó
+chính là nơi hành động thực sự xảy ra! Đặc biệt ở bước 2, đưa ra
+_Kế hoạch_. Đó là phần khó. Đó là lý do bạn được trả lương cao. Ai
+cũng có thể gõ một chương trình vào sau khi vấn đề đã được giải quyết.
 
-[^3cfe]: Sometimes they can, actually, but only to write small,
-    throwaway, exploratory proof-of-concept programs.
+[^3cfe]: Đôi khi thực ra có thể, nhưng chỉ để viết các chương trình
+    nhỏ, dùng một lần, khám phá mang tính bằng chứng khái niệm.
 
-Step 3, _Coding_ it up, is simply writing the solution down. The hard
-work isn't writing the solution down; the hard work is coming up with it
-in the first place!
+Bước 3, _Viết code_, đơn giản chỉ là ghi lại giải pháp. Công việc khó
+không phải là ghi lại giải pháp; công việc khó là đưa ra nó ngay từ đầu!
 
-Also, you're unlikely to progress linearly through these steps. You'll
-probably have to pop back and revisit earlier steps from time to time,
-but hopefully your overall progress is in the forward direction.
+Ngoài ra, bạn khó có thể tiến hành tuyến tính qua các bước này. Bạn có
+thể phải quay lại và xem xét lại các bước trước từ thời gian này sang
+thời gian khác, nhưng hy vọng tiến trình tổng thể của bạn là theo hướng
+về phía trước.
 
-Finally, as a student, you must resist the urge to look up the answers.
-The goal here is for you to exercise your problem-solving muscles
-(because no one will hire you as a dev without those skills). Virtually
-every problem any instructor will come up with has been extensively
-covered on the Internet or can be solved by AI. Remember that getting
-the correct answer isn't the point; the point is to practice
-problem-solving so that you can get an answer to any problem that's
-thrown at you.[^b374]
+Cuối cùng, với tư cách là sinh viên, bạn phải cưỡng lại sự thôi thúc
+tra cứu câu trả lời. Mục tiêu ở đây là để bạn tập luyện cơ giải quyết
+vấn đề (vì không ai sẽ thuê bạn làm lập trình viên mà không có những kỹ
+năng đó). Hầu như mọi bài toán mà giảng viên nào cũng có thể nghĩ ra đều
+đã được đề cập rộng rãi trên Internet hoặc có thể được giải bởi AI. Hãy
+nhớ rằng nhận được câu trả lời đúng không phải là điểm mấu chốt; điểm
+mấu chốt là luyện tập giải quyết vấn đề để bạn có thể đưa ra câu trả lời
+cho bất kỳ bài toán nào được đặt ra cho bạn.[^b374]
 
-[^b374]: I don't think AI can solve *all* problems that get thrown at
-    it, meaning that you'll still have a job, but they can solve the
-    relatively basic problems that are commonly used in computer science
-    curricula. It's 2025 now and we'll see how well this footnote ages.
+[^b374]: Tôi không nghĩ AI có thể giải quyết *tất cả* các vấn đề được
+    đặt ra cho nó, nghĩa là bạn vẫn sẽ có việc làm, nhưng chúng có thể
+    giải quyết các bài toán tương đối cơ bản thường được dùng trong
+    chương trình khoa học máy tính. Đây là năm 2025 và chúng ta sẽ xem
+    ghi chú chú thích này "già" đến mức nào.
 
-Let's explore the steps.
+Hãy cùng khám phá các bước.
 
-## Understanding the Problem
+## Hiểu vấn đề
 
 [i[Problem solving-->Understanding phase]<]
 
-Everyone, students included, loves to skip the _Understanding_ step.
-Wise instructors will add a quiz to be turned in before coding starts
-that verifies you understand the problem[^873c]. But you need to
-pressure yourself to do this step first, regardless.
+Tất cả mọi người, kể cả sinh viên, đều thích bỏ qua bước _Hiểu_. Các
+giảng viên khôn ngoan sẽ thêm một bài kiểm tra cần nộp trước khi bắt
+đầu viết code để xác minh bạn hiểu vấn đề[^873c]. Nhưng bạn cần tự ép
+buộc mình thực hiện bước này trước, bất kể thế nào.
 
-[^873c]: I could stand to be more wise, myself.
+[^873c]: Tôi cũng cần phải khôn ngoan hơn.
 
-Logically, if you don't understand the problem fully, none of the rest
-of the steps matter. You could come up with the best plan and code it up
-perfectly, but if you didn't understand the problem to begin with,
-you've just coded up the perfect solution to the wrong problem![^8050]
+Về mặt logic, nếu bạn không hiểu đầy đủ vấn đề, không có bước nào còn
+lại quan trọng. Bạn có thể đưa ra kế hoạch tốt nhất và viết code hoàn
+hảo cho nó, nhưng nếu bạn không hiểu vấn đề ngay từ đầu, bạn vừa viết
+code cho giải pháp hoàn hảo của sai vấn đề![^8050]
 
-[^8050]: Once on a programming challenge website I coded up perfect
-    solutions to *two* problems that weren't the one I was meant to
-    solve. I misunderstood it twice. Took me three-times longer than it
-    should have to get the actual solution in place.
+[^8050]: Một lần trên một trang web thử thách lập trình tôi đã viết code
+    cho giải pháp hoàn hảo của *hai* bài toán không phải bài tôi cần
+    giải. Tôi đã hiểu sai đến hai lần. Mất gấp ba lần thời gian cần
+    thiết để đưa ra giải pháp thực sự.
 
-And that's a waste of your employer's time and money, at best. Or, if
-you're still a student, a waste of time you could have spent studying
-for that discrete math exam that's coming up. Or whatever.
+Và đó là lãng phí thời gian và tiền bạc của người thuê bạn, trong
+trường hợp tốt nhất. Hoặc, nếu bạn vẫn còn là sinh viên, là lãng phí
+thời gian bạn lẽ ra có thể dùng để học cho bài kiểm tra toán rời rạc
+sắp tới. Hay gì đó.
 
-So don't skimp on this one—it's fundamentally important.
+Vậy đừng cắt xén bước này — nó cực kỳ quan trọng về mặt nền tảng.
 
-What should you do? Here are some ideas.
+Bạn nên làm gì? Dưới đây là một số ý tưởng.
 
-* Read the problem slowly and methodically. These descriptions tend to
-  be concise and error-prone. They're not easy to read, so don't even
-  try to speed through them. Reread sentences as many times as it takes
-  to understand what they mean.
-* Take notes. Especially note inconsistencies, omissions, errors, and
-  outstanding questions.
-* Rewrite the problem in your own words. This is a very effective
-  technique that helps you find gaps in your understanding.
-* Research as necessary.
-* Ask clarifying questions[^99ca].
+* Đọc vấn đề chậm và có phương pháp. Các mô tả này có xu hướng ngắn gọn
+  và dễ gây nhầm lẫn. Chúng không dễ đọc, vì vậy đừng cố lướt qua. Đọc
+  lại các câu nhiều lần đến khi hiểu ý nghĩa của chúng.
+* Ghi chú. Đặc biệt ghi lại những điểm không nhất quán, bỏ sót, lỗi, và
+  các câu hỏi còn tồn đọng.
+* Viết lại vấn đề bằng lời của bạn. Đây là kỹ thuật rất hiệu quả giúp
+  bạn tìm ra các khoảng trống trong sự hiểu biết của mình.
+* Nghiên cứu khi cần thiết.
+* Đặt câu hỏi làm rõ[^99ca].
 
-[^99ca]: This is actually part of your job description as a dev. People
-    will expect and rely on you to do this in the workplace. So don't be
-    afraid of doing it; be afraid of *not* doing it.
+[^99ca]: Đây thực ra là một phần trong mô tả công việc của bạn với tư
+    cách là lập trình viên. Mọi người sẽ mong đợi và dựa vào bạn làm
+    điều này tại nơi làm việc. Vì vậy đừng ngại làm; hãy ngại *không*
+    làm.
 
-***You're done with this step when you can teach someone else what the
-problem is.*** (You don't need to teach the solution—just the problem.)
+***Bạn đã hoàn thành bước này khi bạn có thể dạy người khác vấn đề là
+gì.*** (Bạn không cần dạy giải pháp — chỉ cần vấn đề.)
 
-It's very, *very* hard to write a complete description of a problem, and
-the ones you'll get at work or even in school will certainly be wanting.
-Don't believe me? Write down the rules of tic-tac-toe ("noughts and
-crosses" if that's what you call it) and I can guarantee I'll find
-something you didn't write down[^5b26].
+Thật rất, *rất* khó để viết một mô tả đầy đủ về một vấn đề, và những
+cái bạn nhận được ở nơi làm việc hay ngay cả trong trường học chắc chắn
+sẽ còn thiếu sót. Không tin tôi? Hãy viết xuống các quy tắc của trò
+tic-tac-toe ("noughts and crosses" nếu bạn gọi như vậy) và tôi đảm bảo
+tôi sẽ tìm thấy điều gì đó bạn chưa viết xuống[^5b26].
 
-[^5b26]: You didn't say how to choose who moves first, if it could be
-    played by three people, or that my "X" couldn't take up more than
-    one square. For example.
+[^5b26]: Bạn chưa nói cách chọn ai đi trước, liệu có thể chơi với ba
+    người không, hay là "X" của tôi không thể chiếm nhiều hơn một ô.
+    Ví dụ vậy.
 
-Because of this, you'll very likely have to ask clarifying questions.
+Do đó, bạn rất có thể sẽ phải hỏi các câu hỏi làm rõ.
 
-> **Anecdote time!** I was on a project where I was writing the
-> front-end of a system and someone else was writing the back-end. There
-> was a very specific document describing the exact interaction between
-> the two.
+> **Đến phần giai thoại!** Tôi đã tham gia một dự án viết phần
+> front-end của một hệ thống và người khác viết back-end. Có một tài
+> liệu rất cụ thể mô tả chính xác sự tương tác giữa hai phần.
 >
-> One of the interactions involved the transmission of the result of a
-> computation. There was an example in the doc that gave the answer, in
-> hex, to the math. It was something like:
+> Một trong các tương tác liên quan đến việc truyền kết quả của một phép
+> tính. Có một ví dụ trong tài liệu cho câu trả lời, ở dạng hex, của
+> phép tính toán. Nó đại loại như:
 >
-> > Given the inputs `"abc"` and `"xyz"`, the result will be the number
-> > `f319c2c6dcfb`.
+> > Với đầu vào `"abc"` và `"xyz"`, kết quả sẽ là số `f319c2c6dcfb`.
 >
-> I coded it up (it was easy since the algorithm pseudocode was given),
-> and it computed the answer correctly. I added the code to transmit the
-> 6-byte number to the server and that was it.
+> Tôi đã viết code (dễ vì pseudocode của thuật toán đã được cung cấp),
+> và nó tính ra câu trả lời đúng. Tôi thêm code để truyền số 6 byte đó
+> đến server và xong.
 >
-> Except the person writing the server wrote me and said that I was
-> sending garbage.
+> Nhưng người viết server nhắn cho tôi nói tôi đang gửi rác.
 >
-> We had some back and forth, and it turned out they thought the spec
-> meant I'd send a string with those hex digits in it, and I thought the
-> spec meant that I'd send the raw bytes of the result. The spec was no
-> help—it was ambiguous and neither of us caught it.
+> Chúng tôi trao đổi qua lại, và hóa ra họ nghĩ spec có nghĩa tôi sẽ
+> gửi một chuỗi chứa những chữ số hex đó, còn tôi nghĩ spec có nghĩa
+> tôi sẽ gửi các byte thô của kết quả. Spec không giúp ích gì — nó mơ
+> hồ và cả hai chúng tôi đều không nhận ra điều đó.
 >
-> The easiest thing was for me to convert the number to string and send
-> it, so I added that line of code and the problem went away. But we
-> could have caught it earlier with more careful examination of the
-> spec.
+> Cách dễ nhất là tôi chuyển số sang chuỗi và gửi đi, vì vậy tôi thêm
+> dòng code đó và vấn đề biến mất. Nhưng chúng tôi có thể đã phát hiện
+> ra sớm hơn nếu xem xét spec kỹ hơn.
 
 [i[Problem solving-->Understanding phase]>]
 
-## Coming Up with a Plan
+## Đưa ra kế hoạch
 
 [i[Problem solving-->Planning phase]<]
 
-> _"Programming is the art of telling another human being what one wants
-> the computer to do."_
+> _"Lập trình là nghệ thuật nói với một người khác điều mình muốn máy
+> tính thực hiện."_
 >
 > —Donald Knuth
 
-Time to start coding? **NO!** Not yet, eager beaver![^77b5]
+Đã đến lúc bắt đầu viết code? **KHÔNG!** Chưa phải lúc, bạn ơi![^77b5]
 
-[^77b5]: As of 2025, I worked at Oregon State University. Go Beavs!
+[^77b5]: Tính đến năm 2025, tôi làm việc tại Đại học Bang Oregon. Hãy
+tiến lên, Beavs!
 
-This step, coming up with a plan, is where programming actually happens.
-Like I said before, this is what makes the job hard, and is why it pays
-well. To be a halfway decent dev, you need to excel at coming up with
-solid plan.
+Bước này, đưa ra kế hoạch, là nơi lập trình thực sự diễn ra. Như tôi đã
+nói trước đó, đây là điều làm cho công việc trở nên khó khăn, và là lý
+do nó được trả lương tốt. Để trở thành một lập trình viên tàm tạm, bạn
+cần xuất sắc trong việc đưa ra kế hoạch vững chắc.
 
-First you must _Understand_ the problem well enough to teach it to
-someone. Or at least you *think* you do. You might learn more later. But
-understanding the problem isn't the same as knowing how to solve it.
+Trước tiên bạn phải _Hiểu_ vấn đề đủ để có thể giải thích cho người
+khác. Hoặc ít nhất bạn *nghĩ* bạn hiểu. Bạn có thể học thêm sau. Nhưng
+hiểu vấn đề không giống như biết cách giải quyết nó.
 
-If the problem is really simple and familiar, you might come up with a
-plan almost instantly. [i[Experts]] Experienced devs faced with familiar
-tasks don't need to spend long planning once they've fully understood
-the problem.
+Nếu vấn đề thực sự đơn giản và quen thuộc, bạn có thể nghĩ ra kế hoạch
+gần như ngay lập tức. [i[Experts]] Các lập trình viên có kinh nghiệm đối
+mặt với các nhiệm vụ quen thuộc không cần bỏ nhiều thời gian lập kế
+hoạch khi đã hiểu đầy đủ vấn đề.
 
-But [i[Experts]] experienced devs faced with unfamiliar tasks *do* need
-to spend time at it. It doesn't matter how good you are—if you haven't
-seen the problem, you're going to need to plan the solution.
+Nhưng [i[Experts]] các lập trình viên có kinh nghiệm đối mặt với các
+nhiệm vụ không quen thuộc *cần* bỏ thời gian vào đó. Dù bạn giỏi đến
+đâu — nếu bạn chưa gặp vấn đề này, bạn sẽ cần phải lập kế hoạch cho
+giải pháp.
 
-Literal pencil and paper can be useful for this step. Here are some
-things to think about.
+Bút chì và giấy thực sự có thể hữu ích cho bước này. Dưới đây là một số
+điều cần suy nghĩ.
 
-* How will data flow through the system and be transformed, from the
-  known input to the desired output?
+* Dữ liệu sẽ chạy qua hệ thống và được biến đổi như thế nào, từ đầu vào
+  đã biết đến đầu ra mong muốn?
 
-* During those transformations, what are the subsystems that will
-  perform each step?
+* Trong những phép biến đổi đó, các hệ thống con nào sẽ thực hiện mỗi
+  bước?
 
-* What technologies will you need to perform these steps?
+* Bạn cần những công nghệ nào để thực hiện các bước này?
 
-* What are the known unknowns?
+* Những điều không biết đã biết là gì?
 
-One big thing to notice is that we're talking about breaking down a
-problem into its subcomponents. How to do this isn't always obvious,
-though the more experience you get, the easier it becomes.
+Một điều lớn cần lưu ý là chúng ta đang nói về việc phân tách vấn đề
+thành các thành phần con của nó. Cách làm điều này không phải lúc nào
+cũng rõ ràng, mặc dù bạn càng có nhiều kinh nghiệm thì nó càng dễ hơn.
 
-A trick you can use is to think, "This project would be easy if only the
-input data were in *this* form." Then see if you can come up with some
-code that converts the data into that form. We'll go into more detail in
-a later chapter.
+Một mẹo bạn có thể dùng là nghĩ, "Dự án này sẽ dễ nếu chỉ cần dữ liệu
+đầu vào ở *dạng này*." Sau đó xem liệu bạn có thể nghĩ ra đoạn code nào
+chuyển đổi dữ liệu sang dạng đó không. Chúng ta sẽ đi sâu hơn ở chương
+sau.
 
-Another benefit of breaking up the project into smaller parts is that
-it can naturally suggest a way to break up your code into smaller
-functions or classes. This makes your code more maintainable and
-readable.
+Một lợi ích khác của việc chia dự án thành các phần nhỏ hơn là nó có
+thể tự nhiên gợi ý cách chia code thành các hàm hoặc lớp nhỏ hơn. Điều
+này làm cho code dễ bảo trì và đọc hơn.
 
-You'll have to do some research during this phase to learn what tools
-you have at your disposal. Expect to do that.
+Bạn sẽ phải thực hiện một số nghiên cứu trong giai đoạn này để tìm hiểu
+những công cụ nào bạn có trong tay. Hãy mong đợi điều đó.
 
-It's *really* common during the planning phase to realize that you've
-failed to understand the problem fully. When this happens, drop back to
-the _Understanding_ phase to get clarity, then jump back to planning.
+*Thực sự* phổ biến trong giai đoạn lập kế hoạch khi nhận ra rằng bạn đã
+không hiểu đầy đủ vấn đề. Khi điều này xảy ra, hãy quay lại giai đoạn
+_Hiểu_ để làm rõ, rồi quay trở lại lập kế hoạch.
 
-***You know you're done with planning when you can simulate the run on
-paper and in your head and you're confident it works. And you can write
-high-level pseudocode.*** Bounce your plan off a few [i[Rubber ducking]]
-rubber ducks[^c2a3] to see if it holds water.
+***Bạn biết mình đã xong lập kế hoạch khi bạn có thể mô phỏng việc chạy
+trên giấy và trong đầu và bạn tự tin là nó hoạt động. Và bạn có thể
+viết pseudocode cấp cao.*** Chia sẻ kế hoạch của bạn với vài con [i[Rubber ducking]]
+vịt cao su[^c2a3] để xem nó có vững chắc không.
 
-[^c2a3]: _Rubber ducking_ is sharing ideas with a literal or proxy
-    rubber duck, where the proxy might actually be a person. It helps
-    you clarify your thinking and achieve problem-solving breakthroughs.
-    Also, the Ducks are University of Oregon's football team, Oregon
-    State's longtime rivals. Boo Ducks!
+[^c2a3]: _Rubber ducking_ là việc chia sẻ ý tưởng với một con vịt cao su
+    thực sự hoặc đại diện thay thế, có thể thực ra là một người. Nó
+    giúp bạn làm rõ suy nghĩ và đạt được đột phá trong giải quyết vấn
+    đề. Ngoài ra, Ducks là đội bóng bầu dục của Đại học Oregon, đối thủ
+    lâu năm của Bang Oregon. Boo Ducks!
 
 [i[Problem solving-->Planning phase]>]
 
-## Coding Up a Solution
+## Viết code cho giải pháp
 
 [i[Problem solving-->Coding phase]<]
 
-This is the easy part! You have to translate your pseudocode plans into
-code.
+Đây là phần dễ! Bạn phải dịch các kế hoạch pseudocode thành code.
 
-If you've understood the problem and come up with a solid plan, the code
-will work. Maybe even on the first try, if you're very lucky[^b1f5].
+Nếu bạn đã hiểu vấn đề và đưa ra kế hoạch vững chắc, code sẽ hoạt động.
+Thậm chí có thể ngay từ lần đầu, nếu bạn rất may mắn[^b1f5].
 
-[^b1f5]: This very rarely happens to me. When it does I quickly peek out
-    the window to make sure skies are clear and I'm not about to be
-    struck by lightning. And I buy a lottery ticket. It's inevitably
-    then that my luck runs out.
+[^b1f5]: Điều này rất hiếm khi xảy ra với tôi. Khi xảy ra, tôi nhanh
+    chóng nhìn ra cửa sổ để đảm bảo bầu trời trong xanh và tôi sắp không
+    bị sét đánh. Và tôi mua vé số. Đó chắc chắn là lúc vận may của tôi
+    cạn kiệt.
 
-If you _didn't_ understand the problem and didn't come up with a plan,
-then this is not the easy part. You will see no end to trouble, and
-might fail to complete the project. _That's_ how important understanding
-and planning is!
+Nếu bạn _không_ hiểu vấn đề và không đưa ra kế hoạch, thì đây không
+phải là phần dễ. Bạn sẽ thấy vô số rắc rối, và có thể không hoàn thành
+dự án. _Đó_ là mức độ quan trọng của việc hiểu và lập kế hoạch!
 
-Of course, we're only human and we'll mistype things and make dumb
-errors, but that's *way* easier to debug than if you have a bad plan, or
-worse, bad understanding of the problem. Yikes!
+Tất nhiên, chúng ta chỉ là người và sẽ gõ sai và mắc lỗi ngớ ngẩn,
+nhưng điều đó *dễ* debug hơn nhiều so với việc bạn có kế hoạch tồi, hoặc
+tệ hơn, hiểu vấn đề sai. Ôi thôi!
 
-The hard parts of coding it up are:
+Những phần khó của việc viết code là:
 
-* Knowing the language syntax.
-* Knowing what libraries are available.
-* Not making trivial mistakes.
-* Following the plan exactly.
+* Biết cú pháp ngôn ngữ.
+* Biết những thư viện nào có sẵn.
+* Không mắc lỗi vặt.
+* Theo sát kế hoạch.
 
-We'll talk about how to learn languages later, and the second two bullet
-points can be addressed by being more careful, using something like
-[flw[pair programming|Pair_programming]], or leaning on AI.
+Chúng ta sẽ nói về cách học ngôn ngữ sau, và hai điểm bullet cuối có
+thể được giải quyết bằng cách cẩn thận hơn, sử dụng thứ gì đó như
+[flw[lập trình theo cặp|Pair_programming]], hoặc nhờ AI hỗ trợ.
 
-While you're coding, you might find a place where your plan doesn't
-work. This happens quite a bit. When it happens, drop back to the
-planning phase, fix the plan, and then come back up to the coding phase
-to implement it.
+Trong khi viết code, bạn có thể tìm thấy chỗ mà kế hoạch của mình không
+hoạt động. Điều này xảy ra khá thường xuyên. Khi xảy ra, hãy quay lại
+giai đoạn lập kế hoạch, sửa kế hoạch, rồi quay lại giai đoạn viết code
+để thực hiện nó.
 
-Again, this phase is supposed to be relatively easy. If you're having
-trouble trying to get it to work beyond just fixing your syntax errors
-(i.e. there's something more structural amiss), your understanding or
-your plan is likely flawed. You should drop back to the planning phase
-to fix it, and maybe back to the understanding phase, if required.
+Một lần nữa, giai đoạn này được cho là tương đối dễ. Nếu bạn đang gặp
+khó khăn khi cố làm cho nó hoạt động ngoài việc chỉ sửa lỗi cú pháp
+(tức là có gì đó sai về cấu trúc hơn), sự hiểu biết hoặc kế hoạch của
+bạn có thể có lỗi. Bạn nên quay lại giai đoạn lập kế hoạch để sửa, và
+có thể quay lại giai đoạn hiểu, nếu cần.
 
-***You're done with this phase when the code works and passes all your
-tests.***
+***Bạn đã xong giai đoạn này khi code hoạt động và vượt qua tất cả các
+bài kiểm tra.***
 
 [i[Problem solving-->Coding phase]>]
 
-## Reflect on Improvements
+## Nhìn lại để cải thiện
 
 [i[Problem solving-->Reflection phase]<]
 
-> "Coding is a craft. Take pride in your work."
+> "Lập trình là một nghề thủ công. Hãy tự hào về công việc của bạn."
 >
-> —Yours Truly
+> —Chính tác giả
 
-Last and definitely not least, look back and cast a critical eye on what
-you've done. Yes, it works and passes all the tests. But is it as
-elegant as it could be? Is it as readable and maintainable as it could
-be? Are there any places where the code is fragile and might fail on
-unexpected inputs?
+Cuối cùng nhưng chắc chắn không kém quan trọng, hãy nhìn lại và nhìn
+với con mắt phê phán vào những gì bạn đã làm. Vâng, nó hoạt động và
+vượt qua tất cả các bài kiểm tra. Nhưng nó có thanh lịch như có thể
+không? Nó có dễ đọc và dễ bảo trì như có thể không? Có những chỗ nào
+code mong manh và có thể thất bại với đầu vào không mong đợi không?
 
-No matter what your skill level is, there is always room for
-improvement. And one of the top ways we learn is to look back on the
-crappy code we wrote and see how we could have made it better.
+Dù kỹ năng của bạn ở mức nào, luôn còn chỗ để cải thiện. Và một trong
+những cách hàng đầu chúng ta học là nhìn lại code tệ hại mình đã viết và
+xem mình có thể làm tốt hơn như thế nào.
 
-Code reviews are fantastic if you can coax someone into taking the time
-to do it for you. They will make suggestions for things you can
-improve, and you can fix them now and remember them for next time. And
-you might disagree and not make those fixes; that's okay, too.
+Code review thật tuyệt vời nếu bạn có thể thuyết phục ai đó bỏ thời
+gian làm điều đó cho bạn. Họ sẽ đưa ra gợi ý về những thứ bạn có thể
+cải thiện, và bạn có thể sửa chúng ngay bây giờ và ghi nhớ cho lần sau.
+Và bạn có thể không đồng ý và không thực hiện những sửa chữa đó; điều
+đó cũng ổn.
 
-Again, we can leverage AI to help with this. Once you've solved a
-problem and have it working, ask the AI for suggestions for
-improvement[^08dd] and see if there are any worth following. This
-technique is effective on small pieces of code, not large projects, but
-that makes it a great assistant for undergrad work.
+Một lần nữa, chúng ta có thể tận dụng AI để hỗ trợ điều này. Khi bạn
+đã giải quyết được vấn đề và có nó hoạt động, hãy hỏi AI về các gợi ý
+cải thiện[^08dd] và xem có điều gì đáng theo không. Kỹ thuật này hiệu
+quả với các đoạn code nhỏ, không phải các dự án lớn, nhưng điều đó làm
+cho nó trở thành một trợ lý tuyệt vời cho công việc đại học.
 
-[^08dd]: Make sure your instructor and/or employer allows this.
+[^08dd]: Đảm bảo giảng viên và/hoặc người sử dụng lao động của bạn cho
+phép điều này.
 
-> **But, very importantly for undergrads, you need to solve the problem
-> first**, and only then ask the AI to help you improve it. Your goal in
-> school training (just like in gym training) is to get a workout with
-> feedback, not have someone else do the work for you.
+> **Nhưng, rất quan trọng đối với sinh viên đại học, bạn cần giải quyết
+> vấn đề trước**, và chỉ sau đó mới nhờ AI giúp bạn cải thiện nó. Mục
+> tiêu của bạn trong luyện tập ở trường (giống như luyện tập ở phòng
+> gym) là được luyện tập với phản hồi, không phải để người khác làm việc
+> cho bạn.
 
-Code can be bad in a number of ways. It can be buggy. It can be
-inefficient. It can have bad formatting. And it can simply be
-unreadable. Remember that in order for your code to be maintainable, it
-needs to be easily understandable by other humans. Make it look sharp.
-The compiler might be happy with unreadable code, but humans shouldn't
-tolerate it.
+Code có thể tệ theo nhiều cách. Nó có thể có lỗi. Nó có thể không hiệu
+quả. Nó có thể có định dạng kém. Và nó đơn giản là không thể đọc được.
+Hãy nhớ rằng để code của bạn có thể bảo trì được, nó cần phải dễ hiểu
+đối với những người khác. Hãy làm nó trông gọn gàng. Trình biên dịch có
+thể hài lòng với code không thể đọc được, nhưng con người không nên chấp
+nhận điều đó.
 
-***You're done with this phase never.*** Well, practically you're done
-with it when you give up and decide you've learned enough about
-improving the code. But you're probably not going to find the _Ultimate
-Solution to the Problem Ever_ because you're still building your skills
-throughout your life.
+***Bạn không bao giờ hoàn thành giai đoạn này.*** Thực tế, bạn xong khi
+bạn bỏ cuộc và quyết định đã học đủ về việc cải thiện code. Nhưng bạn
+có thể sẽ không tìm ra _Giải Pháp Tối Thượng Cho Vấn Đề Mãi Mãi_ vì
+bạn vẫn đang xây dựng kỹ năng của mình suốt đời.
 
-That said, this phase is where a **lot** of learning happens. This is
-where you can effectively build your stats with relatively low effort.
-And it's your loss if you don't spend just a few minutes after a project
-to take advantage of it.
+Dù vậy, đây là giai đoạn nơi **rất nhiều** việc học xảy ra. Đây là nơi
+bạn có thể xây dựng hiệu quả kỹ năng của mình với nỗ lực tương đối
+thấp. Và bạn sẽ thiệt thòi nếu không dành chỉ vài phút sau một dự án
+để tận dụng điều đó.
 
-At work, this takes the form of a [i[Post-mortem]] _post-mortem_, where
-the people involved in the completed project look back and study what
-went right and wrong.
+Ở nơi làm việc, điều này có dạng là một [i[Post-mortem]] _post-mortem_,
+nơi những người tham gia dự án đã hoàn thành nhìn lại và nghiên cứu
+những gì đã đúng và sai.
 
 [i[Problem solving-->Reflection phase]>]
 
-## Think Like a Villain
+## Suy nghĩ như kẻ phản diện
 
 [i[Villains]<]
 
-When solving problems, I want you to think like a villain; that is,
-think like someone who is going to abuse the system that you're
-designing and building.
+Khi giải quyết vấn đề, tôi muốn bạn suy nghĩ như một kẻ phản diện; đó
+là, nghĩ như một người sẽ lạm dụng hệ thống mà bạn đang thiết kế và
+xây dựng.
 
-A real square root function, for example, could be well tested. Give it
-some perfect squares, some non-perfect squares, some fractions, etc.
-Works perfectly. You wouldn't pass in negative numbers, right? That
-would be silly. But you know who would? A villain!
+Ví dụ, một hàm căn bậc hai thực tế có thể được kiểm tra kỹ lưỡng. Cho
+nó một số bình phương hoàn hảo, một số bình phương không hoàn hảo, một
+số phân số, v.v. Hoạt động hoàn hảo. Bạn sẽ không truyền số âm vào, đúng
+không? Điều đó thật ngớ ngẩn. Nhưng bạn biết ai sẽ làm vậy không? Một
+kẻ phản diện!
 
-> **I once visited an online shop that allowed you to order negative
-> amounts of product.** The checkout page said they were going to credit
-> my account by tens of thousands of dollars.
+> **Tôi từng ghé thăm một cửa hàng trực tuyến cho phép bạn đặt số lượng
+> âm.** Trang thanh toán nói họ sẽ ghi có vào tài khoản của tôi hàng
+> chục nghìn đô la.
 >
-> I never had the guts to check out, though, since I didn't want to be
-> on the hook for shipping all that product to them.
+> Tuy nhiên tôi không bao giờ đủ can đảm để thanh toán, vì tôi không
+> muốn chịu trách nhiệm vận chuyển tất cả sản phẩm đó cho họ.
 >
-> Plus, I'm not a real villain... I was just thinking like one!
+> Hơn nữa, tôi không phải kẻ phản diện thực sự... tôi chỉ đang nghĩ
+> như vậy thôi!
 
-Expect the unexpected in terms of data that your code will receive.
-Expect malicious actors to feed in data in an attempt to gain
-unauthorized access or manipulate the system in undesirable ways. Test
-for that stuff in your code.
+Hãy chuẩn bị cho những điều bất ngờ về dữ liệu mà code của bạn sẽ nhận.
+Hãy chuẩn bị cho các tác nhân độc hại cung cấp dữ liệu nhằm cố gắng
+truy cập trái phép hoặc thao túng hệ thống theo những cách không mong
+muốn. Hãy kiểm tra những thứ đó trong code của bạn.
 
-This applies to all phases from understanding to reflection.
+Điều này áp dụng cho tất cả các giai đoạn từ hiểu đến nhìn lại.
 
-> **Someone I knew in college worked for the army** looking at plans for
-> things like tanks that had not yet gone into production. His job was
-> to think like a villain and ask questions like, "How are you going to
-> get a wrench between those pipes to tighten that bolt?"
+> **Một người quen của tôi ở đại học đã làm việc cho quân đội** xem xét
+> kế hoạch cho những thứ như xe tăng chưa đi vào sản xuất. Công việc của
+> anh ấy là suy nghĩ như kẻ phản diện và đặt câu hỏi như, "Làm thế nào
+> bạn sẽ đưa cờ lê vào giữa những ống đó để vặn chặt bu lông đó?"
 
-Thinking like a villain can not only catch problems you might not have
-otherwise considered, but it will lead you to a deeper understanding of
-the project that will produce more durable and maintainable code.
+Suy nghĩ như kẻ phản diện không chỉ có thể phát hiện ra những vấn đề
+bạn có thể không xem xét đến, mà còn dẫn bạn đến sự hiểu biết sâu sắc
+hơn về dự án, tạo ra code bền vững và dễ bảo trì hơn.
 
 [i[Villains]>]
 
-## Use in Interviews
+## Áp dụng trong phỏng vấn
 
 [i[Interviewing]<]
 
-The four-step process from this chapter is exactly what you should use
-on interview coding challenges.
+Quy trình bốn bước từ chương này chính xác là những gì bạn nên sử dụng
+trong các thử thách code khi phỏng vấn.
 
-See, these interview problems are quite insidious. They don't have
-obvious answers at all.
+Thấy đấy, những bài toán phỏng vấn này khá hiểm. Chúng hoàn toàn không
+có câu trả lời rõ ràng.
 
-And why not? Is it because you haven't studied enough? **No.** That's
-not it at all. No matter how much you study, interviewers will come up
-with a question that doesn't have an obvious answer to you, the sadistic
-devils.
+Và tại sao lại như vậy? Có phải vì bạn chưa học đủ không? **Không.** Hoàn
+toàn không phải vậy. Dù bạn học bao nhiêu, người phỏng vấn vẫn sẽ nghĩ
+ra một câu hỏi không có câu trả lời rõ ràng với bạn, những kẻ tàn ác đó.
 
-And why would they do that? Do they want you to fail? Not at all. *They
-want to see you apply your problem-solving skills*.
+Và tại sao họ làm vậy? Họ muốn bạn thất bại? Không hề. *Họ muốn thấy
+bạn áp dụng kỹ năng giải quyết vấn đề*.
 
-> **This isn't universal, incidentally.** There are a million
-> interviewing styles, and some of them really do just want to see how
-> many correct answers you get. But I would argue they aren't
-> interviewing optimally. And further, I'd argue that the only way to
-> get correct answers is to apply the problem-solving steps, so you
-> might as well do it in every case.
+> **Điều này không phải là phổ quát, nhân tiện.** Có hàng triệu phong
+> cách phỏng vấn, và một số trong đó thực sự chỉ muốn xem bạn nhận được
+> bao nhiêu câu trả lời đúng. Nhưng tôi sẽ lập luận rằng họ không phỏng
+> vấn tối ưu. Và hơn nữa, tôi sẽ lập luận rằng cách duy nhất để có câu
+> trả lời đúng là áp dụng các bước giải quyết vấn đề, vì vậy bạn cũng
+> có thể làm như vậy trong mọi trường hợp.
 
-It's natural when you're under the stress of the interview and are
-presented with an initially-impossible problem that you seize up like a
-deer in the headlights. All your knowledge suddenly vanishes in a cloud
-of mist and you know you'll never get this job now ever and—
+Thật tự nhiên khi bạn đang căng thẳng trong buổi phỏng vấn và đối mặt
+với một bài toán ban đầu có vẻ không thể, bạn đóng băng như con nai
+trước đèn pha xe. Tất cả kiến thức của bạn đột nhiên biến mất trong đám
+sương mù và bạn biết mình sẽ không bao giờ có được công việc này và—
 
-***DON'T PANIC.*** Say to yourself these words: "The only thing that
-matters now is *understanding the problem*." Forget the solution. That's
-not important. Coding it? Not important. Just focus on step one:
-understand the problem.
+***ĐỪNG HOẢNG LOẠN.*** Hãy tự nhắc mình những từ này: "Điều duy nhất
+quan trọng bây giờ là *hiểu vấn đề*." Quên giải pháp đi. Điều đó không
+quan trọng. Viết code? Không quan trọng. Chỉ cần tập trung vào bước một:
+hiểu vấn đề.
 
-There are two main reasons for this. One is that the interviewer is
-hoping you'll start there. (And that should be reason enough.) But the
-other is by starting with understanding the problem, your brain will
-kick back into gear and automatically start thinking up strategies for
-solving the problem... and that's step two of the problem-solving
-framework! You're already on your way.
+Có hai lý do chính cho điều này. Một là người phỏng vấn hy vọng bạn sẽ
+bắt đầu từ đó. (Và điều đó nên là lý do đủ.) Nhưng còn một lý do khác
+là bằng cách bắt đầu với việc hiểu vấn đề, não bạn sẽ khởi động lại và
+tự động bắt đầu nghĩ ra các chiến lược để giải quyết vấn đề... và đó là
+bước hai của framework giải quyết vấn đề! Bạn đã đi đúng hướng rồi.
 
-Try to think (you [i[Villains]] villain) of anything ambiguous in the
-problem description. Ask questions to clarify those things. What are the
-limits on the input? What are the limits on output? What do you do in
-error conditions? Maybe suggest an example input and output and verify
-that you have it right with the interviewer.
+Hãy cố nghĩ (bạn, [i[Villains]] kẻ phản diện ơi) về bất cứ điều gì mơ
+hồ trong mô tả vấn đề. Hãy hỏi câu hỏi để làm rõ những điều đó. Giới
+hạn của đầu vào là gì? Giới hạn của đầu ra là gì? Bạn làm gì trong điều
+kiện lỗi? Có thể gợi ý một ví dụ đầu vào và đầu ra và xác minh với người
+phỏng vấn rằng bạn hiểu đúng.
 
-This tells the interviewer that you give attention to detail, an
-important trait to have. And it also tells them you start a project by
-making considered, deliberate choices.
+Điều này cho người phỏng vấn thấy bạn chú ý đến chi tiết, một đặc điểm
+quan trọng cần có. Và nó cũng cho họ thấy bạn bắt đầu dự án bằng cách
+đưa ra những lựa chọn có cân nhắc, chủ ý.
 
-And get this: for many interviewers, seeing you effectively attack a
-problem in a systematic way is actually more important than you getting
-the correct answer. And on the flip side, not showing your
-problem-solving skills when giving an answer might sink you, even if the
-answer is correct!
+Và nghe này: đối với nhiều người phỏng vấn, việc thấy bạn tiếp cận vấn
+đề một cách có hệ thống thực sự quan trọng hơn việc bạn đưa ra câu trả
+lời đúng. Và ở chiều ngược lại, không thể hiện kỹ năng giải quyết vấn
+đề khi đưa ra câu trả lời có thể khiến bạn thất bại, dù câu trả lời có
+đúng!
 
-> **When I interviewed at Activision**, there were two questions I did
-> not get right. But I hammered my way through them aloud as best I
-> could, showing how I'd attack problems. I got the job.
+> **Khi tôi phỏng vấn tại Activision**, có hai câu hỏi tôi đã không
+> trả lời đúng. Nhưng tôi đã cố gắng hết sức để giải quyết chúng thành
+> tiếng, thể hiện cách tôi tiếp cận vấn đề. Tôi được nhận.
 >
-> (The blown questions were: "What is the fastest way to reverse the
-> bits in a byte?" and "Optimize this computation that builds a grid of
-> distances between all soccer players on a field.")
+> (Những câu hỏi mà tôi đã hỏng là: "Cách nhanh nhất để đảo ngược các
+> bit trong một byte là gì?" và "Tối ưu hóa phép tính này xây dựng lưới
+> khoảng cách giữa tất cả các cầu thủ bóng đá trên sân.")
 
-So go through the whole process with the interviewer. And don't forget
-the final reflect step! What would you do better? How could the solution
-be improved? What features could be added in the future? Interviewers
-love that stuff, and you love keeping interviewers happy, right?
+Vì vậy hãy đi qua toàn bộ quy trình với người phỏng vấn. Và đừng quên
+bước phản ánh cuối cùng! Bạn sẽ làm gì tốt hơn? Giải pháp có thể được
+cải thiện như thế nào? Những tính năng nào có thể được thêm vào trong
+tương lai? Người phỏng vấn thích những thứ đó, và bạn thích làm người
+phỏng vấn vui lòng, đúng không?
 
 [i[Interviewing]>]
 
-## Cost per Phase
+## Chi phí theo giai đoạn
 
 [i[Problem solving-->Costs]<]
 
-One note related to the problem-solving framework is that *the cost of
-changes to the software increases exponentially the farther you are in
-development*.
+Một lưu ý liên quan đến framework giải quyết vấn đề là *chi phí thay đổi
+phần mềm tăng theo cấp số nhân khi bạn càng tiến xa trong quá trình phát
+triển*.
 
-When you're at the _Understanding_ phase, changes are really cheap.
-They're free. You haven't even come up with a plan yet, and you're just
-spitballing.
+Khi bạn đang ở giai đoạn _Hiểu_, các thay đổi thực sự rẻ. Chúng miễn
+phí. Bạn thậm chí chưa nghĩ ra kế hoạch, và bạn chỉ đang phác thảo
+ý tưởng.
 
-Then when you get to the _Plan_ phase, changes are still pretty cheap.
-Not free—if you need to make a change, it might influence other parts of
-the plan, and those will need to be replanned, or maybe more
-understanding becomes necessary.
+Khi đến giai đoạn _Kế hoạch_, các thay đổi vẫn khá rẻ. Không miễn phí
+— nếu bạn cần thực hiện thay đổi, nó có thể ảnh hưởng đến các phần khác
+của kế hoạch, và những phần đó sẽ cần được lập kế hoạch lại, hoặc có
+thể cần hiểu thêm.
 
-Next, getting to the _Coding_ phase, now changes are starting to be
-painful. Maybe a change involves throwing away and redoing code for
-thousands or millions of dollars in developer costs. Companies make
-changes like this on the fly all the time, though. They just do the
-cost-benefit analysis and decide if it's worth it.
+Tiếp theo, khi đến giai đoạn _Viết code_, bây giờ các thay đổi bắt đầu
+gây đau. Có thể một thay đổi đòi hỏi phải bỏ đi và làm lại code trị giá
+hàng nghìn hoặc hàng triệu đô la chi phí lập trình viên. Các công ty
+thực hiện các thay đổi như thế này liên tục, dù vậy. Họ chỉ phân tích
+chi phí-lợi ích và quyết định xem có đáng không.
 
-Finally, after the code ships, now changes are *really* expensive. Not
-only do we have to re-plan, reprogram, rebuild, retest, and reship a
-bunch of code, but our customers hate the fact that we're requiring
-updates, and so we have all kinds of hidden secondary costs associated
-with the change.
+Cuối cùng, sau khi code được triển khai, bây giờ các thay đổi *thực sự*
+tốn kém. Không chỉ chúng ta phải lập kế hoạch lại, lập trình lại, xây
+dựng lại, kiểm tra lại và triển khai lại một loạt code, mà còn khách hàng
+ghét thực tế là chúng ta yêu cầu cập nhật, vì vậy chúng ta có tất cả các
+loại chi phí phụ ẩn liên quan đến thay đổi.
 
-From a student perspective, you don't worry so much about how much money
-your software project is going to cost your company. You're more worried
-that you'll have enough time to complete it (along with everything
-else—don't your teachers know you have more than one class?) with a
-decent grade.
+Từ góc độ sinh viên, bạn không lo nhiều về số tiền dự án phần mềm của
+bạn sẽ tốn cho công ty. Bạn lo lắng hơn rằng bạn sẽ có đủ thời gian
+để hoàn thành nó (cùng với mọi thứ khác — giảng viên của bạn có biết
+bạn có nhiều hơn một lớp học không?) với điểm số tử tế.
 
-So what you need to do is focus your attention on _Understand_ and
-_Plan_ where changes are cheap *in terms of time*. This will get you the
-best results quickly and efficiently (and hopefully by the due date)
-with the least programming pain.
+Vì vậy, những gì bạn cần làm là tập trung sự chú ý vào _Hiểu_ và _Kế
+hoạch_ nơi các thay đổi rẻ *về mặt thời gian*. Điều này sẽ cho bạn kết
+quả tốt nhất một cách nhanh chóng và hiệu quả (và hy vọng trước hạn
+chót) với ít đau đớn lập trình nhất.
 
-## Chapter Reflection
+## Suy ngẫm về chương
 
-* What are the four stages of problem solving?
+* Bốn giai đoạn của giải quyết vấn đề là gì?
 
-* Which of the stages involve sitting at the keyboard writing code?
+* Giai đoạn nào liên quan đến việc ngồi ở bàn phím viết code?
 
-* How can you make the _Coding_ phase more difficult than it needs to
-  be?
+* Làm thế nào bạn có thể làm cho giai đoạn _Viết code_ khó hơn mức cần
+  thiết?
 
-* What are the effects of an uncaught mistake made in the
-  _Understanding_ phase?
+* Hậu quả của một sai lầm không bị phát hiện trong giai đoạn _Hiểu_ là
+  gì?
 
-* For each of the phases, how do you know when you've completed it?
+* Đối với mỗi giai đoạn, làm thế nào bạn biết khi nào mình đã hoàn
+  thành nó?
 
-* What happens if you skip the _Reflect_ phase?
+* Điều gì xảy ra nếu bạn bỏ qua giai đoạn _Nhìn lại_?
 
-* What does Beej mean by "think like a villain"?
+* Beej có ý gì khi nói "suy nghĩ như kẻ phản diện"?
 
 [i[Problem solving-->Costs]>]
 
