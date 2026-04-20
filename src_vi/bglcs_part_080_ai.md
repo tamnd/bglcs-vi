@@ -1,281 +1,276 @@
-# Use of AI
+# Sử Dụng AI
 
 [i[Artificial Intelligence]<]
 
-As of this writing in 2025, AI is the new hotness[^0D45]. Everyone is
-using it, and no one can stop talking about it.
+Tính đến thời điểm viết bài này vào năm 2025, AI là thứ nóng hổi mới
+nhất[^0D45]. Ai cũng dùng nó, và không ai ngừng nói về nó.
 
-[^0D45]: Unlike the expression "new hotness", which is now tired.
-    "Tired" is also tired, but that's self-referential so I think it has
-    bottomed out.
+[^0D45]: Không giống như cách diễn đạt "new hotness" (cái mới nóng hổi),
+    hiện đã trở nên nhàm. "Nhàm" cũng đã nhàm, nhưng nó tự tham chiếu
+    nên tôi nghĩ nó đã chạm đáy.
 
-The question no one seems to have an answer for is what's going to
-happen. [flw[Sam Altman|Sam_Altman]] and others will tell you that AI is
-any second now going to take over the world and solve everything and
-humans will be rendered obsolete.
+Câu hỏi mà không ai có vẻ có câu trả lời là điều gì sẽ xảy ra.
+[flw[Sam Altman|Sam_Altman]] và những người khác sẽ nói với bạn rằng AI
+chỉ trong giây lát sẽ thống trị thế giới và giải quyết mọi thứ, và con
+người sẽ trở nên lỗi thời.
 
-I like to think that will not happen, and that even if AI starts solving
-everything, people will still want to use their ingenuity to push the
-envelope farther than AI is able to.
+Tôi muốn nghĩ rằng điều đó sẽ không xảy ra, và ngay cả khi AI bắt đầu
+giải quyết mọi thứ, người ta vẫn sẽ muốn dùng óc sáng tạo của mình để
+đẩy ranh giới xa hơn mức AI có thể.
 
-What does all that mean for you as a computer science student (as of
-this writing)?
+Điều đó có nghĩa gì với bạn với tư cách là sinh viên khoa học máy tính
+(tính đến thời điểm viết bài này)?
 
-Let's talk about how you should use an AI as a student and at work,
-because those are two different things.
+Hãy nói về cách bạn nên dùng AI với tư cách sinh viên và trong công
+việc, vì đó là hai điều khác nhau.
 
-But before that, let's talk about what you're _not_ supposed to do.
+Nhưng trước đó, hãy nói về những gì bạn _không_ nên làm.
 
-## How *Not* to Use AI as a Student
+## Cách *Không* Nên Dùng AI Khi Còn Là Sinh Viên
 
 [i[Artificial Intelligence-->Student non-usage]<]
 
-I've mentioned elsewhere that I like to study the book [i[SICP]]
-[flw[SICP|Structure_and_Interpretation_of_Computer_Programs]] to improve
-my skills. And how I give myself a six-hour time limit to solve the
-problems presented.
+Tôi đã đề cập ở chỗ khác rằng tôi thích nghiên cứu cuốn sách [i[SICP]]
+[flw[SICP|Structure_and_Interpretation_of_Computer_Programs]] để cải
+thiện kỹ năng. Và cách tôi tự đặt giới hạn thời gian sáu giờ để giải
+các bài toán được đưa ra.
 
-Now, these problems aren't real-world problems at all. They're contrived
-training problems. And—get this—the answers are all freely available on
-the Internet in a wide variety of places.
+Bây giờ, những bài toán này hoàn toàn không phải bài toán thực tế. Đây
+là các bài toán luyện tập được thiết kế sẵn. Và — hãy nhớ điều này —
+câu trả lời đều có sẵn trên Internet ở nhiều nơi.
 
-So why do I spend up to six hours? What a waste, right? Why not just
-clone someone's repo and declare that it's implemented so I'm done?
+Vậy tại sao tôi dành đến sáu giờ? Thật lãng phí, phải không? Tại sao
+không chỉ clone repo của ai đó và tuyên bố đã triển khai xong?
 
-Or, if not that, why not just copy what my friend made?
+Hay nếu không vậy, tại sao không chỉ sao chép những gì bạn bè tôi làm?
 
-Or, if not that, why not hire someone to write the answers for me?
+Hay nếu không vậy, tại sao không thuê người viết câu trả lời cho tôi?
 
-Of course, you know the answer. I don't do that because if I do, I
-haven't learned anything. More specifically, _I haven't struggled with
-the problems_ so the learning that would come from that is lost.
+Dĩ nhiên, bạn biết câu trả lời. Tôi không làm vậy vì nếu tôi làm, tôi
+chưa học được gì. Cụ thể hơn, _tôi chưa vật lộn với bài toán_ nên sự
+học hỏi từ đó sẽ bị mất.
 
-I think you see where this is going: just asking AI to solve the problem
-isn't going to increase your skills at all. It's just asking someone
-else to do the hard work.
+Tôi nghĩ bạn thấy điều này đang dẫn đến đâu: chỉ nhờ AI giải bài toán
+sẽ không tăng kỹ năng của bạn chút nào. Đó chỉ là nhờ người khác làm
+công việc khó.
 
-It's like I went to the gym and asked my robot to lift the weights for
-me. Sure, I can walk out saying the weights had been lifted
-successfully, but I gained nothing from the experience.
+Giống như tôi đến phòng tập và nhờ robot nâng tạ cho tôi. Đúng là tôi
+có thể bước ra nói tạ đã được nâng thành công, nhưng tôi không thu được
+gì từ trải nghiệm đó.
 
-I want you to name an activity that, aside from being at the gym,
-involves lifting weights all day. Answer: there are none (generally
-speaking for the majority of the population). Then why do we spend time
-lifting dumbbells at the gym if there are zero other activities that
-involve it?
+Tôi muốn bạn kể tên một hoạt động, ngoài việc ở phòng tập, bao gồm
+nâng tạ cả ngày. Câu trả lời: không có cái nào (nói chung cho phần lớn
+dân số). Vậy tại sao chúng ta dành thời gian nâng tạ ở phòng tập nếu
+không có hoạt động nào khác liên quan đến điều đó?
 
-The weights, of course, are just tools we use toward the greater goal of
-being generally stronger.
+Tất nhiên, những quả tạ chỉ là công cụ chúng ta dùng hướng đến mục tiêu
+lớn hơn là trở nên mạnh mẽ hơn nói chung.
 
-*School is exactly like this*. The programming problems you get in
-school are dumbbells. They're not real. They're designed to give you a
-workout so that when you get to the job, you have the strength to do the
-work.
+*Trường học cũng y như vậy*. Các bài toán lập trình bạn có trong trường
+là những quả tạ. Chúng không thực. Chúng được thiết kế để cho bạn luyện
+tập để khi bạn ra làm việc, bạn có đủ sức mạnh để làm việc.
 
-And because the problems aren't real, AI can solve them all _really_
-easily. There's tons of training material out there for them to learn
-from.
+Và vì các bài toán không thực, AI có thể giải tất cả chúng _rất_ dễ
+dàng. Có rất nhiều tài liệu đào tạo cho chúng để học.
 
-*But don't be fooled*. Just because AI can solve your school problems
-doesn't mean it can solve the real-world problems you're going to face
-in your work. (As of now, it can't.)
+*Nhưng đừng bị lừa*. Chỉ vì AI có thể giải các bài toán trường học của
+bạn không có nghĩa là nó có thể giải các bài toán thực tế bạn sẽ gặp
+trong công việc. (Tính đến thời điểm này, nó không thể.)
 
-(And if it could solve all those problems, how much do you think devs
-would earn? There's a reason being a dev pays well, and it's because the
-work is hard. If it was as easy as typing in an AI prompt, it would pay
-minimum wage. That should clue you in to the fact that if *all* you can
-do is prompt AI, you're not getting a high-paying gig.)
+(Và nếu nó có thể giải tất cả những bài toán đó, bạn nghĩ các lập trình
+viên sẽ kiếm được bao nhiêu? Có lý do tại sao làm lập trình viên được
+trả cao, và đó là vì công việc khó. Nếu nó dễ như gõ prompt AI, nó sẽ
+trả lương tối thiểu. Điều đó nên gợi ý cho bạn rằng nếu *tất cả* những
+gì bạn có thể làm là prompt AI, bạn sẽ không nhận được gig lương cao.)
 
-But that's not to say you shouldn't get good at using AI; it's just that
-while you're a student, you have to use it the right way to maximize
-your skills development.
+Nhưng điều đó không có nghĩa là bạn không nên giỏi dùng AI; chỉ là khi
+bạn còn là sinh viên, bạn phải dùng nó đúng cách để tối đa hóa phát
+triển kỹ năng.
 
-The TLDR of this section is this: never ask AI to solve your entire
-programming project. It probably can do that, but you'll learn nothing.
-The goal of the project is not to complete the problem; it's to get a
-workout while you complete it.
+TLDR của phần này là: đừng bao giờ nhờ AI giải toàn bộ dự án lập trình
+của bạn. Có lẽ nó có thể làm được, nhưng bạn sẽ không học được gì. Mục
+tiêu của dự án không phải là hoàn thành bài toán; mà là rèn luyện trong
+khi bạn hoàn thành nó.
 
 [i[Artificial Intelligence-->Student non-usage]>]
 
-## How to Use AI as a Student
+## Cách Dùng AI Khi Còn Là Sinh Viên
 
 [i[Artificial Intelligence-->Student usage]<]
 
-First things first: if your school or instructor has banned AI, that's
-the rule. And you have to ignore what I've written here. Sorry. I'm
-going to assume it hasn't done that foolish thing, and proceed.
+Trước tiên: nếu trường hay giảng viên của bạn cấm AI, đó là quy tắc.
+Và bạn phải bỏ qua những gì tôi đã viết ở đây. Xin lỗi. Tôi sẽ giả
+định họ chưa làm điều ngốc nghếch đó, và tiếp tục.
 
-So how should you use it? Use it like you're working with a decent tutor
-who knows a lot of things kinda well. The AI tutor definitely makes
-mistakes and gives poor advice from time to time, so you should cast a
-critical eye on everything you learn from it.
+Vậy bạn nên dùng nó thế nào? Hãy dùng nó như bạn đang làm việc với một
+gia sư tốt biết nhiều thứ khá tốt. Gia sư AI chắc chắn mắc lỗi và đưa
+ra lời khuyên kém thỉnh thoảng, vì vậy bạn nên nhìn mọi thứ bạn học từ
+nó bằng con mắt phê phán.
 
-When you're stuck on a small part of a project, ask about that. When you
-can't remember syntax, ask about that. Ask about the idiomatic way to
-write a loop that removes elements from the array it's iterating over.
-Ask about what a particular operator does or how to use it. When you
-have questions about the language or library, ask those. Little
-bite-sized pieces are fine to ask it about. It can be way faster than a
-standard Internet search.
+Khi bạn bị mắc kẹt ở một phần nhỏ của dự án, hãy hỏi về điều đó. Khi
+bạn không nhớ cú pháp, hãy hỏi về điều đó. Hỏi về cách thành ngữ để
+viết vòng lặp xóa phần tử khỏi mảng đang lặp. Hỏi về một toán tử cụ
+thể làm gì hoặc cách dùng nó. Khi bạn có câu hỏi về ngôn ngữ hoặc thư
+viện, hãy hỏi. Những miếng nhỏ vừa miệng như vậy hoàn toàn có thể hỏi.
+Nó có thể nhanh hơn nhiều so với tìm kiếm Internet thông thường.
 
-Another place I've seen AI do a decent job is with hints. You can drop
-in a functions-worth of code and tell the AI, "Something is wrong with
-this [describe the issue]. But don't tell me the answer and don't give
-me the corrected code. Just give me hints about how I need to think
-about the problem to find the solution on my own."
+Một nơi khác tôi thấy AI làm tốt là với gợi ý. Bạn có thể đưa vào
+lượng code bằng một hàm và nói với AI, "Có gì đó sai với đây [mô tả
+vấn đề]. Nhưng đừng cho tôi câu trả lời và đừng cho tôi code đã sửa.
+Chỉ cho tôi gợi ý về cách tôi cần suy nghĩ về bài toán để tự tìm ra
+giải pháp."
 
-And when you've completed the project (and it works completely), then
-you can feel free to ask AI for a solution that you can use for
-comparison. Or, better still, feed your solution into the AI and ask for
-improvements.
+Và khi bạn đã hoàn thành dự án (và nó hoạt động hoàn toàn), thì bạn có
+thể thoải mái nhờ AI một giải pháp để so sánh. Hay tốt hơn nữa, đưa
+giải pháp của bạn vào AI và nhờ cải tiến.
 
-Keep in mind that some of the "improvements" aren't going to be
-improvements at all, and you'll want to ignore them. Cast that critical
-eye. [Be opinionated](#be-opinionated) and have a rationale for which
-advice you're accepting and which you're rejecting.
+Hãy nhớ rằng một số "cải tiến" sẽ không phải cải tiến gì cả, và bạn
+sẽ muốn bỏ qua chúng. Hãy nhìn bằng con mắt phê phán. [Hãy có chính
+kiến](#be-opinionated) và có lý do cho lời khuyên nào bạn chấp nhận và
+lời khuyên nào bạn từ chối.
 
-Lastly, there's another time it's fine to use AI to solve entire
-projects: when your instructor says you can. This happens when they're
-giving you more real-world practice as opposed to lifting weights. Both
-are valuable uses of your study time.
+Cuối cùng, còn có một lúc khác ổn để dùng AI giải toàn bộ dự án: khi
+giảng viên của bạn nói bạn có thể. Điều này xảy ra khi họ đang cho bạn
+luyện tập thực tế hơn so với nâng tạ. Cả hai đều là cách sử dụng thời
+gian học tập có giá trị.
 
 [i[Artificial Intelligence-->Student usage]>]
 
-## How to Use AI at Work
+## Cách Dùng AI Trong Công Việc
 
 [i[Artificial Intelligence-->Work usage]<]
 
-First, a caveat: the last time I was working in production (and I did so
-for 20 years), AI as we know it today did not exist. That said, I do use
-it to get things done more quickly today. So that's my level of
-"expertise".
+Trước tiên, một lưu ý: lần cuối tôi làm việc trong production (và tôi
+đã làm 20 năm), AI như chúng ta biết ngày nay không tồn tại. Điều đó
+nói rằng, tôi dùng nó để hoàn thành công việc nhanh hơn ngày nay. Đó
+là mức độ "chuyên môn" của tôi.
 
-I'd mentioned earlier that new devs solve problems with logical
-reasoning, but [i[Experts]] experts, in addition, recognize patterns. As
-a more-experienced dev, you have a better understanding of which
-building blocks make up a problem. You recognize the pieces that you
-need, and you logically reason about how to assemble them.
+Tôi đã đề cập trước đây rằng lập trình viên mới giải bài toán bằng lý
+luận logic, nhưng [i[Experts]] những chuyên gia, ngoài ra, còn nhận ra
+các mẫu. Là lập trình viên có kinh nghiệm hơn, bạn hiểu rõ hơn về các
+khối xây dựng nào cấu thành bài toán. Bạn nhận ra những mảnh bạn cần,
+và lý luận logic về cách lắp ghép chúng.
 
-In other words, experienced devs are better at _Understand_ and _Plan_.
-(They're better at all phases, but recall that _Understand_ and _Plan_
-is where the battle is.)
+Nói cách khác, các lập trình viên có kinh nghiệm giỏi hơn ở _Hiểu_ và
+_Lên kế hoạch_. (Họ giỏi hơn ở tất cả các giai đoạn, nhưng hãy nhớ
+rằng _Hiểu_ và _Lên kế hoạch_ là nơi trận chiến diễn ra.)
 
-As such, they can leverage AI to help them write the code for those
-building blocks. They can say things like, "I need to filter those
-results for anything that matches this regular expression"—and then they
-ask an AI to code up that building block, they expertly verify that the
-code is correct and modify it to suit their needs, and then move on.
+Do đó, họ có thể tận dụng AI để giúp viết code cho những khối xây dựng
+đó. Họ có thể nói những thứ như, "Tôi cần lọc những kết quả đó cho bất
+cứ thứ gì khớp với biểu thức chính quy này" — và sau đó họ nhờ AI code
+khối xây dựng đó, họ thành thạo kiểm tra xem code có đúng không và điều
+chỉnh để phù hợp với nhu cầu, rồi tiếp tục.
 
-Even with technologies they aren't familiar with, this can help them get
-the job done. But they still need to rely on their expertise to know
-when they need to learn more. That is, experienced devs have a nose for
-dangerous code and know when they need to proceed carefully and gather
-more knowledge.
+Ngay cả với các công nghệ họ không quen, điều này có thể giúp họ hoàn
+thành công việc. Nhưng họ vẫn cần dựa vào chuyên môn để biết khi nào
+cần học thêm. Tức là, các lập trình viên có kinh nghiệm có mũi để ngửi
+code nguy hiểm và biết khi nào họ cần tiến cẩn thận và thu thập thêm
+kiến thức.
 
-In this regard, AI can be really useful for doing proof-of-concept work
-and rapid prototyping where the code is often throwaway.
+Ở khía cạnh này, AI có thể thực sự hữu ích cho công việc proof-of-concept
+và tạo prototype nhanh nơi code thường dùng xong bỏ.
 
-> _"Let us hurry! There is nothing to fear here!"_\
-> _"That's what scares me."_
+> _"Nào hãy nhanh lên! Không có gì đáng sợ ở đây!"_\
+> _"Đó chính xác là điều khiến tôi sợ."_
 >
-> —Satipo and Indiana Jones, _Raiders of the Lost Ark_
+> — Satipo và Indiana Jones, _Raiders of the Lost Ark_
 
-Again, as a student, you can't bring that experience (that you haven't
-yet acquired) to bear, and if you just try to use AI like a [i[Experts]]
-seasoned dev, you're going to have buggy, fragile code that you don't
-know how to fix. And worst of all, you won't be developing the skills
-you need.
+Lại nói, với tư cách sinh viên, bạn không thể mang kinh nghiệm đó (mà
+bạn chưa có được) vào cuộc, và nếu bạn chỉ cố dùng AI như một lập trình
+viên [i[Experts]] dày dạn, bạn sẽ có code đầy bug, mong manh mà bạn
+không biết cách sửa. Và tệ nhất là bạn sẽ không phát triển được kỹ năng
+cần thiết.
 
-But as you gather more experience, you can definitely rely on AI to
-write a large amount of boilerplate code for you that you already know
-the logic behind, anyway.
+Nhưng khi bạn tích lũy thêm kinh nghiệm, bạn hoàn toàn có thể dựa vào
+AI để viết một lượng lớn boilerplate code cho bạn mà bạn đã biết logic
+đằng sau, dù sao.
 
 [i[Artificial Intelligence-->Work usage]>]
 
-## AI and the Jobs Market
+## AI và Thị Trường Việc Làm
 
 [i[Artificial Intelligence-->Job market effects]<]
 
-When you read this, I want you to know that I, the author, thought
-[fl[Yahoo!|https://www.yahoo.com/]] was a dumb idea when it first
-launched. I kinda still do think it was, but it made a bazillion dollars
-since then, so I was wrong. At least capitalistically.
+Khi bạn đọc cái này, tôi muốn bạn biết rằng tôi, tác giả, đã nghĩ
+[fl[Yahoo!|https://www.yahoo.com/]] là ý tưởng ngớ ngẩn khi nó mới ra
+mắt. Tôi vẫn hơi nghĩ vậy, nhưng nó đã kiếm được hàng tỷ đô từ đó, nên
+tôi đã sai. Ít nhất là về mặt tư bản.
 
-One thing old devs have been hearing their entire careers is that we're
-on the verge of the "no code" revolution, and that this tool or that
-tool will finally put coders out of a job because everyone everywhere
-will be able to produce software.
+Một điều mà các lập trình viên lớn tuổi đã nghe trong suốt sự nghiệp là
+chúng ta đang trên bờ vực của cuộc cách mạng "không code", và công cụ
+này hay công cụ kia rốt cuộc sẽ đặt các lập trình viên ra ngoài vì mọi
+người ở khắp nơi có thể tạo ra phần mềm.
 
-Every one of these predictions has something in common in that they were
-all fantastically wrong.
+Mỗi dự đoán như vậy đều có điểm chung là tất cả đều sai một cách đáng
+kinh ngạc.
 
-But things are only wrong until they aren't, and LLMs like ChatGPT are
-definitely novel beasts that don't play by the previous rules.
+Nhưng mọi thứ chỉ sai cho đến khi chúng không còn sai nữa, và LLM như
+ChatGPT chắc chắn là những con thú mới lạ không chơi theo quy tắc cũ.
 
-> **I do recognize the stock pumping, though.** All those "no code"
-> companies were talking a big game trying to get big returns for their
-> investors. OpenAI and other AI players also talk that big game.
+> **Tôi nhận ra chiêu pump cổ phiếu, dù vậy.** Tất cả các công ty "không
+> code" đó đang nói khoác để nhận được lợi nhuận lớn cho nhà đầu tư.
+> OpenAI và các tay chơi AI khác cũng nói khoác như vậy.
 >
-> That's not to say they won't realize those gains; but it is to say it
-> smells familiar.
+> Điều đó không có nghĩa là họ sẽ không đạt được những lợi nhuận đó;
+> nhưng có nghĩa là nó có mùi quen thuộc.
 
-And LLMs are showing incredible coding expertise. I am perpetually
-amazed by what they can do. But can they do it all?
+Và LLM đang thể hiện chuyên môn coding đáng kinh ngạc. Tôi liên tục
+ngạc nhiên với những gì chúng có thể làm. Nhưng liệu chúng có làm được
+hết không?
 
-I have a thought experiment for you. Let's say there's an AI so good
-that I can tell it, "AI, design and implement a corporation that will
-crush all my competitors and make me the richest person on Earth," and
-it will actually successfully do it.
+Tôi có một thí nghiệm tư duy cho bạn. Giả sử có một AI giỏi đến mức
+tôi có thể nói với nó, "AI, hãy thiết kế và triển khai một tập đoàn sẽ
+nghiền nát tất cả đối thủ và làm tôi trở thành người giàu nhất trên
+Trái Đất," và nó sẽ thực sự làm được điều đó thành công.
 
-But the catch is that everyone has access to the same AI and they can
-all make the same request. Where does that land us? We're back to square
-one where we're on equal footing.
+Nhưng vấn đề là mọi người đều có thể truy cập cùng một AI và họ đều có
+thể đưa ra cùng yêu cầu đó. Điều đó đưa chúng ta đến đâu? Chúng ta trở
+lại điểm xuất phát khi tất cả đều bình đẳng.
 
-As a capitalist, though, I don't like equal footing. I want to get an
-edge on my competition. So I start thinking, "What can we do that's
-slightly different than what the AI is telling my competitors?"
+Là một người theo chủ nghĩa tư bản, tôi không thích bình đẳng. Tôi muốn
+có lợi thế so với đối thủ. Vậy tôi bắt đầu nghĩ, "Chúng ta có thể làm
+gì hơi khác so với những gì AI đang nói với đối thủ của tôi?"
 
-And just like that, humans are back in the game!
+Và chỉ như vậy, con người lại tham gia vào cuộc chơi!
 
-I think that trend's going to continue, maybe forever.
+Tôi nghĩ xu hướng đó sẽ tiếp tục, có thể mãi mãi.
 
-What will happen, I predict, is that the easy boilerplate jobs that
-exist now will experience a massive tightening. AI can solve lots of
-those easy problems, and you don't need a big team of engineers behind
-them. The more novel problems will still need a lot of human work.
+Điều sẽ xảy ra, tôi dự đoán, là các công việc boilerplate đơn giản tồn
+tại hiện nay sẽ bị thu hẹp đáng kể. AI có thể giải nhiều bài toán đơn
+giản đó, và bạn không cần một đội ngũ kỹ sư lớn đằng sau chúng. Các bài
+toán mới lạ hơn vẫn sẽ cần nhiều công việc của con người.
 
-But maybe not as much work as before. AI can help in a variety of ways,
-outlined above, so it helps speed things up.
+Nhưng có lẽ không nhiều công việc như trước. AI có thể giúp đỡ theo
+nhiều cách, như đã nêu ở trên, vì vậy nó giúp đẩy nhanh mọi việc.
 
-Going back in time, consider when most programs were written in
-[flw[assembly language|Assembly_language]] and it took a lot of
-specialized knowledge to get these error-prone programs written. And
-then compilers became popular and now no one[^F913] writes in assembly
-any longer; those jobs are toast, destroyed by the faster, easier coding
-that compilers afford.
+Quay ngược thời gian, hãy xem xét khi hầu hết các chương trình được
+viết bằng [flw[ngôn ngữ assembly|Assembly_language]] và cần nhiều kiến
+thức chuyên môn để viết những chương trình dễ lỗi này. Rồi trình biên
+dịch trở nên phổ biến và bây giờ không ai[^F913] viết bằng assembly
+nữa; những công việc đó đã bị xóa sổ, bị phá hủy bởi cách code nhanh
+hơn, dễ hơn mà trình biên dịch mang lại.
 
-[^F913]: Well, a few people do. You should try it for fun. It's something
-    else.
+[^F913]: À, một số ít người có. Bạn nên thử cho vui. Đó là điều gì khác.
 
-In short, I think we're going to keep pushing it, and AI will become a
-very useful tool, but only with humans at the helm. I think. We shall
-see.
+Tóm lại, tôi nghĩ chúng ta sẽ tiếp tục đẩy tiến, và AI sẽ trở thành
+công cụ rất hữu ích, nhưng chỉ khi có con người ở vị trí lái. Tôi nghĩ
+vậy. Chúng ta sẽ thấy.
 
 [i[Artificial Intelligence-->Job market effects]>]
 
-> _"And... Always look on the bright side of life..."_
+> _"Và... Luôn nhìn vào mặt sáng của cuộc sống..."_
 >
-> —Lead Singer Crucifee, _Monty Python's Life of Brian_
+> — Người hát chính Crucifee, _Monty Python's Life of Brian_
 
-## Chapter Reflection
+## Suy Ngẫm Về Chương
 
-* Contrast the useful and non-useful ways students can use AI.
+* So sánh những cách hữu ích và không hữu ích mà sinh viên có thể dùng
+  AI.
 
-* What goes wrong if you use AI badly as a student?
+* Điều gì xảy ra nếu bạn dùng AI sai cách với tư cách sinh viên?
 
-* How do things differ with AI at work versus at school?
+* Mọi thứ khác nhau thế nào với AI trong công việc so với ở trường?
 
-* What are some of the hazards of using AI at work?
+* Một số nguy hiểm của việc dùng AI trong công việc là gì?
 
 [i[Artificial Intelligence]>]
-
