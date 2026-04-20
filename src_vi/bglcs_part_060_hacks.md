@@ -1,361 +1,359 @@
-# Hacks and Techniques for Learning
+# Thủ Thuật và Kỹ Năng Để Học Tốt Hơn
 
 [i[Hacks for learning]<]
 
-There are a number of tips and tricks for maximizing your speed of
-durable learning. Devs know these help, and yet we stubbornly ignore
-them all the time.
+Có một số mẹo và thủ thuật giúp tối đa hóa tốc độ học tập bền vững của
+bạn. Các lập trình viên biết những điều này có ích, nhưng chúng ta vẫn
+cứng đầu bỏ qua chúng mãi.
 
-But just in case you want to get faster at learning, here are a few
-things that work for some people. No guarantees; everyone's different,
-and you might have your own path that works better.
+Nhưng phòng khi bạn muốn học nhanh hơn, đây là một vài điều có tác dụng
+với một số người. Không đảm bảo gì cả; mỗi người mỗi khác, và bạn có
+thể có con đường riêng hiệu quả hơn.
 
-> **Music** is one of those things. Some people swear by silence or
-> white, pink, or brown noise. Some people listen to classical music, or
-> electronica, or metal. Do what works for you.
+> **Âm nhạc** là một trong những điều như vậy. Có người thề rằng sự im
+> lặng hoặc tiếng ồn trắng, hồng, hay nâu mới hiệu quả. Có người nghe
+> nhạc cổ điển, electronica, hay metal. Hãy làm điều gì phù hợp với
+> bạn.
 
 ## Flow
 
 [i[Flow]<]
 
-[flw[_Flow_|Flow_(psychology)]] is a mental state you get in where
-you're focused and ideas are connecting freely. There are no
-interruptions.
+[flw[_Flow_|Flow_(psychology)]] là một trạng thái tinh thần mà bạn đạt
+được khi tập trung cao độ và các ý tưởng kết nối tự do với nhau. Không
+có gì làm gián đoạn.
 
-Programmers like to get in flow for maximum productivity.
+Các lập trình viên thích đạt trạng thái flow để tối đa hóa năng suất.
 
-Here are the characteristics of that state stolen directly from
-Wikipedia:
+Dưới đây là những đặc điểm của trạng thái đó, lấy thẳng từ Wikipedia:
 
-1. Intense and focused concentration on the present moment
-2. Merging of action and awareness
-3. A loss of reflective self-consciousness
-4. A sense of personal control or agency over the situation or activity
-5. A distortion of temporal experience, as one's subjective experience
-   of time is altered
-6. Experience of the activity as intrinsically rewarding
+1. Tập trung mãnh liệt và chú tâm vào khoảnh khắc hiện tại
+2. Hành động và nhận thức hòa làm một
+3. Mất đi ý thức tự quan sát bản thân
+4. Cảm giác kiểm soát và làm chủ tình huống hoặc hoạt động
+5. Sự bóp méo về trải nghiệm thời gian, khi nhận thức chủ quan về thời
+   gian bị thay đổi
+6. Trải nghiệm hoạt động như một phần thưởng tự thân
 
-You've probably already experienced this in some aspect of your life.
-Keep in mind that it can be very beneficial for programmers.
+Có lẽ bạn đã từng trải qua điều này trong một khía cạnh nào đó của cuộc
+sống. Hãy nhớ rằng nó có thể rất có lợi cho các lập trình viên.
 
 [i[Flow]>]
 
-## Reading Ahead
+## Đọc Trước
 
 [i[Hacks for learning-->Reading ahead]<]
 
-I know when I was a student, if something was due on Sunday, I'd
-commonly read about it for the first time on Sunday. Anyone else do
-that? Yeah.
+Tôi biết khi còn là sinh viên, nếu có bài gì nộp vào Chủ nhật, tôi
+thường đọc lần đầu tiên vào đúng Chủ nhật. Ai khác cũng vậy không?
+Ừ thì vậy.
 
-But here's another idea: read the assignment as soon as you get it.
-Maybe you don't know enough yet for it to make sense, but that's okay.
-Just read it, maybe not even that closely.
+Nhưng đây là một ý tưởng khác: đọc bài tập ngay khi bạn nhận được nó.
+Có thể bạn chưa biết đủ để hiểu hết, nhưng không sao. Cứ đọc qua thôi,
+thậm chí không cần đọc kỹ.
 
-And another idea: read the assignment when you've done some of the other
-reading and lecture, but days before you plan to start working on it.
-Again, just read it, not worrying about solving it. Maybe read it right
-away **and** partway through the week!
+Và một ý tưởng khác: đọc bài tập khi bạn đã làm xong một số phần đọc và
+nghe giảng khác, nhưng là trước vài ngày so với lúc bạn định bắt đầu
+làm. Lại cứ đọc qua thôi, không cần lo giải quyết ngay. Có thể đọc
+ngay **và** đọc lại giữa tuần!
 
-What this does is prime your brain with the information. You won't
-retain it or understand it all, but your brain will start chewing on it
-in the background and will make the project easier to tackle when you
-finally get around to it at 9 PM Sunday night.
+Điều này giúp kích hoạt não của bạn với thông tin đó. Bạn sẽ không ghi
+nhớ hết hay hiểu hết, nhưng não sẽ bắt đầu nghiền ngẫm nó ở hậu trường
+và giúp bạn dễ xử lý bài hơn khi cuối cùng bạn bắt tay vào lúc 9 giờ
+tối Chủ nhật.
 
-And when you do start the four-stage problem solving process, the
-material will seem less foreign and more approachable.
+Và khi bạn bắt đầu quy trình giải quyết vấn đề bốn giai đoạn, tài liệu
+sẽ có vẻ quen thuộc hơn và dễ tiếp cận hơn.
 
-A powerful variant of this is to complete the _Understanding_ phase
-early. Don't need to _Plan_ or _Code_ it up yet.
+Một biến thể mạnh mẽ của điều này là hoàn thành giai đoạn _Hiểu_ sớm.
+Chưa cần _Lên kế hoạch_ hay _Viết code_ vội.
 
 [i[Hacks for learning-->Reading ahead]>]
 
-## No Copy-Paste Coding
+## Không Copy-Paste Code
 
 [i[Copy-paste coding]<]
 
-You need to solve a problem, and look right there on the Intertubes!
-There's a solution! Time to break out the ol' `CTRL-c`/`CTRL-v` skills!
+Bạn cần giải một bài toán, và nhìn kìa trên mạng! Có giải pháp sẵn rồi!
+Đến lúc mang kỹ năng `CTRL-c`/`CTRL-v` ra dùng!
 
-It used to be that people frequently found this solution on the
-programming site [fl[Stack Overflow|https://stackoverflow.com/]]. And
-still do. But nowadays they tend to punt to some AI.
+Trước đây người ta thường tìm thấy giải pháp trên trang lập trình
+[fl[Stack Overflow|https://stackoverflow.com/]]. Và vẫn còn dùng. Nhưng
+ngày nay họ có xu hướng nhờ AI hơn.
 
-*Beginning developers should not do this.* Remember the main goal:
-develop excellent problem-solving skills. Copy-paste coding does
-**nothing** to further this goal.
+*Người mới học lập trình không nên làm vậy.* Hãy nhớ mục tiêu chính:
+phát triển kỹ năng giải quyết vấn đề xuất sắc. Copy-paste code **không
+hề** giúp ích gì cho mục tiêu này.
 
-One exception to this rule is if you already struggled with the problem
-for some time, as mentioned in the _30 Minute Rule_ section, below. But
-even then, you **must** understand the code you're copying 100%
-completely before using it.
+Một ngoại lệ cho quy tắc này là nếu bạn đã vật lộn với bài toán một
+thời gian, như đề cập trong phần _Quy tắc 30 phút_ bên dưới. Nhưng
+ngay cả khi đó, bạn **phải** hiểu 100% hoàn toàn đoạn code bạn đang
+copy trước khi dùng nó.
 
 [i[Copy-paste coding]>]
 
-## The 30 Minute Rule
+## Quy Tắc 30 Phút
 
 [i[Hacks for learning-->30 minute rule]<]
 
-If you've been stuck for 30 minutes and you've **really** tried to
-attack the problem from a variety of directions and have still come up
-dry, it's time to reach out for help.
+Nếu bạn đã bí 30 phút và **thực sự** đã cố tấn công vấn đề từ nhiều
+hướng khác nhau mà vẫn không ra, đã đến lúc tìm kiếm sự trợ giúp.
 
-Yes, you can go longer than 30 minutes without help (we all do), but 30
-minutes is a good balance between working hard and bring productive with
-the limited time you have for schoolwork.
+Vâng, bạn có thể làm lâu hơn 30 phút mà không cần giúp đỡ (ai cũng làm
+vậy), nhưng 30 phút là sự cân bằng tốt giữa việc cố gắng chăm chỉ và
+sử dụng hiệu quả thời gian học tập hạn chế của bạn.
 
-Here's a story. One of my favorite books for learning about programming
-is called [i[SICP]] [flw[_The Structure and Interpretation of Computer
-Programs_|Structure_and_Interpretation_of_Computer_Programs]], or SICP
-for short. (I particularly like the Scheme version—really helps you
-learn [i[Recursion]] recursion.)
+Đây là một câu chuyện. Một trong những cuốn sách yêu thích của tôi để
+học lập trình có tên là [i[SICP]] [flw[_Cấu trúc và Diễn giải Chương
+trình Máy tính_|Structure_and_Interpretation_of_Computer_Programs]], hay
+SICP viết tắt. (Tôi đặc biệt thích phiên bản Scheme — thực sự giúp bạn
+học [i[Recursion]] đệ quy.)
 
-The programming problems in that book can be really challenging. But I
-gave myself a six hour time limit per problem. (I didn't do all six in a
-row, usually.) After the time was up, I looked at the answer.
+Các bài toán lập trình trong cuốn sách đó có thể rất thử thách. Nhưng
+tôi tự đặt giới hạn thời gian sáu giờ cho mỗi bài. (Tôi thường không
+làm cả sáu giờ liền một lúc.) Sau khi hết giờ, tôi xem đáp án.
 
-And here's what that does and why it's important: while you work hard on
-a problem, you're busy building a [i[Mental framework]] mental framework
-around it, trying to support it. And if you get the answer, great! But
-even if you don't, *you've still built that framework*.
+Và đây là lý do tại sao điều đó có tác dụng và tại sao nó quan trọng:
+trong khi bạn nỗ lực với một bài toán, bạn đang bận xây dựng một [i[Mental framework]] khung tư duy xung quanh nó, cố gắng hỗ trợ nó. Và
+nếu bạn tìm được đáp án, tuyệt! Nhưng dù không tìm được, *bạn vẫn đã
+xây dựng được khung tư duy đó*.
 
-So when you give up after your time limit, very often the solution you
-read fits neatly into the framework you've already built. It's just a
-tiny step from your framework to the solution, and it's *way* easier to
-take that little step to the solution than to try to
+Vì vậy, khi bạn từ bỏ sau giới hạn thời gian, rất thường xuyên giải
+pháp bạn đọc khớp gọn vào khung tư duy bạn đã xây. Chỉ là một bước nhỏ
+từ khung tư duy của bạn đến giải pháp, và việc bước được bước nhỏ đó
+*dễ hơn nhiều* so với việc cố
 [fl[grok|https://en.wikipedia.org/wiki/Grok#In_computer_programmer_culture]]
-the entire thing.
+toàn bộ từ đầu.
 
-Contrast that to when you just look up the answer immediately without
-building the framework. The solution has nowhere to "sit" in your brain,
-and doesn't connect to anything else. And it's a much bigger step to
-achieve understanding.
+So sánh với việc bạn chỉ tìm đáp án ngay lập tức mà không xây dựng
+khung tư duy. Giải pháp không có chỗ để "đặt" trong não bạn, và không
+kết nối với bất cứ điều gì khác. Và đó là bước dài hơn nhiều để đạt
+được sự hiểu biết.
 
-*The struggle is vital!* Don't skip the struggle! But at the same time,
-don't keep it up forever. When you timeout, ask for help from a peer, a
-tutor, an instructor, or (if allowed) an AI.
+*Sự vật lộn rất quan trọng!* Đừng bỏ qua sự vật lộn! Nhưng đồng thời,
+đừng kéo dài mãi. Khi hết thời gian, hãy xin giúp đỡ từ bạn học, gia
+sư, giảng viên, hoặc (nếu được phép) AI.
 
-Also, maybe follow this up with going for a walk.
+Ngoài ra, sau đó có thể đi dạo một chút.
 
 [i[Hacks for learning-->30 minute rule]>]
 
-## Go for a Walk
+## Đi Dạo
 
 [i[Hacks for learning-->Ambulation]<]
 
-Yes, I'm serious. You're stuck, and nothing seems to be working, and no
-additional plans of attack are coming to mind. What do you do?
+Vâng, tôi nói thật. Bạn đang bí, không có gì có vẻ hoạt động, và không
+có thêm hướng tấn công nào nảy ra trong đầu. Bạn làm gì?
 
-Go for a walk.
+Đi dạo.
 
-As you try different approaches to a problem, it's like you're leaving
-ruts behind in the road, and your brain tends to focus on the existing
-ruts rather than trying something new. You're locked in on the
-approaches you've tried but aren't working. "If only I could just tweak
-this one thing that almost works..." but you're not seeing how.
+Khi bạn thử các cách tiếp cận khác nhau cho một bài toán, nó giống như
+bạn đang để lại những rãnh mòn trên đường, và não bạn có xu hướng tập
+trung vào những rãnh hiện có thay vì thử điều gì mới. Bạn bị khóa chặt
+vào những cách tiếp cận đã thử nhưng không hiệu quả. "Giá mà tôi chỉ
+có thể tinh chỉnh cái gần đúng này..." nhưng bạn không thấy cách nào.
 
-Stand up and stroll. Maybe you're at work and this just means you're
-making laps in the hallway. Or maybe you can go outside on a balcony,
-out front, or on the roof.
+Đứng dậy và đi bộ. Có thể bạn đang ở nơi làm việc và điều này chỉ có
+nghĩa là bạn đi vòng quanh hành lang. Hoặc có thể bạn có thể ra ngoài
+ban công, ra trước cửa, hoặc lên mái nhà.
 
-This frees your mind to get out of those ruts and explore new
-approaches.
+Điều này giải phóng tâm trí bạn khỏi những rãnh mòn đó và khám phá các
+cách tiếp cận mới.
 
-There have been times where I've decided to go for a walk and have
-gotten two steps out the door when a new approach to the problem has
-occurred to me.
+Đã có những lần tôi quyết định đi dạo và mới bước ra cửa được hai bước
+thì một cách tiếp cận mới cho bài toán đã nảy ra trong đầu.
 
-This method of getting unstuck is tried-and-true.
+Phương pháp thoát khỏi bế tắc này đã được kiểm chứng và đáng tin.
 
 [i[Hacks for learning-->Ambulation]>]
 
-## Rubber Duck
+## Vịt Cao Su
 
 [i[Rubber ducking]<]
 
-Talk to someone about the issue. This is such an effective technique
-that it even works if you're talking to an inanimate rubber duck, giving
-rise to the name _rubber ducking_.
+Hãy nói chuyện với ai đó về vấn đề. Đây là một kỹ thuật hiệu quả đến
+nỗi nó thậm chí hoạt động khi bạn đang nói chuyện với một con vịt cao
+su vô tri, từ đó có tên gọi _rubber ducking_ (nói chuyện với vịt cao
+su).
 
-The basic idea is that you're going to lead the other person through the
-problem-solving steps, effectively teaching it to them. Get them to
-understand the problem, and have them help with a plan.
+Ý tưởng cơ bản là bạn sẽ dẫn dắt người kia qua các bước giải quyết vấn
+đề, thực chất là dạy họ. Giúp họ hiểu vấn đề và nhờ họ giúp lên kế
+hoạch.
 
-Here's the really amazing thing about this: _it works even if the other
-person (or duck) is non-technical_.
+Điều thực sự tuyệt vời về kỹ thuật này là: _nó hoạt động ngay cả khi
+người kia (hoặc con vịt) không có chuyên môn kỹ thuật_.
 
-One of the reasons is that to understand a problem and come up with a
-plan, you really don't need to know anything about programming. They can
-still help.
+Một trong những lý do là để hiểu một vấn đề và đưa ra kế hoạch, bạn
+thực sự không cần biết gì về lập trình. Họ vẫn có thể giúp được.
 
-And here's the _really_ amazing thing: they don't even have to say
-anything. The mere act of teaching someone about the problem is very
-often enough for you to find the answer on your own. Maybe it was a
-piece of understanding that you missed, or there's a non-obvious hole in
-your plan. Talking it through can help you find these things.
+Và đây là điều _thực sự_ tuyệt vời: họ thậm chí không cần nói gì cả.
+Chỉ hành động dạy ai đó về vấn đề thôi thường đã đủ để bạn tự tìm ra
+câu trả lời. Có thể là một phần hiểu biết bạn bị bỏ lỡ, hoặc có một lỗ
+hổng không rõ ràng trong kế hoạch của bạn. Nói chuyện qua có thể giúp
+bạn tìm ra những điều đó.
 
-One time, in a combination of going for a walk and rubber ducking, a
-coworker of mine walked up to my cube, raised his hand as if to ask a
-question, paused a beat, then said, "Never mind, I figured it out." That
-was all it took.
+Có một lần, kết hợp giữa đi dạo và rubber ducking, một đồng nghiệp của
+tôi bước đến chỗ tôi làm, giơ tay lên như muốn hỏi, dừng lại một nhịp,
+rồi nói, "Thôi không cần, tôi tự tìm ra rồi." Chỉ vậy thôi là đủ.
 
 [i[Rubber ducking]>]
 
-## Write Down Questions
+## Ghi Lại Câu Hỏi
 
 [i[Hacks for learning-->Tracking questions]<]
 
-When poring over a problem description or learning a tool or language,
-there are basically two kinds of questions that crop up.
+Khi nghiền ngẫm mô tả bài toán hoặc học một công cụ hay ngôn ngữ, về cơ
+bản có hai loại câu hỏi nảy sinh.
 
-1. **Blocking questions** are questions that you need an answer to right
-   now because they're blocking your progress. You can't do anything
-   else until you get the answer.
+1. **Câu hỏi chặn tiến độ** là những câu hỏi bạn cần được trả lời ngay
+   vì chúng đang chặn tiến độ của bạn. Bạn không thể làm gì khác cho
+   đến khi có câu trả lời.
 
-2. **Non-blocking questions** are things that come up of the course of
-   development that are interesting, but you can keep going without
-   knowing the answer right now.
+2. **Câu hỏi không chặn tiến độ** là những điều nảy sinh trong quá
+   trình phát triển, thú vị, nhưng bạn có thể tiếp tục mà không cần
+   biết câu trả lời ngay.
 
-I like to write down non-blocking questions and get answers to them
-later. Things like, "Does this language support destructuring
-assignments?" or "Can the library also provide random numbers in an
-integer range?" or "What other networking protocols are built into the
-standard library?"
+Tôi thích ghi lại các câu hỏi không chặn tiến độ và tìm câu trả lời
+sau. Những thứ như, "Ngôn ngữ này có hỗ trợ destructuring assignments
+không?" hay "Thư viện có thể cung cấp số ngẫu nhiên trong khoảng số
+nguyên không?" hay "Những giao thức mạng nào khác được tích hợp sẵn
+trong thư viện chuẩn?"
 
-They were things that I was curious about, but didn't need to know the
-answer to immediately.
+Đó là những thứ tôi tò mò, nhưng không cần biết câu trả lời ngay.
 
-Coming back and getting the questions answered later can help build a
-more complete picture of the systems you're working with and make you a
-more effective developer.
+Quay lại và tìm câu trả lời sau có thể giúp xây dựng bức tranh đầy đủ
+hơn về các hệ thống bạn đang làm việc và giúp bạn trở thành lập trình
+viên hiệu quả hơn.
 
 [i[Hacks for learning-->Tracking questions]>]
 
-## Build a Tapestry of Knowledge
+## Xây Dựng Tấm Thảm Kiến Thức
 
 [i[Tapestry of knowledge]<]
 
-This is where it all comes together.
+Đây là nơi mọi thứ hội tụ lại.
 
-When you first start coding, you're in the middle of the vast unexplored
-world of knowledge. You've learned how to print `Hello, world!` on the
-screen, but that's it.
+Khi bạn mới bắt đầu lập trình, bạn đang đứng giữa thế giới kiến thức
+bao la chưa được khám phá. Bạn đã học cách in `Hello, world!` ra màn
+hình, nhưng đó là tất cả.
 
-So you start mapping it out. You see that there are functions and
-variables and I/O operations and you see how those are connected. And
-you learn about networking and see how that's connected to the I/O
-system in the OS, and you connect them on the map.
+Vì vậy bạn bắt đầu lập bản đồ. Bạn thấy có các hàm, biến, thao tác I/O
+và bạn thấy chúng kết nối với nhau như thế nào. Và bạn học về mạng máy
+tính, thấy nó kết nối với hệ thống I/O của OS, và bạn nối chúng trên
+bản đồ.
 
-As your map grows, you draw connections between many of the things
-you've learned, and you gradually see that the world of development is
-more interconnected than not. A lot of problems are very similar to a
-lot of other problems.
+Khi bản đồ lớn dần, bạn vẽ các kết nối giữa nhiều thứ bạn đã học, và
+dần dần bạn thấy rằng thế giới phát triển phần mềm kết nối với nhau
+nhiều hơn là tách rời. Nhiều bài toán rất giống nhau với nhiều bài toán
+khác.
 
-And when you know a lot of problems like that, that's a lot of power you
-can bring to bear on new challenges you face. "Oh, this problem _x_
-reminds me of problem _y_. Maybe I can solve it in a similar way."
+Và khi bạn biết nhiều bài toán như vậy, đó là rất nhiều sức mạnh bạn có
+thể mang vào các thử thách mới. "Ồ, bài toán _x_ này nhắc tôi nhớ đến
+bài toán _y_. Có thể tôi giải nó theo cách tương tự."
 
-> **You have a group of 10 people numbered 0 to 9** and they are all
-> lining up at a bank window. Your simulation needs them in random
-> order with no repeats in $O(n)$ time. How do you code this up?
+> **Bạn có một nhóm 10 người được đánh số từ 0 đến 9** và họ đều đang
+> xếp hàng tại cửa sổ ngân hàng. Mô phỏng của bạn cần họ theo thứ tự
+> ngẫu nhiên không có trùng lặp trong thời gian $O(n)$. Bạn code thế
+> nào?
 >
-> Maybe earlier you'd written a program to shuffle a deck of cards using
-> the famous [flw[Fisher-Yates algorithm|Fisher–Yates_shuffle]]... wait!
-> All you have to do is make a list of people numbered `0` to `9` in
-> order, then shuffle the list like a deck of cards!
+> Có thể trước đó bạn đã viết chương trình xáo trộn bộ bài sử dụng
+> thuật toán nổi tiếng [flw[Fisher-Yates|Fisher–Yates_shuffle]]... đợi
+> đã! Tất cả những gì bạn cần làm là tạo danh sách người được đánh số
+> từ `0` đến `9` theo thứ tự, rồi xáo trộn danh sách như xáo bài!
 >
-> It's the same problem!
+> Đây là cùng một bài toán!
 
-Beginning developers solve programming problems through sheer logic and
-reasoning.
+Người mới học lập trình giải các bài toán lập trình thuần túy bằng logic
+và lý luận.
 
-[i[Experts]] Experienced devs also use logic and reasoning, but they
-primarily rely heavily on pattern matching. What coding pattern do I
-know that best solves the type of problem that I'm currently facing?
+[i[Experts]] Các lập trình viên có kinh nghiệm cũng dùng logic và lý
+luận, nhưng họ chủ yếu dựa nhiều vào nhận dạng mẫu. Mẫu code nào tôi
+biết giải tốt nhất loại bài toán tôi đang gặp?
 
-In short, they rely on their interconnected tapestry of knowledge
-they've built up over their years of programming.
+Tóm lại, họ dựa vào tấm thảm kiến thức liên kết chặt chẽ mà họ đã xây
+dựng qua nhiều năm lập trình.
 
-As you learn to code, look for ways that the thing you're learning about
-now connects to the rest of the programming world you've already
-explored. Make those connections so you can exploit them later.
+Khi học code, hãy tìm cách mà thứ bạn đang học hiện tại kết nối với
+phần còn lại của thế giới lập trình bạn đã khám phá. Tạo ra những kết
+nối đó để bạn có thể khai thác chúng sau.
 
 [i[Tapestry of knowledge]>]
 
-## Get and Give Code Reviews
+## Nhận và Cho Đi Code Review
 
 [i[Code reviews]<]
 
-It can be really hard to put your code out there and ask someone to give
-you advice on how to make it better. It's easy to take that advice
-personally.
+Việc đưa code của bạn ra ngoài và nhờ ai đó tư vấn cách cải thiện có
+thể rất khó. Dễ bị coi là công kích cá nhân.
 
-But fight that urge, and treat every code review you get like a gift.
-Someone was willing to spend their time helping you become a better
-coder, usually at no cost to you.
+Nhưng hãy chống lại cái thôi thúc đó, và coi mỗi code review bạn nhận
+như một món quà. Có người sẵn lòng bỏ thời gian giúp bạn trở thành lập
+trình viên tốt hơn, thường là không tốn gì của bạn.
 
-> **Be nice during code reviews** no matter if you're the reviewee or
-> the reviewer. Be supportive with your feedback, be modest, and don't
-> take negative feedback personally.
+> **Hãy cư xử tử tế trong code review** dù bạn là người được review hay
+> người review. Hãy hỗ trợ trong phản hồi của mình, khiêm tốn, và đừng
+> coi phản hồi tiêu cực là chuyện cá nhân.
 
-And if you can't find a human to help, feed it to an AI chatbot and ask
-it to review your code.
+Và nếu không tìm được người để giúp, hãy đưa code vào AI chatbot và nhờ
+nó review.
 
-Even if you're not well-versed in the subject matter, that shouldn't
-stop you from giving a code review if you can. Just reading other
-people's code exposes you to different coding styles and algorithmic
-patterns that you might not have been aware of.
+Ngay cả khi bạn không thành thạo về chủ đề đó, điều đó không nên ngăn
+bạn thực hiện code review khi có thể. Chỉ đọc code của người khác thôi
+cũng giúp bạn tiếp xúc với các phong cách code và mẫu thuật toán khác
+nhau mà bạn có thể chưa biết đến.
 
-But remember to always [be opinionated](#be-opinionated) about the
-feedback you get, and use critical judgment when deciding whether or not
-to incorporate it.
+Nhưng hãy nhớ luôn [có chính kiến](#be-opinionated) về phản hồi bạn
+nhận được, và dùng sự phán xét phê phán khi quyết định có áp dụng hay
+không.
 
 [i[Code reviews]>]
 
-## Join a Club
+## Tham Gia Câu Lạc Bộ
 
 [i[Clubs]<]
 
-Coding has historically and generally been a solo endeavor—at least the
-part where you're sitting at the keyboard typing things. And even during
-the _Understand_ and _Plan_ phases it can be tempting to work alone.
+Lập trình về mặt lịch sử và nhìn chung là hoạt động cá nhân — ít nhất
+là phần bạn ngồi gõ phím. Và ngay cả trong các giai đoạn _Hiểu_ và _Lên
+kế hoạch_ cũng có thể hấp dẫn khi làm việc một mình.
 
-Joining a like-minded group of people where you can bounce around ideas
-(or even just vent) can really help your brain get unstuck from ruts and
-help you approach problems in ways you hadn't considered or even been
-aware of.
+Tham gia một nhóm người có cùng chí hướng nơi bạn có thể trao đổi ý
+tưởng (hoặc chỉ xả hơi) có thể thực sự giúp não bạn thoát khỏi những
+rãnh mòn và giúp bạn tiếp cận bài toán theo những cách bạn chưa nghĩ
+đến hoặc thậm chí chưa biết đến.
 
-It's also good for networking, and lots of clubs have interesting
-presentations you can attend. Or even better, present at!
+Nó cũng tốt cho networking, và nhiều câu lạc bộ có những buổi thuyết
+trình thú vị bạn có thể tham dự. Hay thậm chí tốt hơn, hãy thuyết trình
+tại đó!
 
-Clubs can make the fight feel a lot less lonely. We're all in this
-together.
+Câu lạc bộ có thể làm cho cuộc chiến cảm giác ít cô đơn hơn nhiều.
+Chúng ta đều cùng chung hành trình này.
 
-## Chapter Reflection
+## Suy Ngẫm Về Chương
 
-* What do you (personally) do to get into _flow_?
+* Bạn (cá nhân) làm gì để đạt trạng thái _flow_?
 
-* What are the advantages to reading an assignment way before you intend
-  to work on it?
+* Những lợi thế của việc đọc bài tập sớm hơn rất nhiều so với lúc bạn
+  định làm là gì?
 
-* What are the disadvantages of working on a problem for too short a
-  time before asking for help?
+* Những bất lợi của việc làm một bài toán quá ít thời gian trước khi
+  nhờ giúp đỡ là gì?
 
-* What are the disadvantages of working on a problem too long before
-  asking for help?
+* Những bất lợi của việc làm một bài toán quá lâu trước khi nhờ giúp
+  đỡ là gì?
 
-* When is it acceptable to use copy-paste coding? What happens if you
-  use it unacceptably?
+* Khi nào thì copy-paste code được chấp nhận? Điều gì xảy ra nếu bạn
+  dùng nó không đúng cách?
 
-* Why is going for a walk a good idea when stuck?
+* Tại sao đi dạo là ý tưởng hay khi bị bế tắc?
 
-* How can an inanimate rubber duck be a good programming partner?
+* Một con vịt cao su vô tri có thể là người bạn đồng hành lập trình tốt
+  như thế nào?
 
-* What does the author mean by _tapestry of knowledge_ and how does it
-  relate to your skill as a developer?
+* Tác giả muốn nói gì về _tấm thảm kiến thức_ và nó liên quan đến kỹ
+  năng của bạn với tư cách là lập trình viên như thế nào?
 
-* What do you gain by getting a code review? What do you gain by giving
-  one?
+* Bạn thu được gì khi nhận code review? Bạn thu được gì khi cho code
+  review?
 
 [i[Clubs]>]
 [i[Hacks for learning]>]
