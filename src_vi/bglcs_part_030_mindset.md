@@ -1,224 +1,226 @@
-# Growth Mindset
+# Tư duy phát triển
 
 [i[Growth mindset]<]
 
-This is a tough one for me, personally. I don't like failing at things,
-even if no one can see me doing it, and especially when people do. It
-knots my stomach and then I say all kinds of bad things to myself that I
-wouldn't ever say to anyone else.
+Đây là chủ đề khó nuốt với tôi, nói thật. Tôi không thích thất bại,
+dù không ai nhìn thấy, và càng không thích khi có người chứng kiến. Nó
+thắt ruột tôi lại và rồi tôi tự nói với bản thân đủ thứ tệ mà tôi
+chẳng bao giờ nói với người khác.
 
-And I do this even though I know it's a losing game and it contradicts
-the exact advice I give in this section.
+Và tôi vẫn làm vậy dù biết đó là trò thua cuộc và hoàn toàn mâu thuẫn
+với lời khuyên tôi sắp đưa ra trong phần này.
 
-What should I be doing, instead?
+Thay vào đó tôi nên làm gì?
 
-Psychologist [flw[Carol Dweck|Mindset#Fixed_and_growth_mindset]]
-popularized the term *growth mindset*.
+Nhà tâm lý học [flw[Carol Dweck|Mindset#Fixed_and_growth_mindset]] đã
+phổ biến thuật ngữ *tư duy phát triển* (growth mindset).
 
-The gist of it is:
+Ý chính của nó là:
 
-* You can expand your skills with effort
-* Embrace lifelong learning
-* Challenges are growth opportunities
-* Learn from criticism and failure
-* Never give up, never surrender![^707b]
+* Bạn có thể mở rộng kỹ năng bằng nỗ lực
+* Đón nhận việc học suốt đời
+* Thử thách là cơ hội phát triển
+* Học hỏi từ chỉ trích và thất bại
+* Không bao giờ bỏ cuộc, không bao giờ đầu hàng![^707b]
 
-[^707b]: Yes, I'm a _Galaxy Quest_ fan.
+[^707b]: Vâng, tôi là fan của _Galaxy Quest_.
 
-That kind of thing.
+Đại loại như vậy.
 
-It's the opposite of what I tend to do when I lose my bazillionth game
-of [flw[Go|Go_(game)]]. How could I have made so many stupid mistakes?
-I'll never be good at this!
+Đó là ngược lại với những gì tôi thường làm khi thua ván cờ
+[flw[Go|Go_(game)]] thứ mấy tỷ. Sao mình lại có thể mắc nhiều sai lầm
+ngu ngốc đến vậy? Mình sẽ mãi không giỏi thứ này!
 
-But that's what Dweck would refer to as a [i[Fixed mindset]] _fixed
-mindset_. It's my mistaken belief that no matter how much I play the
-game, I'm up against my own intrinsic limitations that I'll never get
-past no matter if I study for 500,000 hours!
+Nhưng đó là điều Dweck sẽ gọi là [i[Fixed mindset]] _tư duy cố định_
+(fixed mindset). Đó là niềm tin sai lầm của tôi rằng dù tôi chơi bao
+nhiêu, tôi vẫn bị giới hạn bởi những hạn chế cố hữu của bản thân và sẽ
+không bao giờ vượt qua được dù học 500.000 giờ!
 
-And when I put it that way, it's kinda silly. No one can spend 500,000
-hours doing *anything* without getting better at it.
+Và khi nói ra như vậy, nó có vẻ khá ngớ ngẩn. Không ai có thể dành
+500.000 giờ làm *bất cứ điều gì* mà không trở nên tốt hơn.
 
-> _Lose your first 50 games as quickly as possible._
+> _Hãy thua 50 ván đầu tiên càng nhanh càng tốt._
 >
-> —Go proverb
+> —Tục ngữ cờ Go
 
-So what about 50,000 hours? 500 hours? 50 hours? 5 hours?
+Vậy còn 50.000 giờ thì sao? 500 giờ? 50 giờ? 5 giờ?
 
-Come to think of it, it seems like any amount of practice is going to be
-an improvement.
+Nghĩ lại, có vẻ như bất kỳ lượng luyện tập nào cũng sẽ là sự cải thiện.
 
-Even when you're completely stuck, you're still exploring avenues. Even
-if they turn out to be dead-ends, you've at least learned that they are!
+Ngay cả khi bạn bị bế tắc hoàn toàn, bạn vẫn đang khám phá các hướng
+đi. Dù chúng hóa ra là ngõ cụt, bạn ít nhất đã biết chúng là vậy!
 
-> _"Isn't it the same thing, like 'flammable' and 'inflammable'? Boy,
-> I learned that one the hard way."_
+> _"Đó chẳng phải là cùng một thứ sao, như 'flammable' và 'inflammable'?
+> Trời ơi, tôi học được điều đó theo cách khó nhất."_
 >
 > —Woody, _Cheers_
 
-> _"Great. Another f\-\-\-ing learning experience."_
+> _"Tuyệt vời. Thêm một cái gọi là trải nghiệm học hỏi nữa."_
 >
-> —My sarcastic mother
+> —Mẹ tôi, người luôn mỉa mai
 
-Every success is a learning experience. Every failure is a learning
-experience. Every learning experience improves your skills. Don't fear
-failure—use it to level up.
+Mỗi thành công là một trải nghiệm học hỏi. Mỗi thất bại cũng là một
+trải nghiệm học hỏi. Mỗi trải nghiệm học hỏi cải thiện kỹ năng của
+bạn. Đừng sợ thất bại — hãy dùng nó để lên cấp.
 
-## Tenacity
+## Sự kiên trì
 
 [i[Tenacity]<]
 
-> _"The master has failed more times than the beginner has even tried."_
+> _"Bậc thầy đã thất bại nhiều lần hơn số lần người mới bắt đầu thậm
+> chí đã thử."_
 >
 > —Stephen McCranie
 
-I think this is one of the main attributes of anyone who grows to excel
-at anything. (How's that for a generalization?)
+Tôi nghĩ đây là một trong những phẩm chất chính của bất kỳ ai vươn lên
+xuất sắc ở bất kỳ lĩnh vực nào. (Khái quát quá chứ?)
 
-Who is going to get farther, the person who gives up after a failure, or
-the person who fails and fails and fails and fails and keeps getting up,
-dusting themselves off, and trying again?
+Ai sẽ đi xa hơn, người bỏ cuộc sau thất bại, hay người thất bại và
+thất bại và thất bại và thất bại nhưng vẫn đứng dậy, phủi bụi, và thử
+lại?
 
-This is what separates the exceptional devs from the unremarkable devs.
-The exceptional devs have had their asses _kicked_ over and over and
-over, and _they kept attacking_ and attacking and attacking until they
-solved the problem. And they learned something from every single
-failure.
+Đây là điều phân biệt các lập trình viên xuất sắc với những lập trình
+viên tầm thường. Các lập trình viên xuất sắc đã bị _quật ngã_ hết lần
+này đến lần khác, và _họ vẫn tiếp tục tấn công_ và tấn công và tấn
+công cho đến khi giải quyết được vấn đề. Và họ học được điều gì đó từ
+mỗi lần thất bại.
 
-> _"I have not failed. I've just found 10,000 ways that won't work."_
+> _"Tôi chưa bao giờ thất bại. Tôi chỉ tìm ra 10.000 cách không hiệu
+> quả."_
 >
 > —Thomas Edison
 
-And something that's related here that students might not realize: your
-instructors failed and failed and failed and failed, too! Sure, they can
-live-code the linked list delete in class and have it work on the first
-try... except that wasn't the first try, was it? It was, like, the 100th
-time they've done it. You code up a linked list delete from scratch 100
-times and you'll be getting it right on the first try, too!
+Và có điều liên quan mà sinh viên có thể không nhận ra: các giảng viên
+của bạn cũng đã thất bại và thất bại và thất bại và thất bại! Đúng, họ
+có thể live-code việc xóa linked list trong lớp và làm đúng ngay từ lần
+đầu... nhưng thực ra đó không phải lần đầu tiên, phải không? Đó là, như
+khoảng, lần thứ 100 họ làm điều đó. Bạn tự code phần xóa linked list từ
+đầu 100 lần thì bạn cũng sẽ làm đúng ngay từ lần đầu!
 
-When watching an instructor make something look effortless, you might
-become disheartened because this material seems so _impossible_ for you.
-And you start to think that your instructors and some of your peers have
-a natural ability to code that you simply weren't born with. What
-magical skill were they endowed with in the womb that you will never
-have? (Hear that fixed mindset talking?) 
+Khi nhìn giảng viên làm mọi thứ trông dễ dàng như không, bạn có thể
+nản lòng vì tài liệu này có vẻ _không thể_ với bạn. Và bạn bắt đầu
+nghĩ rằng giảng viên và một số bạn học có năng lực lập trình tự nhiên
+mà bạn đơn giản là không được sinh ra với nó. Kỹ năng thần kỳ nào họ đã
+được ban tặng từ trong bụng mẹ mà bạn sẽ không bao giờ có? (Bạn có nghe
+thấy tư duy cố định đang nói không?)
 
-But here's the secret: there's no difference between you and your
-instructors other than the number of failures you've had. You'll need to
-fail a lot more to get as good as they are!
+Nhưng đây là bí mật: không có sự khác biệt nào giữa bạn và giảng viên
+của bạn ngoài số lần thất bại bạn đã trải qua. Bạn cần phải thất bại
+nhiều hơn nữa để đạt được trình độ như họ!
 
-Very, very few people are "natural" coders. 99.999% of the rest of us
-have to work really hard to learn this stuff.
+Rất, rất ít người là lập trình viên "thiên bẩm". 99,999% trong chúng ta
+phải làm việc thực sự chăm chỉ để học những thứ này.
 
-*Relentless tenacity* is one of the prime qualities of the top coders of
-the world.
+*Sự kiên trì không ngừng nghỉ* là một trong những phẩm chất hàng đầu
+của các lập trình viên giỏi nhất thế giới.
 
 [i[Tenacity]>]
 
-## You Gotta Want It
+## Bạn phải thực sự muốn nó
 
-When I was thinking about getting a PhD (I didn't), my adviser advised,
-"You gotta want it." The implication was that it was so much work to get
-a PhD that I had to have enough drive to put in the time.
+Khi tôi đang suy nghĩ về việc lấy bằng Tiến sĩ (cuối cùng tôi không
+làm), cố vấn của tôi khuyên, "Bạn phải thực sự muốn nó." Hàm ý là việc
+lấy bằng Tiến sĩ đòi hỏi quá nhiều công sức nên tôi phải có đủ động lực
+để bỏ thời gian ra.
 
-And I think this is good advice in general about learning Computer
-Science.
+Và tôi nghĩ đây là lời khuyên hay nói chung về việc học Khoa học Máy
+tính.
 
-There's so much really hard stuff to figure out, you have to have enough
-drive to do it. It's not easy. At all.
+Có quá nhiều thứ thực sự khó phải mày mò, bạn phải có đủ động lực để
+làm. Nó không dễ dàng. Chút nào.
 
-I like to use the example of me being an accountant. I know I'm smart
-enough to do it (math minor!) but I also know I *hate* it. My old
-roommate became an accountant and I had the misfortune of cracking open
-one of her study guide books. Never again will I make that mistake.
+Tôi thích dùng ví dụ về việc tôi làm kế toán. Tôi biết mình đủ thông
+minh để làm (học phụ ngành toán!), nhưng tôi cũng biết tôi *ghét* nó.
+Người bạn cùng phòng cũ của tôi trở thành kế toán và tôi đã xui xẻo
+mở một cuốn sách hướng dẫn học của cô ấy. Tôi sẽ không bao giờ mắc sai
+lầm đó nữa.
 
-My brain just shuts down the minute people start talking about it.
-Imagine something that bores you to tears that you hate. Now imagine
-spending four years studying it in excruciating detail.
+Não tôi tắt ngay lập tức khi người ta bắt đầu nói về nó. Hãy tưởng
+tượng một thứ gì đó chán ngắt đến phát khóc mà bạn ghét. Rồi tưởng
+tượng dành bốn năm nghiên cứu nó tỉ mỉ đến tận xương tủy.
 
-Speaking for myself and projecting broadly, I think it's a lot harder to
-motivate to put in the work to do something you hate.
+Nói cho bản thân mình và phóng chiếu rộng ra, tôi nghĩ sẽ khó hơn nhiều
+khi tìm động lực để bỏ công sức làm điều bạn ghét.
 
-I caught a lot of flak on Hacker News for this assertion a while ago.
-Several people commented that they hated programming and still managed
-to have a career at it.
+Tôi đã bị chỉ trích khá nhiều trên Hacker News vì khẳng định này một
+thời gian trước. Nhiều người bình luận rằng họ ghét lập trình nhưng vẫn
+có sự nghiệp với nó.
 
-First, that's a... bummer. But secondly, I still argue that people who
-love computer science have an easier time getting their degree than
-people who hate it.
+Thứ nhất, đó là... điều đáng tiếc. Nhưng thứ hai, tôi vẫn lập luận rằng
+những người yêu thích khoa học máy tính dễ lấy bằng hơn những người
+ghét nó.
 
-And the people who seem to be "naturals" are the ones who *really* love
-it. They think about computer science *all the time* (because who
-wouldn't?) and, as such, get a lot of practice in. Rather a lot more
-than the people who hate it tend to.
+Và những người có vẻ là "thiên bẩm" chính là những người *thực sự* yêu
+thích nó. Họ nghĩ về khoa học máy tính *suốt* (vì sao lại không nhỉ?),
+và do đó họ luyện tập rất nhiều. Nhiều hơn hẳn so với những người ghét
+nó.
 
-So, while it's clearly possible to have a career in a lucrative field
-you dislike, it's (a) going to be harder for you than for people who
-like it and (b) maybe you should consider a field that you do like?
+Vậy nên, dù rõ ràng bạn có thể có sự nghiệp trong lĩnh vực béo bở mà
+bạn không thích, (a) nó sẽ khó hơn cho bạn so với những người thích nó
+và (b) có lẽ bạn nên cân nhắc một lĩnh vực mà bạn thực sự thích?
 
-You gotta want it. Do you want it enough to go through the tremendous
-amount of effort it takes to learn it? Maybe you hate programming, but
-you want the money enough. Maybe you don't care about the money, but you
-want to program every second of the day.
+Bạn phải thực sự muốn nó. Bạn có đủ muốn để vượt qua lượng nỗ lực khổng
+lồ cần thiết để học nó không? Có thể bạn ghét lập trình, nhưng bạn đủ
+muốn tiền. Có thể bạn không quan tâm đến tiền, nhưng bạn muốn lập trình
+mỗi giây trong ngày.
 
-Just make sure you have the drive to make it happen.
+Chỉ cần đảm bảo bạn có đủ động lực để thực hiện điều đó.
 
-## It's Not Easy
+## Nó không dễ dàng
 
-> _As you read this scroll_\
-> _You will smoley begot_\
-> _Confused by the printed worts_
+> _Khi bạn đọc cuộn giấy này_\
+> _Bạn sẽ dần dần trở nên_\
+> _Bối rối bởi những từ in trên đó_
 >
-> —"Scroll of Learning Disability", _Dragon_ Magazine
+> —"Scroll of Learning Disability", Tạp chí _Dragon_
 
-Computer Science is *hard*. Like really hard. If you're used to things
-being relatively easy because you were the smart one in class, it might
-be a shocker to get to some of these topics and get your ass handed to
-you.
+Khoa học Máy tính *khó*. Thực sự khó. Nếu bạn quen với việc mọi thứ
+tương đối dễ vì bạn là người thông minh nhất lớp, thì có thể bạn sẽ
+sốc khi đến một số chủ đề này và bị thua tan tành.
 
-But it's this hard for everyone. You're not blessed with a special lack
-of ability to learn computer science. You just have to keep hammering
-away just like everyone else.
+Nhưng nó khó như vậy với tất cả mọi người. Bạn không được ban phát một
+khả năng đặc biệt thiếu khả năng học khoa học máy tính. Bạn chỉ phải
+tiếp tục đập đầu vào vấn đề giống như tất cả mọi người.
 
-You wouldn't doubt that [i[Juggling]] juggling 11 balls at once is
-difficult for everyone, would you? [fl[And yet, people can do
-it|https://www.youtube.com/watch?v=cJsgM-3L38U]].
+Bạn không nghi ngờ gì rằng [i[Juggling]] tung 11 quả bóng cùng một lúc
+là khó với tất cả mọi người, đúng không? [fl[Thế nhưng, người ta vẫn
+làm được|https://www.youtube.com/watch?v=cJsgM-3L38U]].
 
-> _"You know how to get to Carnegie Hall?"_\
-> _"Practice!"_
+> _"Bạn biết cách đến Carnegie Hall không?"_\
+> _"Luyện tập!"_
 >
-> —Joke of unknown origin
+> —Câu đùa không rõ nguồn gốc
 
-Reps, reps, reps, reps.
+Lặp, lặp, lặp, lặp.
 
-When you're at school, you actually have it even worse than at a job. In
-school, you're continuously learning new things and, just when you
-_barely_ have a grasp of a topic, you move on and try to learn something
-else that's incredibly challenging. An undergrad degree is four solid
-years of just barely being able to hang on to the massive amount of
-perpetually novel material you're presented with.
+Khi bạn ở trường, thực ra bạn còn khó khăn hơn khi đi làm. Ở trường,
+bạn liên tục học những thứ mới và, ngay khi bạn _vừa mới_ nắm được một
+chủ đề, bạn đã chuyển sang học thứ khác cũng vô cùng thách thức. Bằng
+đại học là bốn năm liên tục chỉ vừa đủ bám víu vào lượng tài liệu mới
+không ngừng được trình bày cho bạn.
 
-And when you do finally get your degree and a job, the first three
-months of that job are _also_ a high-paced barely-hanging-on learning
-experience.
+Và khi bạn cuối cùng lấy được bằng và có việc làm, ba tháng đầu tiên
+của công việc đó cũng là một trải nghiệm học hỏi tốc độ cao, vừa học
+vừa lo.
 
-But then after three months, you start to get a handle on the code. And
-it gets easier. The feeling of hanging on by your fingernails does start
-to abate. And—I know this might be hard to believe now—eventually the
-job might actually get so easy as to be boring. And then you'll look for
-another one with new, exciting challenges to tackle.
+Nhưng sau ba tháng, bạn bắt đầu nắm được code. Và nó trở nên dễ hơn.
+Cảm giác bám víu bằng đầu móng tay bắt đầu giảm bớt. Và — tôi biết điều
+này có thể khó tin bây giờ — rốt cuộc công việc có thể trở nên dễ đến
+mức nhàm chán. Và rồi bạn sẽ tìm việc khác với những thách thức mới thú
+vị hơn.
 
-## Chapter Reflection
+## Suy ngẫm về chương
 
-* Contrast _growth mindset_ with _fixed mindset_.
+* Đối chiếu _tư duy phát triển_ với _tư duy cố định_.
 
-* Have you ever been limited by a fixed mindset? What are some
-  techniques you might use to switch to a growth mindset?
+* Bạn đã từng bị giới hạn bởi tư duy cố định chưa? Một số kỹ thuật nào
+  bạn có thể dùng để chuyển sang tư duy phát triển?
 
-* Why is _tenacity_ an important quality for devs to possess?
+* Tại sao _sự kiên trì_ là phẩm chất quan trọng mà các lập trình viên
+  cần có?
 
-* What is the main difference between an instructor who makes something
-  look easy and a student who is struggling hard with the same material?
-  What does the student have to do to also make things look easy?
+* Sự khác biệt chính giữa giảng viên làm mọi thứ trông dễ dàng và sinh
+  viên đang vật lộn với cùng tài liệu là gì? Sinh viên cần làm gì để
+  cũng làm mọi thứ trông dễ dàng?
 
 [i[Growth mindset]>]
