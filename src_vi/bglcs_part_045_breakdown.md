@@ -1,114 +1,114 @@
-# Breaking Down Problems
+# Phân tách vấn đề
 
 [i[Breaking down problems]<]
 
-> _"There's games beyond the game."_
+> _"Có những trò chơi bên ngoài trò chơi."_
 >
 > —Stringer Bell, _The Wire_
 
-If the problem solving steps (_Understand_, _Plan_, _Code_, _Reflect_)
-had a sequel, this chapter would be it.
+Nếu các bước giải quyết vấn đề (_Hiểu_, _Kế hoạch_, _Viết code_,
+_Nhìn lại_) có phần tiếp theo, chương này sẽ là nó.
 
-Those steps really do get you through every problem, but it turns out
-those problems exist as fractal problems within problems within
-problems.
+Những bước đó thực sự giúp bạn vượt qua mọi vấn đề, nhưng hóa ra những
+vấn đề đó tồn tại như các vấn đề fractal bên trong vấn đề bên trong
+vấn đề.
 
-As an example, maybe you want to build a table. That's the entire
-problem:
+Ví dụ, có thể bạn muốn đóng một cái bàn. Đó là toàn bộ vấn đề:
 
-* Build a table
+* Đóng một cái bàn
 
-Well, that might not be enough if you haven't built a lot of
-tables. So you break down the problem into dependent subproblems.
+Thế nhưng có thể chưa đủ nếu bạn chưa đóng nhiều bàn. Vì vậy bạn phân
+tách vấn đề thành các bài toán con phụ thuộc nhau.
 
-* Build a table
-  * Attach legs to tabletop
-    * Build tabletop
-    * Build legs
+* Đóng một cái bàn
+  * Gắn chân vào mặt bàn
+    * Làm mặt bàn
+    * Làm chân bàn
 
-And maybe that's not enough. How do you make legs? How do you make the
-tabletop?
+Và có thể vẫn chưa đủ. Làm thế nào để làm chân bàn? Làm thế nào để làm
+mặt bàn?
 
-* Build a table
-  * Attach legs to tabletop
-    * Build tabletop
-      * Sand table surface
-        * Glue trim to top
-          * Cut main top
-            * Learn to use a table saw
-          * Cut trim
-    * Build legs
-      * Cut legs
-      * Turn legs on lathe
-        * Learn to use a lathe
+* Đóng một cái bàn
+  * Gắn chân vào mặt bàn
+    * Làm mặt bàn
+      * Đánh nhám bề mặt
+        * Dán viền vào mặt bàn
+          * Cắt mặt bàn chính
+            * Học sử dụng cưa bàn
+          * Cắt viền
+    * Làm chân bàn
+      * Cắt chân bàn
+      * Tiện chân bàn trên máy tiện
+        * Học sử dụng máy tiện
 
-And so on. *We keep breaking down the problem until we get the step
-small enough that we know we can accomplish it.*
+Và cứ tiếp tục như vậy. *Chúng ta tiếp tục phân tách vấn đề cho đến khi
+chúng ta thu được bước đủ nhỏ để biết mình có thể thực hiện được.*
 
-When you're first starting out, you might have to boil the problem down
-into single lines of code. [i[Experts]] Experienced devs often don't
-have to break it down that far because they are well-versed in the
-sub-steps.
+Khi bạn mới bắt đầu, bạn có thể phải rút gọn vấn đề xuống từng dòng
+code đơn lẻ. [i[Experts]] Các lập trình viên có kinh nghiệm thường không
+cần phân tách đến tận mức đó vì họ đã thành thục trong các bước con.
 
-For example, a carpenter with modest experience might only need to break
-down building a table into our second set of steps, above, and not go
-into such detail.
+Ví dụ, một thợ mộc với kinh nghiệm vừa phải có thể chỉ cần phân tách
+việc đóng bàn thành bộ bước thứ hai của chúng ta ở trên, và không cần
+đi vào chi tiết như vậy.
 
-Like everything, breaking down a problem is a skill, and you get better
-with practice.
+Như mọi thứ khác, phân tách vấn đề là một kỹ năng, và bạn sẽ giỏi hơn
+khi luyện tập.
 
-When breaking down problems, think back to our earlier consideration:
-"This problem would be easy if the input data were in _this_ form."
-That's a hint that you should break out a subproblem that converts the
-input data into that form, thus making the problem easy.
+Khi phân tách vấn đề, hãy nhớ lại cân nhắc trước đó của chúng ta: "Bài
+toán này sẽ dễ nếu dữ liệu đầu vào ở _dạng này_." Đó là gợi ý rằng bạn
+nên tách ra một bài toán con chuyển đổi dữ liệu đầu vào sang dạng đó,
+từ đó làm cho bài toán trở nên dễ.
 
-And once you have a subproblem, pretend that it's the entire problem,
-just for a bit. Focus closely on it and see if you can solve it in
-isolation. If not, ask yourself what would make it easy to solve, and
-break that out into a subproblem.
+Và khi bạn có một bài toán con, hãy giả vờ đó là toàn bộ vấn đề, chỉ
+trong một chút. Tập trung chặt vào nó và xem liệu bạn có thể giải quyết
+nó một cách độc lập không. Nếu không, hãy tự hỏi điều gì sẽ làm cho nó
+dễ giải quyết, và tách ra thành một bài toán con.
 
-Repeat.
+Lặp lại.
 
-The more you practice breaking down problems and coding solutions, the
-better you'll get at it. Soon you won't have to break down problems
-quite as far as you needed to before, and, like an [i[Experts]] expert,
-you'll start recognizing patterns you can reuse.
+Bạn càng luyện tập phân tách vấn đề và viết code cho giải pháp, bạn sẽ
+càng giỏi hơn. Sớm thôi bạn sẽ không cần phân tách vấn đề xa đến mức
+bạn cần trước đây, và, giống như một [i[Experts]] chuyên gia, bạn sẽ
+bắt đầu nhận ra các mẫu mà bạn có thể tái sử dụng.
 
-However, it's not always obvious _how_ to break down a problem.
+Tuy nhiên, không phải lúc nào cũng rõ ràng _cách_ phân tách một vấn đề.
 
-One technique is to imagine a physical manifestation of the thing you're
-trying to code. (For example, you're writing a sort? Imagine a bunch of
-alphabet blocks on a table and you have to sort them.)
+Một kỹ thuật là tưởng tượng một hiện thân vật lý của thứ bạn đang cố
+code. (Ví dụ, bạn đang viết một thuật toán sắp xếp? Hãy tưởng tượng một
+đống khối chữ cái trên bàn và bạn phải sắp xếp chúng.)
 
-And then, to push it farther, imagine that you're teaching a
-non-technical friend how to solve it. How would you describe the steps?
-The conditionals? When they're done?
+Và sau đó, để đẩy xa hơn, hãy tưởng tượng bạn đang dạy một người bạn
+không có kiến thức kỹ thuật cách giải quyết nó. Bạn sẽ mô tả các bước
+như thế nào? Các điều kiện? Khi nào họ xong?
 
-If you can physically sort the books on your shelf (whatever "books"
-are), you can write an algorithm to do that exact same thing. You just
-need to break down the steps.
+Nếu bạn có thể sắp xếp vật lý các cuốn sách trên kệ (dù "sách" là gì),
+bạn có thể viết một thuật toán để làm chính xác điều tương tự. Bạn chỉ
+cần phân tách các bước.
 
 ## Pseudocode
 
 [i[Pseudocode]<]
 
-One of the bigger tools that devs use to explore ideas is to write
-pseudocode. This is "code for humans". Computers can't read it. (Though
-some might argue that Python is pretty close to pseudocode.)
+Một trong những công cụ lớn mà các lập trình viên dùng để khám phá ý
+tưởng là viết pseudocode. Đây là "code dành cho con người". Máy tính
+không thể đọc được nó. (Mặc dù một số người có thể lập luận rằng Python
+khá gần với pseudocode.)
 
-But you can use it to outline steps of an algorithm or process to do a
-sanity check or just explore how you might get something done.
+Nhưng bạn có thể dùng nó để phác thảo các bước của một thuật toán hoặc
+quy trình để kiểm tra độ hợp lý hoặc chỉ khám phá cách bạn có thể làm
+điều gì đó.
 
-You could write some pseudocode to insert a value into an already-sorted
-list of values.
+Bạn có thể viết một số pseudocode để chèn một giá trị vào một danh sách
+đã được sắp xếp.
 
 ``` {.default}
 find correct spot in list
 insert the value there
 ```
 
-But that's not really descriptive enough. We might have to break it
-down.
+Nhưng điều đó không thực sự mô tả đủ. Chúng ta có thể phải phân tách
+tiếp.
 
 ``` {.default}
 find correct spot in list
@@ -119,7 +119,7 @@ insert the value there
     → insert the new value in the newly-opened spot
 ```
 
-Getting there.
+Đang tiến triển.
 
 
 ``` {.default}
@@ -132,7 +132,7 @@ insert the value there
     insert the new value in the newly-opened spot
 ```
 
-And now it's becoming a little clearer.
+Và bây giờ nó đang trở nên rõ ràng hơn một chút.
 
 
 ``` {.default}
@@ -147,79 +147,77 @@ insert the value there
         → set the list item at the index to the new value
 ```
 
-And we're getting dangerously close to being able to translate our
-pseudocode to real code. Maybe it's still unclear how we're going to
-shift all the values to the right, and we should break that out a bit
-more.
+Và chúng ta đang đến rất gần mức có thể dịch pseudocode sang code thực
+tế. Có thể vẫn chưa rõ ràng cách chúng ta sẽ dịch chuyển tất cả các giá
+trị sang phải, và chúng ta nên phân tách điều đó thêm một chút.
 
-Sometimes devs add the pseudocode to their real code as comments and
-implement the real code under them.
+Đôi khi các lập trình viên thêm pseudocode vào code thực của họ dưới
+dạng comment và triển khai code thực bên dưới chúng.
 
-This is a powerful tool to use during the _Plan_ phase. It can really
-help solidify your thinking on the overall process.
+Đây là công cụ mạnh mẽ để sử dụng trong giai đoạn _Kế hoạch_. Nó thực
+sự có thể giúp củng cố suy nghĩ của bạn về quy trình tổng thể.
 
 [i[Pseudocode]>]
 
-## Proof of Concept
+## Bằng chứng khái niệm
 
 [i[Proof of concept]<]
 
-What if you've broken down the bigger problem into smaller subproblems,
-but you simply don't know if one of the things is even possible to do.
+Điều gì sẽ xảy ra nếu bạn đã phân tách bài toán lớn hơn thành các bài
+toán con nhỏ hơn, nhưng đơn giản bạn không biết liệu một trong những
+thứ đó có khả thi để thực hiện không.
 
-For example, "Can you render an image to an HTML canvas and then save
-that image directly to the photo gallery on a mobile phone?" Maybe
-you've never done that, and you don't know if the phone and web
-technology even have that capability.
+Ví dụ, "Bạn có thể render một hình ảnh vào HTML canvas và sau đó lưu
+hình ảnh đó trực tiếp vào thư viện ảnh trên điện thoại di động không?"
+Có thể bạn chưa bao giờ làm điều đó, và bạn không biết liệu điện thoại
+và công nghệ web có khả năng đó không.
 
-One sure way to find out is to code up a proof of concept.
+Một cách chắc chắn để tìm hiểu là viết code bằng chứng khái niệm.
 
-So you make a web page, add a canvas, draw something distinctive on it,
-like a rectangle, and then add the code to download it when a button is
-pressed.
+Vì vậy bạn tạo một trang web, thêm canvas, vẽ thứ gì đó đặc trưng lên
+đó, như một hình chữ nhật, và sau đó thêm code để tải xuống khi nhấn nút.
 
-This used to involve a lot of reading books and, later, searching the
-web. And it still often does. But more commonly now we lean on AI[^4914]
-to answer the "is it possible and how" questions, and even come up with
-some proof-of-concept code.
+Điều này trước đây đòi hỏi rất nhiều đọc sách và, sau đó, tìm kiếm
+trên web. Và thường vẫn còn như vậy. Nhưng phổ biến hơn bây giờ chúng
+ta dựa vào AI[^4914] để trả lời các câu hỏi "nó có thể và làm thế nào",
+và thậm chí đưa ra một số code bằng chứng khái niệm.
 
-[^4914]: Again, if allowed in your work or school environment.
+[^4914]: Một lần nữa, nếu được phép trong môi trường làm việc hoặc
+trường học của bạn.
 
-Once you have the code working, you know two things:
+Khi bạn có code hoạt động, bạn biết hai điều:
 
-1. It works!
-2. How to write the code to do it.
+1. Nó hoạt động!
+2. Cách viết code để thực hiện điều đó.
 
-Usually the proof-of-concept code isn't production-ready, but forms the
-core of what you'll eventually deliver.
+Thường thì code bằng chứng khái niệm chưa sẵn sàng cho môi trường sản
+xuất, nhưng tạo thành cốt lõi của những gì bạn sẽ cuối cùng bàn giao.
 
-Another use of proof-of-concept code is to demonstrate to people what
-the finished product will look or how it will behave. Sometimes people
-code up a mock implementation where only a small part of the UI is
-operational but a viewer can get the gist of how the software will
-eventually work.
+Một cách sử dụng khác của code bằng chứng khái niệm là để trình bày
+cho mọi người thấy sản phẩm hoàn thiện sẽ trông như thế nào hoặc hoạt
+động như thế nào. Đôi khi người ta viết code một triển khai giả, nơi
+chỉ một phần nhỏ của giao diện người dùng hoạt động nhưng người xem có
+thể nắm được ý tưởng về cách phần mềm cuối cùng sẽ hoạt động.
 
-Often the majority of the code you wrote up for the proof of concept
-will be thrown away, and you might feel some resistance to discarding
-that work. But don't worry about it. The important part of the
-proof of concept is the knowledge gained while doing the work, not the
-work itself.
+Thường thì phần lớn code bạn đã viết cho bằng chứng khái niệm sẽ bị bỏ
+đi, và bạn có thể cảm thấy kháng cự khi loại bỏ công việc đó. Nhưng
+đừng lo lắng về nó. Phần quan trọng của bằng chứng khái niệm là kiến
+thức thu được trong khi làm việc, không phải bản thân công việc.
 
 [i[Proof of concept]>]
 
-> _"Plan to throw one away; you will, anyhow."_
+> _"Hãy lên kế hoạch vứt bỏ một cái; dù sao bạn cũng sẽ làm vậy."_
 >
 > —Fred Brooks, _The Mythical Man-Month_
 
-## Chapter Reflection
+## Suy ngẫm về chương
 
-* Why is breaking down a problem important?
+* Tại sao việc phân tách một vấn đề lại quan trọng?
 
-* How far do you have to break down a problem before you can start
-  coding it up?
+* Bạn phải phân tách vấn đề đến đâu trước khi có thể bắt đầu viết code?
 
-* What is pseudocode and why would we write it?
+* Pseudocode là gì và tại sao chúng ta viết nó?
 
-* What is a proof of concept and why is it useful?
+* Bằng chứng khái niệm là gì và tại sao nó hữu ích?
 
 [i[Breaking down problems]>]
