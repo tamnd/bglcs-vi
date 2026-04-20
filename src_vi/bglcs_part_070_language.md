@@ -1,59 +1,55 @@
-# Learning a New Language
+# Học Một Ngôn Ngữ Mới
 
 [i[Programming languages-->Learning]<]
 
-The first language you learn is the hardest. Not only are you learning
-the language, but you're also learning the _concepts_ that are used
-within the language. By concepts, I mean things like how to organize
-functions and pass arguments, how to run loops, how to do conditionals,
-etc.
+Ngôn ngữ đầu tiên bạn học là khó nhất. Không chỉ học ngôn ngữ, bạn còn
+đang học các _khái niệm_ được dùng trong ngôn ngữ đó. Ý tôi về khái
+niệm là những thứ như cách tổ chức hàm và truyền đối số, cách chạy
+vòng lặp, cách làm điều kiện, v.v.
 
-All languages have these same concepts (more or less—more on that
-later), and so learning the second language is just learning how to
-apply those same concepts you already know.
+Tất cả các ngôn ngữ đều có chung các khái niệm này (nhiều hay ít — sẽ
+nói thêm sau), và vì vậy học ngôn ngữ thứ hai chỉ là học cách áp dụng
+những khái niệm bạn đã biết.
 
-It's like if you already know Spanish, learning Italian isn't that big
-of a jump.
+Nó giống như nếu bạn đã biết tiếng Tây Ban Nha, học tiếng Ý không phải
+bước nhảy lớn.
 
-This chapter is about learning additional languages after you've learned
-your first one. This is important because you're going to be learning
-new languages your entire career. Luckily, though, learning new
-languages is itself a skill, and the more new languages you learn, the
-easier it becomes.
+Chương này nói về việc học thêm ngôn ngữ sau khi bạn đã học ngôn ngữ
+đầu tiên. Điều này quan trọng vì bạn sẽ học ngôn ngữ mới trong suốt sự
+nghiệp của mình. May mắn thay, học ngôn ngữ mới tự nó là một kỹ năng,
+và bạn càng học nhiều ngôn ngữ mới, nó càng trở nên dễ hơn.
 
 [i[Programming paradigms]]
 
-There are two big pieces to learning a new language in a paradigm
-you already know (procedural, object-oriented, functional, etc.)
+Có hai phần lớn để học ngôn ngữ mới trong mô hình bạn đã biết (thủ tục,
+hướng đối tượng, hàm, v.v.)
 
-1. **Learn the syntax**. Like `if` and `while`, and how to declare
-   variables and functions, etc.
+1. **Học cú pháp**. Như `if` và `while`, và cách khai báo biến và hàm,
+   v.v.
 
-2. **Learn the standard library**. This is the built-in functionality
-   that you can take advantage of, like reading and writing a file, or
-   printing to the screen, or connecting to a web server.
+2. **Học thư viện chuẩn**. Đây là chức năng tích hợp sẵn mà bạn có thể
+   tận dụng, như đọc và ghi file, in ra màn hình, hoặc kết nối với web
+   server.
 
-Learning the syntax is often the easier of the two. Most languages have
-relatively simple syntax.
+Học cú pháp thường là phần dễ hơn trong hai. Hầu hết các ngôn ngữ có
+cú pháp tương đối đơn giản.
 
-By analogy, you can learn what verbs, nouns, and adjectives are, and how
-to [flw[diagram sentences|Sentence_diagram]]. But that's not enough to
-write a masterful literary work. You also need to know what words you
-have at your disposal.
+Để so sánh, bạn có thể học động từ, danh từ, tính từ là gì và cách
+[flw[phân tích câu|Sentence_diagram]]. Nhưng đó chưa đủ để viết một tác
+phẩm văn học xuất sắc. Bạn cũng cần biết những từ nào có trong tay.
 
-And that's the more complex part. Many standard libraries have a *lot*
-of built-in functionality. [fl[Scroll through the Python standard
-library for an example|https://docs.python.org/3/library/index.html]].
+Và đó là phần phức tạp hơn. Nhiều thư viện chuẩn có *rất nhiều* chức
+năng tích hợp sẵn. [fl[Hãy lướt qua thư viện chuẩn Python xem ví dụ|https://docs.python.org/3/library/index.html]].
 
-## Learning the Syntax
+## Học Cú Pháp
 
 [i[Programming languages-->Syntax]<]
 
-Jump right in! Follow a tutorial and write "toy" programs. These are
-programs that just exercise some aspect of the language.
+Nhảy thẳng vào! Theo một hướng dẫn và viết các chương trình "toy". Đây
+là những chương trình chỉ luyện tập một khía cạnh nào đó của ngôn ngữ.
 
-How do we do conditionals in Rust? Let's write a toy program to check it
-out.
+Chúng ta làm điều kiện trong Rust như thế nào? Hãy viết một chương trình
+toy để tìm hiểu.
 
 ``` {.rs}
 fn main() {
@@ -65,145 +61,143 @@ fn main() {
 }
 ```
 
-Wait—are those parens necessary around the `if`?
+Đợi đã — những dấu ngoặc đơn đó có cần thiết quanh `if` không?
 
 ``` {.default}
 $ rustc foo.c
   warning: unnecessary parentheses around `if` condition
 ```
 
-No, they aren't! It's a toy program; we're just using it to learn.
+Không cần! Đây là chương trình toy; chúng ta chỉ dùng nó để học.
 
-To learn all the necessary syntax, take the concepts you already know
-and look up how to apply them in the new language.
+Để học tất cả cú pháp cần thiết, hãy lấy các khái niệm bạn đã biết và
+tìm hiểu cách áp dụng chúng trong ngôn ngữ mới.
 
-* The main function
-* Variables
-* Conditionals
-* Loops
-* Classes
-* etc.
+* Hàm main
+* Biến
+* Điều kiện
+* Vòng lặp
+* Class
+* v.v.
 
-It will be frustrating to you at first because you have to look up
-every. Single. Thing. Like with a new human language, you know
-conceptually that you want to go to the supermarket, but you have to
-look up all those Italian words if you don't know Italian.
+Lúc đầu sẽ gây bực bội vì bạn phải tra cứu từng. Thứ. Một. Giống như
+với một ngôn ngữ người mới, bạn biết về mặt khái niệm rằng bạn muốn đi
+đến siêu thị, nhưng bạn phải tra tất cả những từ tiếng Ý đó nếu bạn
+không biết tiếng Ý.
 
-The good news is that the syntax of a computer language is *way* simpler
-than a human language. And you can get it down pretty quickly.
+Tin tốt là cú pháp của ngôn ngữ máy tính *đơn giản hơn nhiều* so với
+ngôn ngữ người. Và bạn có thể nắm vững nó khá nhanh.
 
 [i[Programming languages-->Syntax]>]
 
-## Learning the Library
+## Học Thư Viện
 
 [i[Programming languages-->Libraries]<]
 
-The standard library is the pre-baked functionality that ships with a
-language. It's nice because you know everyone who has the language
-installed has all these functions already and they don't have to
-download any additional third-party dependencies.
+Thư viện chuẩn là chức năng đã được tích hợp sẵn đi kèm với ngôn ngữ.
+Điều này tiện lợi vì bạn biết rằng tất cả mọi người đã cài ngôn ngữ đều
+có sẵn tất cả các hàm này và không phải tải xuống bất kỳ phụ thuộc bên
+thứ ba nào thêm.
 
-But you need to be familiar with that language's standard library so
-that you know what the language can do out of the box, and so that you
-don't reinvent the wheel when you don't have to.
+Nhưng bạn cần quen thuộc với thư viện chuẩn của ngôn ngữ đó để biết
+ngôn ngữ có thể làm gì sẵn có, và để không tái phát minh bánh xe khi
+không cần thiết.
 
-One recommendation is to skim the standard library for a language
-you're using. You don't have to know exactly how to use Python's
-[flw[IMAP|Internet_Message_Access_Protocol]] functionality, but knowing
-it's there in case you do is very valuable. At the very least, it lets
-you know that Python is a contender for choice of language if you need
-to do some IMAP work.
+Một khuyến nghị là lướt qua thư viện chuẩn của ngôn ngữ bạn đang dùng.
+Bạn không phải biết chính xác cách sử dụng chức năng
+[flw[IMAP|Internet_Message_Access_Protocol]] của Python, nhưng biết nó
+có sẵn trong trường hợp bạn cần là rất có giá trị. Ít nhất, nó cho bạn
+biết Python là ứng viên để lựa chọn ngôn ngữ nếu bạn cần làm việc với
+IMAP.
 
-Then when you do need some of that functionality, you can dig into the
-documentation and examples and see how it works.
+Rồi khi bạn thực sự cần một số chức năng đó, bạn có thể đào sâu vào
+tài liệu và ví dụ để xem nó hoạt động thế nào.
 
-I tend to learn libraries piecemeal, learning in detail only what I need
-to get a job done. I know the rest of what it _can_ do (because I
-skimmed the docs), but I only know bits and pieces well enough to code
-with them.
+Tôi có xu hướng học thư viện theo từng mảnh, chỉ học chi tiết những gì
+tôi cần để hoàn thành công việc. Tôi biết phần còn lại của những gì nó
+_có thể_ làm (vì tôi đã lướt qua tài liệu), nhưng tôi chỉ biết từng
+mảnh và miếng đủ để code với chúng.
 
-And that's okay, since the libraries are massive, and it's unlikely
-you're going to achieve mastery of everything in them. You just need to
-be able to learn what you need to complete your work.
+Và điều đó ổn, vì các thư viện rất đồ sộ, và khó có thể đạt được sự
+thành thạo mọi thứ trong đó. Bạn chỉ cần có thể học những gì bạn cần
+để hoàn thành công việc.
 
 [i[Programming languages-->Libraries]>]
 
-## Learning a New Paradigm
+## Học Một Mô Hình Mới
 
 [i[Programming paradigms-->Learning]<]
 
-First, what is a _programming paradigm_? It's a way of modeling a
-problem so that you can come up with a solution. I know that's vague but
-bear with me for a couple paragraphs.
+Trước tiên, _mô hình lập trình_ là gì? Đó là cách mô hình hóa bài toán
+để bạn có thể đưa ra giải pháp. Tôi biết điều đó mơ hồ nhưng hãy kiên
+nhẫn với tôi vài đoạn.
 
-Imagine doing your taxes. (Sorry.) When you do them, it's a sequence of
-steps one after another. Fill in your name. Fill in your income. If your
-income is more than some value, do _x_. Else do _y_. It's a procedure
-that you're following. You can model it as a series of steps.
+Hãy tưởng tượng đang làm khai thuế. (Xin lỗi.) Khi làm, đó là một chuỗi
+các bước liên tiếp. Điền tên. Điền thu nhập. Nếu thu nhập lớn hơn một
+giá trị nào đó, làm _x_. Còn lại làm _y_. Đó là một thủ tục bạn đang
+theo. Bạn có thể mô hình hóa nó như một chuỗi các bước.
 
-Imaging you're simulating a 3D fantasy world. In that world you might
-have a type of creature called an orc, and there might be many creatures
-of that type running around. And they all have their own independent
-coordinates, and their own [flw[hit
-points|Health_(game_terminology)#Hit_points]], but they all have the
-same behavior when you walk up to them. You can model them as a
-collection of objects that are independent but have similar behavior.
+Hãy tưởng tượng bạn đang mô phỏng một thế giới fantasy 3D. Trong thế
+giới đó, bạn có thể có một loại sinh vật gọi là orc, và có thể có nhiều
+sinh vật loại đó chạy xung quanh. Và chúng đều có tọa độ riêng, và
+[flw[điểm máu|Health_(game_terminology)#Hit_points]] riêng của chúng,
+nhưng chúng đều có cùng hành vi khi bạn tiến lại gần. Bạn có thể mô
+hình hóa chúng như một tập hợp các đối tượng độc lập nhưng có hành vi
+tương tự.
 
-These are two different ways of solving a problem, either by modeling
-them as a sequence of steps, or as objects.
+Đây là hai cách khác nhau để giải quyết bài toán, hoặc bằng cách mô
+hình hóa chúng như một chuỗi các bước, hoặc như các đối tượng.
 
-We call these differing models _programming paradigms_. The first
-example is "procedural programming" (kind-of; I'm hand-waving a bit),
-and the second is "object-oriented programming".
+Chúng ta gọi các mô hình khác nhau này là _mô hình lập trình_. Ví dụ
+đầu là "lập trình thủ tục" (kiểu vậy; tôi đang lướt qua một chút), và
+ví dụ thứ hai là "lập trình hướng đối tượng".
 
-There are [flw[a lot of paradigms|Programming_paradigm]], but the Big
-Three are procedural, object-oriented, and functional.
+Có [flw[rất nhiều mô hình|Programming_paradigm]], nhưng Bộ Ba Lớn là
+thủ tục, hướng đối tượng, và hàm.
 
-Here's the bummer: learning a new paradigm is hard. A lot harder than
-just learning another language in the same paradigm.
+Đây là điều đáng lo: học một mô hình mới thì khó. Khó hơn nhiều so với
+chỉ học một ngôn ngữ khác trong cùng mô hình.
 
-If you know Spanish, learning Italian is relatively easy. But learning
-Chinese, that's something else! Not nearly as easy. Keeping with the
-analogy, it's a different paradigm. You have to learn new techniques and
-concepts you might not even be aware of from the romance languages.
+Nếu bạn biết tiếng Tây Ban Nha, học tiếng Ý tương đối dễ. Nhưng học
+tiếng Trung, đó là điều khác! Không dễ như vậy. Tiếp tục phép so sánh,
+đó là mô hình khác. Bạn phải học các kỹ thuật và khái niệm mới mà bạn
+thậm chí có thể chưa biết đến từ các ngôn ngữ Roman.
 
-> **I learned [i[Erlang]] Erlang a while ago**.
-> [fl[Erlang|https://www.erlang.org/]] is a functional language, and I
-> was weak with the functional paradigm.
+> **Tôi đã học [i[Erlang]] Erlang một thời gian trước**.
+> [fl[Erlang|https://www.erlang.org/]] là một ngôn ngữ hàm, và tôi còn
+> yếu với mô hình hàm.
 >
-> For example, in Erlang, once you set a "variable", you can never
-> change it. And every single way I knew for modeling problems involved
-> changing variables!
+> Ví dụ, trong Erlang, khi bạn đặt một "biến", bạn không bao giờ có thể
+> thay đổi nó. Và mọi cách tôi biết để mô hình hóa bài toán đều liên
+> quan đến việc thay đổi biến!
 >
-> I mean, how are you supposed to get _anything_ done if you can't
-> change a variable?!
+> Ý tôi là, bạn làm gì _bất cứ thứ gì_ nếu không thể thay đổi biến?!
 >
-> But clearly, massive systems had been implemented successfully in
-> Erlang, so there was a way. But I had to change my thinking about how
-> I modeled problems, and learning that new way was a significant
-> challenge.
+> Nhưng rõ ràng, các hệ thống lớn đã được triển khai thành công trong
+> Erlang, vậy nên có cách. Nhưng tôi phải thay đổi cách suy nghĩ về cách
+> mô hình hóa bài toán, và việc học cách mới đó là một thách thức đáng
+> kể.
 
-My main piece of advice here is to use a _lot_ of examples to see how
-that language performs basic tasks. That is, gather and study a lot of
-toy programs.
+Lời khuyên chính của tôi ở đây là dùng _rất nhiều_ ví dụ để thấy ngôn
+ngữ đó thực hiện các tác vụ cơ bản thế nào. Tức là, thu thập và nghiên
+cứu nhiều chương trình toy.
 
-Then come up with related challenges (or find some online, or ask an AI
-to generate some) that allow you to work out to build your skills and
-find gaps in your understanding.
+Rồi đặt ra các thách thức liên quan (hoặc tìm một số trên mạng, hoặc
+nhờ AI tạo) cho phép bạn luyện tập để xây dựng kỹ năng và tìm ra các
+lỗ hổng trong hiểu biết của mình.
 
 [i[Programming paradigms-->Learning]>]
 
-## Chapter Reflection
+## Suy Ngẫm Về Chương
 
-* Why is learning your first programming language more difficult than
-  learning the second?
+* Tại sao học ngôn ngữ lập trình đầu tiên lại khó hơn học ngôn ngữ thứ
+  hai?
 
-* What is the difference between learning syntax and learning a library?
+* Sự khác biệt giữa học cú pháp và học thư viện là gì?
 
-* What's the difference between a programming language and a programming
-  paradigm?
+* Sự khác biệt giữa ngôn ngữ lập trình và mô hình lập trình là gì?
 
-* Why is learning a new paradigm commonly more difficult than learning a
-  new programming language in a paradigm you already know?
+* Tại sao học một mô hình mới thường khó hơn học một ngôn ngữ lập trình
+  mới trong mô hình bạn đã biết?
 
 [i[Programming languages-->Learning]>]
