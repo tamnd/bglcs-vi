@@ -1,26 +1,26 @@
-# Debugging
+# Debug
 
 [i[Debugging]<]
 
-Before we begin, the best way to debug a program is to not have bugs to
-begin with. Though we're only human and we'll certainly <!-- the
+Trước khi bắt đầu, cách tốt nhất để debug một chương trình là ngay từ
+đầu không có bug. Dù chúng ta chỉ là con người và chắc chắn <!-- the
 following two words are deliberately misspelled --> mak mstakes, <!--
-sic --> the best way to avoid bugs is to adhere to the problem solving
-framework. Remember that the programming battle is in the _Understand_
-and _Plan_ phases. The more completely and correctly you complete those
-phases, the fewer bugs you'll have when coding it up.
+sic --> cách tốt nhất để tránh bug là tuân theo khung giải quyết vấn đề.
+Hãy nhớ rằng trận chiến lập trình nằm ở các giai đoạn _Hiểu_ và _Lên
+kế hoạch_. Bạn hoàn thành những giai đoạn đó càng đầy đủ và chính xác,
+bạn sẽ càng có ít bug khi viết code.
 
-That said, let's talk about what to do when the inevitable happens.
+Như vậy, hãy nói về những việc cần làm khi điều không tránh khỏi xảy
+ra.
 
-## Mental Model
+## Mô Hình Tư Duy
 
 [i[Mental model of computation]<]
 
-This is one of the most important things about being a developer: *have
-a mental model of computation*.
+Đây là một trong những điều quan trọng nhất để trở thành lập trình viên:
+*có mô hình tư duy về quá trình tính toán*.
 
-That is, you should be able to read code and know what's going to
-happen.
+Tức là, bạn phải có khả năng đọc code và biết điều gì sẽ xảy ra.
 
 ``` {.python}
 def foo(n):
@@ -34,175 +34,167 @@ def foo(n):
 foo(5)
 ```
 
-Read the nonsense Python code, above. Mentally compute the output. Then
-see if you're right. (I wrote the code, and it still took me a solid
-minute to mentally model the answer. But I was right!)
+Hãy đọc đoạn code Python vô nghĩa ở trên. Tính toán kết quả đầu ra trong
+đầu. Rồi xem bạn có đúng không. (Tôi viết code đó, và vẫn mất tôi một
+phút tốt đẹp để mô phỏng câu trả lời trong đầu. Nhưng tôi đã đúng!)
 
-***If you cannot "run" the code in your head, you cannot debug.*** Yes,
-I'm going that strong. I'm sure some people disagree with me, but I want
-to drive home how important this is.
+***Nếu bạn không thể "chạy" code trong đầu, bạn không thể debug.*** Vâng,
+tôi nói thẳng thế. Tôi chắc một số người không đồng ý với tôi, nhưng tôi
+muốn nhấn mạnh tầm quan trọng của điều này.
 
-*Debugging is the art of finding the part of the code where your mental
-model of the computation and the reality of the computation diverge.*
-And then fixing it.
+*Debug là nghệ thuật tìm ra phần code nơi mô hình tư duy của bạn về quá
+trình tính toán và thực tế của quá trình tính toán không khớp nhau.* Và
+sau đó sửa nó.
 
-If you don't have a mental model, you don't have anything to compare
-against and you'll make little progress.
+Nếu bạn không có mô hình tư duy, bạn không có gì để so sánh và sẽ tiến
+triển rất ít.
 
-How do your improve your mental model of computation?
+Làm thế nào để cải thiện mô hình tư duy về tính toán của bạn?
 
-* **Study code**. Trace through it. There's a ton of code out there to
-  practice with, e.g. on GitHub, on HackerRank, your peers' codebases,
-  your own stuff that you wrote four months ago and have forgotten how
-  it works, etc.
+* **Nghiên cứu code**. Trace qua nó. Có rất nhiều code ngoài kia để
+  luyện tập, ví dụ trên GitHub, trên HackerRank, codebase của bạn học,
+  code của chính bạn viết bốn tháng trước mà bạn đã quên nó hoạt động
+  thế nào, v.v.
 
-* **Predict the output**. As you learn the code, try to predict how it
-  will behave when run.
+* **Dự đoán kết quả đầu ra**. Khi bạn học code, hãy cố đoán xem nó sẽ
+  hoạt động thế nào khi chạy.
 
-* **Manually trace a run**. Use a whiteboard to manually track what values
-  variables take on, what functions get called, and what line of code is
-  executing.
+* **Trace thủ công một lần chạy**. Dùng bảng trắng để theo dõi thủ công
+  các biến nhận giá trị gì, hàm nào được gọi, và đang thực thi dòng code
+  nào.
 
-* **Write a specification**. Study some code and "reverse engineer" it.
-  Figure out what it does, then write a human-readable spec that
-  perfectly describes the algorithm or codebase to the degree that a
-  reader could reimplement it from scratch.
+* **Viết đặc tả**. Nghiên cứu một đoạn code và "reverse engineer" nó.
+  Tìm hiểu nó làm gì, rồi viết một đặc tả dễ đọc cho người mô tả hoàn
+  hảo thuật toán hoặc codebase ở mức độ mà người đọc có thể tái triển
+  khai từ đầu.
 
-* **Single-step through with a debugger**. Have the computer show you
-  how the program is flowing. We'll talk more about that, below.
+* **Chạy từng bước với debugger**. Để máy tính chỉ cho bạn thấy chương
+  trình đang chạy như thế nào. Chúng ta sẽ nói thêm về điều đó bên dưới.
 
-You'll definitely improve this skill with practice.
+Bạn chắc chắn sẽ cải thiện kỹ năng này qua thực hành.
 
 [i[Mental model of computation]>]
 
-## Reproducing the Bug
+## Tái Hiện Bug
 
 [i[Debugging-->Reproducing bugs]<]
 
-First things first: see if you can get the bug to happen consistently.
-Being able reproduce ("repro") the bug is the first step in being able
-to squash it.
+Trước tiên hãy làm điều này: xem bạn có thể khiến bug xảy ra ổn định
+không. Có thể tái hiện ("repro") bug là bước đầu tiên để có thể dẹp nó.
 
-Sometimes this is actually the hard part. You saw something go wrong
-once (or someone reported they saw it), and now you can't repro it.
+Đôi khi đây thực sự là phần khó. Bạn thấy điều gì đó sai một lần (hoặc
+ai đó báo cáo họ thấy nó), và bây giờ bạn không thể repro nó.
 
-> **At this point you might be tempted to utilize a programming
-> technique known as "prayer"** in that you're praying that either you
-> didn't really see it or the bug will never rear its ugly face again in
-> this world. But here's the unfortunate truth: if someone saw this rare
-> bug _just once_ in testing, thousands or millions of people will see
-> the bug when it goes into production. Murphy's Law _and_ statistics?
-> You have no chance against that.
+> **Tại thời điểm này bạn có thể bị cám dỗ sử dụng một kỹ thuật lập
+> trình được gọi là "cầu nguyện"** khi bạn đang cầu nguyện rằng hoặc
+> bạn không thực sự thấy nó hoặc bug sẽ không bao giờ nhô mặt xấu xí
+> của nó lên nữa trên đời này. Nhưng đây là sự thật đáng buồn: nếu ai
+> đó thấy bug hiếm gặp này _chỉ một lần_ khi kiểm thử, hàng nghìn hay
+> hàng triệu người sẽ thấy bug khi nó đưa vào production. Định luật
+> Murphy _và_ thống kê? Bạn không có cơ hội chống lại điều đó.
 
-If you can't repro it, you'd just be shooting in the dark trying to fix
-it. Your goal at this point is to just get it to happen at all. Work
-backward logically. What _must_ have happened in the program flow in
-order to see what the bug reporter saw? Look there first. Even if you're
-sure some condition _can't possibly_ be true, if it must have been true
-to see the bug, then it _must_ have been true! Keep tracking back,
-looking for where your mental model and the code diverge and use that to
-repro it yourself.
+Nếu bạn không thể repro nó, bạn chỉ đang bắn vào bóng tối khi cố sửa
+nó. Mục tiêu của bạn lúc này là chỉ cần khiến nó xảy ra. Làm việc ngược
+lại một cách logic. Điều gì _nhất định_ đã xảy ra trong luồng chương
+trình để thấy những gì người báo bug thấy? Tìm ở đó trước. Ngay cả khi
+bạn chắc chắn điều kiện nào đó _không thể_ đúng, nếu nó nhất định phải
+đúng để thấy bug, thì nó _nhất định_ đã đúng! Tiếp tục trace ngược lại,
+tìm nơi mô hình tư duy của bạn và code không khớp và dùng điều đó để
+tự repro.
 
-If you can only sporadically repro it, you have a chance, but it's going
-to be hard work. Your goal is to get it to repro consistently. This
-saves you spending forever trying to get a rare repro. If you could make
-it happen consistently, that's a big time saver, and it helps you narrow
-down where the bug can be.
+Nếu bạn chỉ có thể repro nó lẻ tẻ, bạn có cơ hội, nhưng sẽ khó. Mục
+tiêu của bạn là khiến nó repro ổn định. Điều này giúp bạn không phải
+mãi mãi cố gắng repro hiếm gặp. Nếu bạn có thể khiến nó xảy ra ổn định,
+đó là tiết kiệm thời gian lớn và giúp bạn thu hẹp nơi bug có thể nằm.
 
-Once you find how to repro it consistently, now you can get even more
-systematic about things. You want to find the minimum number of steps
-that can cause the bug to manifest. For example, you're playing a game
-and you find a bug when you complete 20 laps around the race course and
-then drive into a tree. Maybe try just driving into the tree first. If
-you're lucky, you saved yourself 20 laps and narrowed the bug down to
-the tree. If nothing happens, you know that the 20 laps is an integral
-part of the bug. Maybe try a single lap followed by the tree. Does that
-repro?
+Khi bạn tìm ra cách repro ổn định, bây giờ bạn có thể xử lý có hệ thống
+hơn. Bạn muốn tìm số bước tối thiểu có thể khiến bug xuất hiện. Ví dụ,
+bạn đang chơi game và thấy bug khi bạn hoàn thành 20 vòng đường đua rồi
+lái vào cây. Có thể thử chỉ lái vào cây trước. Nếu may mắn, bạn đã tiết
+kiệm được 20 vòng và thu hẹp bug xuống còn cái cây. Nếu không có gì xảy
+ra, bạn biết 20 vòng là phần không thể thiếu của bug. Có thể thử một
+vòng rồi đến cây. Có repro không?
 
-Getting the minimum number of steps not only helps you narrow down even
-further where the bug is in the code, but it makes it easier to test
-fixes because you don't have to spend so long reproing the issue.
+Tìm số bước tối thiểu không chỉ giúp bạn thu hẹp hơn nữa vị trí bug
+trong code, mà còn giúp kiểm thử các bản sửa dễ hơn vì bạn không phải
+mất nhiều thời gian để repro vấn đề.
 
 [i[Debugging-->Reproducing bugs]>]
 
-## Finding the Bug
+## Tìm Bug
 
 [i[Debugging-->Locating bugs]<]
 
-There is a bug somewhere. You know that because when you give your code
-some input, and it cranks away at it, eventually it gives you unexpected
-output.
+Có một bug ở đâu đó. Bạn biết điều đó vì khi bạn cung cấp đầu vào cho
+code, nó xử lý, và cuối cùng cho ra kết quả bất ngờ.
 
-Somewhere in that big process the reality of the computation diverges
-from your mental model of the computation.
+Ở đâu đó trong quá trình lớn đó, thực tế của tính toán không khớp với
+mô hình tư duy của bạn về tính toán.
 
-At first, all you might know is that somewhere in 10,000 lines of code
-something went wrong. So you've narrowed it down to that. Your mental
-model said that if the input was `2`, the output would be `3490`. And
-instead the output was `299792458`.
+Ban đầu, tất cả những gì bạn có thể biết là ở đâu đó trong 10.000 dòng
+code có điều gì đó sai. Vậy là bạn đã thu hẹp xuống mức đó. Mô hình tư
+duy của bạn nói rằng nếu đầu vào là `2`, đầu ra sẽ là `3490`. Nhưng
+thay vào đó đầu ra là `299792458`.
 
-Therefore you know the bug is somewhere between the input and the
-output.
+Do đó bạn biết bug nằm ở đâu đó giữa đầu vào và đầu ra.
 
-You _could_ just start changing random things in the code to see if it
-gets fixed. This is sometimes called _shotgun debugging_ or _prayer
-debugging_, and it very, very, very, very, *very* rarely works. Way more
-often you'll just mess things up and make the problem even harder to
-find. It's like trying to fix your car's electrical issues by randomly
-adding and cutting wires. It's not even worth debugging this way.
+Bạn _có thể_ chỉ bắt đầu thay đổi ngẫu nhiên trong code để xem nó có
+được sửa không. Đôi khi được gọi là _shotgun debugging_ hoặc _prayer
+debugging_, và nó rất, rất, rất, rất, *rất* hiếm khi hiệu quả. Thường
+xuyên hơn nhiều bạn chỉ làm rối tung mọi thứ và khiến vấn đề khó tìm
+hơn. Nó giống như cố sửa vấn đề điện của xe bằng cách ngẫu nhiên thêm
+và cắt dây. Không đáng để debug theo cách này.
 
-And yet despite that, it's a very common technique practiced, in vain,
-by students worldwide. You, however, should not use it.
+Dù vậy, đây là kỹ thuật rất phổ biến được thực hành, uổng công, bởi
+sinh viên trên khắp thế giới. Tuy nhiên bạn không nên dùng nó.
 
-Instead, it's time to be systematic. Somewhere in that pipeline of
-computation the intermediate computed values diverge from your mental
-model. Your job is to find out where.
+Thay vào đó, đã đến lúc xử lý có hệ thống. Ở đâu đó trong đường ống
+tính toán đó, các giá trị trung gian được tính toán không khớp với mô
+hình tư duy của bạn. Nhiệm vụ của bạn là tìm ra nơi đó.
 
-So you start probing _inside_ the program at various points to see
-where things go off the rails. Binary search is great—jump to the middle
-of the process and examine the values during a run (see below). If they
-are as expected, the bug must therefore be between the middle of the
-program and the end! You've just halved your search space. Now do it
-again until you narrow it down far enough to see the bug.
+Vì vậy bạn bắt đầu thăm dò _bên trong_ chương trình ở các điểm khác
+nhau để xem nơi nào mọi thứ đi lệch. Binary search rất hay — nhảy đến
+giữa quá trình và kiểm tra các giá trị trong một lần chạy (xem bên
+dưới). Nếu chúng như mong đợi, bug vì vậy phải nằm giữa giữa chương
+trình và phần cuối! Bạn vừa giảm một nửa không gian tìm kiếm. Bây giờ
+làm lại cho đến khi bạn thu hẹp đủ để thấy bug.
 
-I would contend, though some might disagree, *the bug is not found until
-you understand it*. That is, you **must** understand exactly how your
-program was giving the output `299792458` instead of the expected
-`3490`. Gaining that full understanding has a number of benefits:
+Tôi muốn tranh luận, dù một số người có thể không đồng ý, *bug chưa được
+tìm thấy cho đến khi bạn hiểu nó*. Tức là, bạn **phải** hiểu chính xác
+chương trình của bạn cho ra kết quả `299792458` thay vì kết quả mong
+đợi `3490` như thế nào. Hiểu đầy đủ điều đó có nhiều lợi ích:
 
-* You can be more confident you've fixed the bug for-realsies.
-* You will learn to recognize the patterns that led to this bug,
-  allowing you to better avoid it in the future.
-* You're working out your problem-solving skills while you do this.
+* Bạn có thể tự tin hơn rằng bạn đã sửa bug thực sự.
+* Bạn sẽ học cách nhận ra các mẫu dẫn đến bug này, giúp bạn tránh tốt
+  hơn trong tương lai.
+* Bạn đang rèn luyện kỹ năng giải quyết vấn đề trong khi làm điều này.
 
-Once you understand how the wrong output was produced, then decisively
-and correctly fix the issue, and know why the fix will work.
+Khi bạn hiểu đầu ra sai được tạo ra như thế nào, hãy sửa vấn đề một
+cách dứt khoát và chính xác, và biết tại sao cách sửa sẽ hoạt động.
 
-Finally, if you're just filing a bug report (i.e. someone else will fix
-it), being able to give them the minimum steps needed to repro will make
-you their hero for the day. Consider it from the reverse perspective;
-would you rather fix a bug with a vague, long sequence of steps to
-repro, or one with a few steps that caused it to repro every time? The
-more specific things are, the happier the bug-fixer is, whether that's
-you or someone else.
+Cuối cùng, nếu bạn chỉ đang nộp báo cáo bug (tức là người khác sẽ sửa),
+có khả năng cung cấp cho họ các bước tối thiểu cần thiết để repro sẽ làm
+bạn trở thành anh hùng của họ trong ngày đó. Hãy xem xét từ góc độ
+ngược lại; bạn thích sửa bug với chuỗi bước dài dòng mơ hồ để repro,
+hay một bug với vài bước khiến nó repro mỗi lần? Càng cụ thể, người sửa
+bug càng vui, dù đó là bạn hay người khác.
 
 [i[Debugging-->Locating bugs]>]
 
-## Print Debugging
+## Debug Bằng Print
 
 [i[Debugging-->By printing]<]
 
-The good old-fashioned standard way of probing software in the middle of
-a run is called _print debugging_, or, if you're a C programmer, _printf
-debugging_ (pronounced "print eff").
+Cách thăm dò phần mềm truyền thống tốt bụng khi đang chạy được gọi là
+_print debugging_, hoặc nếu bạn là lập trình viên C, _printf debugging_
+(đọc là "print eff").
 
-This is basically just tactically placing print statements inside your
-code to see what state your program is in.
+Về cơ bản đây chỉ là việc đặt các câu lệnh in một cách chiến thuật bên
+trong code để xem chương trình của bạn đang ở trạng thái nào.
 
-There are a couple common uses of this:
+Có một số cách dùng phổ biến:
 
-* Print anything at all to see if some part of the code actually
-  executes.
+* In bất cứ thứ gì để xem liệu một phần code có thực sự thực thi không.
 
   ``` {.python}
   print("A")
@@ -221,14 +213,14 @@ There are a couple common uses of this:
   print("E")
   ```
 
-  Notice that when I run the code, I can see how far it gets before a
-  crash, and I can determine if `x` were `3` or not.
+  Chú ý rằng khi tôi chạy code, tôi có thể thấy nó chạy đến đâu trước
+  khi crash, và tôi có thể xác định `x` có bằng `3` không.
 
-* Print some specific values to see what they are.
+* In một số giá trị cụ thể để xem chúng là gì.
 
-  Here's an example where we're getting data from some sensor in a loop
-  for processing. We suspect that some of the data is wonky (maybe the
-  sensor is busted) so we're printing it out to see what we get.
+  Đây là ví dụ nơi chúng ta lấy dữ liệu từ một cảm biến nào đó trong
+  vòng lặp để xử lý. Chúng ta nghi ngờ một số dữ liệu bị lỗi (có thể
+  cảm biến bị hỏng) nên đang in ra để xem chúng ta nhận được gì.
 
   ``` {.python}
   while not done:
@@ -242,112 +234,108 @@ There are a couple common uses of this:
   ```
 
 
-> **Don't f\-\-\-ing use profanity in your debugging statements.**
-> Murphy's Law says that if you do use profanity, you'll forget to take
-> it out, and even though it was in some part of the code that you're
-> certain will never run, it will inevitably pop onto the screen while
-> you're doing a client demo with your boss on the day he's assessing
-> you for a raise.
+> **Đừng dùng tục ngữ trong các câu lệnh debug của bạn.**
+> Định luật Murphy nói rằng nếu bạn dùng tục ngữ, bạn sẽ quên xóa nó,
+> và dù nó ở trong phần code bạn chắc chắn sẽ không bao giờ chạy, nó
+> sẽ không tránh khỏi hiện lên màn hình trong khi bạn đang demo cho
+> khách hàng trước mặt sếp vào ngày sếp đang đánh giá bạn để tăng
+> lương.
 >
-> I know as well as anyone how infuriating programming can be. And when
-> I'm feeling that way and forget to take a deep breath and recenter, I
-> print this:
+> Tôi biết rõ hơn ai hết lập trình có thể bực bội đến mức nào. Và khi
+> tôi cảm thấy như vậy và quên thở sâu và lấy lại bình tĩnh, tôi in
+> cái này:
 >
 > ``` {.python}
 > print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 > ```
 >
-> <!-- ` --> Not only does it stand out nice and clear on the screen,
-> but it's really easy to type in frustration and helps dispel some of
-> my bad energy. And if the client sees it, it's a minor transgression.
+> <!-- ` --> Không chỉ nó nổi bật rõ ràng trên màn hình, mà nó còn rất
+> dễ gõ khi bực bội và giúp giải tỏa năng lượng tiêu cực của tôi. Và
+> nếu khách hàng thấy nó, đó chỉ là lỗi nhỏ.
 >
-> Another friend of mine suggested printing various non-offensive
-> emojis, as well, which seems like a fun way to diffuse ones
-> frustration.
+> Một người bạn khác của tôi đề xuất in các emoji không gây phản cảm,
+> cũng là cách thú vị để xả stress.
 
-Now, print debugging is kinda frowned upon as a lesser means of
-debugging compared to using a real debugger (as in the following
-section). But everyone does it at some point or another, and some
-people even swear by it.
+Bây giờ, print debugging bị coi là phương tiện debug kém hơn so với
+dùng debugger thật sự (như trong phần sau). Nhưng ai cũng làm vậy vào
+một lúc nào đó, và một số người còn thề bằng nó.
 
-The place that I think it really shines is when you need to gather a lot
-of data about the run to see a larger pattern emerge, or when you need
-to catch an infrequent event. If something happens one run in 10,000,
-single stepping through with a standard debugger is going to take
-forever. You can add some print statements and script a run 10,000 times
-and watch the output to see when it manifests.
+Nơi tôi nghĩ nó thực sự tỏa sáng là khi bạn cần thu thập nhiều dữ liệu
+về lần chạy để thấy mẫu lớn hơn nổi lên, hoặc khi bạn cần bắt một sự
+kiện hiếm gặp. Nếu có gì đó xảy ra một lần trong 10.000 lần chạy, việc
+chạy từng bước với debugger tiêu chuẩn sẽ mất mãi. Bạn có thể thêm một
+số câu lệnh in và script chạy 10.000 lần và xem kết quả đầu ra để thấy
+khi nào nó xuất hiện.
 
-One thing to watch out for is that if you're printing a lot, it can be
-tough to visually parse the output, and error messages might be lost in
-it. I'd recommend redirecting the output to a file and then bringing it
-up in an editor to search.
+Một điều cần chú ý là nếu bạn đang in nhiều, có thể khó phân tích kết
+quả bằng mắt, và thông báo lỗi có thể bị mất trong đó. Tôi khuyên nên
+chuyển hướng kết quả vào file rồi mở nó trong editor để tìm kiếm.
 
-And, finally, don't forget to remove all your print statements before
-you ship your work!
+Và cuối cùng, đừng quên xóa tất cả các câu lệnh in trước khi bạn giao
+nộp công việc!
 
 [i[Debugging-->By printing]>]
 
-## Debuggers
+## Debugger
 
 [i[Debuggers]<]
 
-Debuggers are tools that help you find bugs. There are many different
-debuggers, but virtually all of them share a common set of features. The
-main features are:
+Debugger là các công cụ giúp bạn tìm bug. Có nhiều debugger khác nhau,
+nhưng hầu hết tất cả đều có chung một tập tính năng. Các tính năng
+chính là:
 
-* Add _breakpoints_ where the program will stop running and you'll get
-  control in the debugger
-* "Single step" through a program a line at a time
-* Examine the values of variables
+* Thêm _breakpoint_ nơi chương trình sẽ dừng chạy và bạn sẽ có quyền
+  kiểm soát trong debugger
+* "Single step" qua chương trình từng dòng một
+* Kiểm tra giá trị của các biến
 
-Additional features that are common are:
+Các tính năng bổ sung phổ biến là:
 
-* Stepping into a function
-* Continuing out of a function
-* Stepping over a function
-* Setting the values of variables
-* Examining the call stack
-* Setting breakpoints that trigger conditionally
+* Bước vào một hàm
+* Tiếp tục ra khỏi một hàm
+* Bước qua một hàm
+* Đặt giá trị của các biến
+* Kiểm tra call stack
+* Đặt breakpoint kích hoạt theo điều kiện
 
-Rarer are _time-travel debuggers_. In addition to allowing you to step
-forward through your program, they allow you to step backward, as well!
-This is great if you step past the bug by accident and want to step back
-to see it.
+Hiếm gặp hơn là _time-travel debugger_. Ngoài việc cho phép bạn bước
+tiến qua chương trình, chúng còn cho phép bạn bước lùi! Điều này rất
+hay nếu bạn bước qua bug vô tình và muốn bước lại để xem nó.
 
-All major [flw[IDEs|Integrated_development_environment]] have debugger
-functionality. (It's part of what's "integrated", the "I" in "IDE".)
-There are also standalone debuggers that you can run. And all mainstream
-languages have some kind of debugger support.
+Tất cả các [flw[IDE|Integrated_development_environment]] lớn đều có chức
+năng debugger. (Đó là một phần của "tích hợp", chữ "I" trong "IDE".)
+Cũng có các debugger độc lập mà bạn có thể chạy. Và tất cả các ngôn ngữ
+chính thống đều có hỗ trợ debugger nào đó.
 
-As you might imagine, with those features, debuggers are really
-powerful.
+Như bạn có thể tưởng tượng, với những tính năng đó, debugger thực sự
+mạnh mẽ.
 
-If you suspect a bug in function `foo()`, you can set a breakpoint
-there, run the code, and then get control of the debugger when `foo()`
-executes. Then you can step through it a line at a time, looking at how
-the values of variables change. And there's no need to add any print
-statements.
+Nếu bạn nghi ngờ có bug trong hàm `foo()`, bạn có thể đặt breakpoint ở
+đó, chạy code, rồi có quyền kiểm soát debugger khi `foo()` thực thi.
+Sau đó bạn có thể bước qua từng dòng, xem cách các giá trị của biến
+thay đổi. Và không cần thêm bất kỳ câu lệnh in nào.
 
-Note that in VS Code, getting your debugger set up might be trivial, or
-you might have to edit some esoteric JSON files to get it going.
+Chú ý rằng trong VS Code, việc thiết lập debugger có thể là chuyện đơn
+giản, hoặc bạn có thể phải chỉnh sửa một số file JSON khó hiểu để nó
+hoạt động.
 
-In any case, learning to use a debugger is a valuable skill that can
-save you massive amounts of time while you're trying to track down that
-pesky gremlin in your code.
+Dù sao đi nữa, học cách dùng debugger là kỹ năng quý giá có thể giúp
+bạn tiết kiệm rất nhiều thời gian trong khi cố tìm con quỷ nhỏ đó trong
+code.
 
 [i[Debuggers]>]
 
-## Chapter Reflection
+## Suy Ngẫm Về Chương
 
-* What is the _mental model of computation_ and how is it important for
-  debugging?
+* _Mô hình tư duy về tính toán_ là gì và nó quan trọng như thế nào cho
+  việc debug?
 
-* Why is finding a bug's minimum reproduction case an important step in
-  fixing that bug?
+* Tại sao việc tìm trường hợp tái hiện tối thiểu của bug lại là bước
+  quan trọng trong việc sửa bug đó?
 
-* How do you narrow down where a bug is in your code?
+* Bạn thu hẹp vị trí bug trong code như thế nào?
 
-* Contrast print debugging versus using a debugger. What do you think
-  the relative strengths and weaknesses are?
+* So sánh print debugging với dùng debugger. Bạn nghĩ điểm mạnh và điểm
+  yếu tương đối của chúng là gì?
 
 [i[Debugging]>]
