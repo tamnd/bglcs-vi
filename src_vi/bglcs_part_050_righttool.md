@@ -1,129 +1,130 @@
-# Right Tool for the Job
+# Công Cụ Phù Hợp Cho Công Việc
 
 [i[Right tool for the job]<]
 
 [i[Programming languages-->Best]]
 
-"What's the best programming language?"
+"Ngôn ngữ lập trình nào là tốt nhất?"
 
-It's a common question from people getting started in programming. And
-commonly people do have an opinion, especially when they're starting
-out.
+Đây là câu hỏi phổ biến của những người mới bắt đầu học lập trình. Và
+thường thì mọi người đều có ý kiến riêng, đặc biệt khi họ mới vào
+nghề.
 
-But anyone who has been in the field a while will tell you that there is
-no "best" programming language without knowing the context of the
-problem you're solving.
+Nhưng bất kỳ ai đã hoạt động trong lĩnh vực này một thời gian sẽ nói
+với bạn rằng không có ngôn ngữ lập trình "tốt nhất" nếu không biết bối
+cảnh của vấn đề bạn đang giải quyết.
 
-I don't know anyone who would declare that [flw[Bash
-scripting|Shell_script]] is the best programming language. But there are
-definitely problems for which it actually is the best solution!
+Tôi không biết ai lại tuyên bố rằng [flw[lập trình Bash|Shell_script]]
+là ngôn ngữ lập trình tốt nhất. Nhưng chắc chắn có những bài toán mà
+thực sự nó lại là giải pháp tốt nhất!
 
-Let's analogize! What's better: a screwdriver or a hammer? Trick
-question! They're both the best tool, but only in the context of the job
-they were designed for.
+Hãy thử dùng phép so sánh xem! Cái gì tốt hơn: tua vít hay búa? Đây là
+câu hỏi đánh lừa! Cả hai đều là công cụ tốt nhất, nhưng chỉ trong bối
+cảnh công việc mà chúng được thiết kế cho.
 
-Different programming languages have different strengths and weaknesses.
-It's your job as a developer to choose the hammer for nails and the
-screwdriver for screws, and to be proficient with both those tools. "I'm
-not familiar with the table saw and I don't really like it, so I'm going
-to use this hammer to cut that plywood" is not the solution your boss is
-looking for.
+Các ngôn ngữ lập trình khác nhau có điểm mạnh và điểm yếu khác nhau.
+Nhiệm vụ của bạn với tư cách là một lập trình viên là chọn búa cho đinh
+và tua vít cho vít, và phải thành thạo cả hai công cụ đó. "Tôi không
+quen với máy cưa bàn và không thực sự thích nó, nên tôi sẽ dùng cái búa
+này để cắt tấm ván ép" không phải là giải pháp mà sếp của bạn đang tìm
+kiếm.
 
-> [i[Scuba diving]] **My scuba instructor had some advice for me.** I
-> was looking at buying some kit and was deciding between standard fare
-> and > [flw[DIR|Doing_It_Right_(scuba_diving)]]-style equipment.
+> [i[Scuba diving]] **Người hướng dẫn lặn biển của tôi đã cho tôi một
+> lời khuyên.** Tôi đang xem xét mua một số thiết bị và đang phân vân
+> giữa đồ tiêu chuẩn và thiết bị kiểu
+> [flw[DIR|Doing_It_Right_(scuba_diving)]].
 >
-> He said, "Be the best diver you can be in any equipment. I don't care
-> if you're diving with a 1960s horse collar and J-valve tanks."
+> Ông nói, "Hãy trở thành người thợ lặn giỏi nhất trong bất kỳ thiết bị
+> nào. Tôi không quan tâm nếu anh đang lặn với bộ collar ngựa từ những
+> năm 1960 và bình J-valve."
 
-The best developers have a lot of tools in their belt, and they know how
-to use them.
+Những lập trình viên giỏi nhất có rất nhiều công cụ trong tay, và họ
+biết cách sử dụng chúng.
 
-So when you find yourself saying, "This language sucks and I hate it
-compared to that other language that I love!" consider the use cases for
-that language that you hate. Because it was created for a reason, and
-identifying it can let you know when you _should_ use it.
+Vì vậy, khi bạn thấy mình nói, "Ngôn ngữ này tệ và tôi ghét nó so với
+ngôn ngữ kia mà tôi yêu thích!" hãy nghĩ đến những trường hợp sử dụng
+của ngôn ngữ mà bạn ghét đó. Bởi vì nó được tạo ra với một lý do, và
+việc xác định lý do đó có thể giúp bạn biết khi nào bạn _nên_ dùng nó.
 
-And since you're dying to know, my favorite language is Rust.
+Và vì bạn đang nóng lòng muốn biết, ngôn ngữ yêu thích của tôi là Rust.
 
-Or Python. Or C. Or JavaScript. Or SQL. Or AWK. Or Bash. Or... well, it
-just depends on what problem I'm solving!
+Hay Python. Hay C. Hay JavaScript. Hay SQL. Hay AWK. Hay Bash. Hay...
+thật ra còn tùy thuộc vào vấn đề tôi đang giải quyết!
 
-## Be Opinionated {#be-opinionated}
+## Hãy Có Chính Kiến {#be-opinionated}
 
 [i[Being opinionated]<]
 
-Didn't I just finish telling you that you should give all languages a
-fair shake and not play favorites?
+Tôi vừa nói xong rằng bạn nên đối xử công bằng với tất cả các ngôn ngữ
+và không thiên vị phải không?
 
-Yes. But I swear this doesn't contradict that.
+Đúng vậy. Nhưng tôi thề điều này không mâu thuẫn với điều đó.
 
-Why be opinionated? It's because you should be deliberate and
-well-informed in the choices you make. And a good way to make that
-happen is to be opinionated with a rationale. It forces you to dig into
-the strengths and weaknesses of various technologies, and that helps you
-choose the best tool from your kit for a particular job.
+Tại sao cần có chính kiến? Đó là vì bạn nên cân nhắc kỹ lưỡng và có đủ
+thông tin khi đưa ra lựa chọn. Và một cách tốt để làm điều đó là có
+chính kiến cùng với lý do cụ thể. Nó buộc bạn phải đào sâu vào điểm
+mạnh và điểm yếu của các công nghệ khác nhau, và điều đó giúp bạn chọn
+ra công cụ tốt nhất trong bộ công cụ của mình cho một công việc cụ thể.
 
-None of this is meant to imply that you should be a jerk about it. It's
-not about who's right or wrong—nowhere is any of this written in deific
-stone. Everyone is both right and wrong at the same time. It's very
-Schrödinger of us.
+Điều này không có nghĩa là bạn nên cư xử thô lỗ. Đây không phải là
+chuyện ai đúng hay ai sai — không có gì trong số này được khắc vào đá
+bất biến. Mọi người đều vừa đúng vừa sai cùng lúc. Rất kiểu Schrödinger
+của chúng ta.
 
-**You should be opinionated about the tools that you choose.** Out of
-everything at your disposal, you chose *this* language and build system
-to use. You chose *this* editor or *that* library. You should have a
-rationale for *why* they are the best, even though plenty of other
-languages or tools would have sufficed.
+**Bạn nên có chính kiến về những công cụ mình chọn.** Từ tất cả mọi
+thứ trong tay, bạn chọn ngôn ngữ *này* và hệ thống build *này* để sử
+dụng. Bạn chọn editor *này* hoặc thư viện *kia*. Bạn nên có lý do giải
+thích *tại sao* chúng là tốt nhất, dù có nhiều ngôn ngữ hay công cụ
+khác cũng sẽ đáp ứng được yêu cầu.
 
-**You should be opinionated about the data structures you choose.** Coding
-is a creative endeavor—you can make everything a [flw[Turing
-machine|Turing_machine]] if you wanted and solve the problem that way,
-but there are a lot of other options. Choose the best ones and have a
-rationale for *why* you chose them out of all the other options
-available.
+**Bạn nên có chính kiến về những cấu trúc dữ liệu mình chọn.** Lập
+trình là một công việc sáng tạo — bạn có thể biến tất cả mọi thứ thành
+[flw[máy Turing|Turing_machine]] nếu muốn và giải quyết vấn đề theo
+cách đó, nhưng có rất nhiều lựa chọn khác. Hãy chọn những lựa chọn tốt
+nhất và có lý do giải thích *tại sao* bạn chọn chúng trong số tất cả
+các lựa chọn khác có sẵn.
 
-**You should be opinionated about the algorithms you choose.**
-Mergesort, right? Just use that. But there are actually times that lowly
-insertion sort is better! Binary search? Why use it if linear search is
-good enough for the job? Have a rationale as to *why* you chose that
-algorithm when you could have used another one.
+**Bạn nên có chính kiến về những thuật toán mình chọn.**
+Mergesort chẳng hạn? Cứ dùng đi. Nhưng thực ra có những lúc insertion
+sort tầm thường lại tốt hơn! Binary search? Tại sao dùng nó nếu linear
+search là đủ tốt cho công việc? Hãy có lý do giải thích *tại sao* bạn
+chọn thuật toán đó khi bạn có thể đã dùng một thuật toán khác.
 
-When deciding, you might be considering things like performance, or
-maybe readability of the code, or development time required, or tool
-cost, or what tech the existing codebase uses, or all kinds of other
-factors.
+Khi quyết định, bạn có thể đang xem xét những yếu tố như hiệu suất, hay
+khả năng đọc của code, hay thời gian phát triển cần thiết, hay chi phí
+công cụ, hay công nghệ mà codebase hiện tại đang dùng, hay tất cả các
+yếu tố khác.
 
-You must always be willing to learn more. No matter what you choose with
-your rationale, half the Internet is going to disagree with you. And you
-know what? Your future self might even disagree with you!
+Bạn luôn phải sẵn sàng học hỏi thêm. Dù bạn chọn gì với lý do của
+mình, một nửa Internet sẽ không đồng ý với bạn. Và bạn biết không? Chính
+bạn trong tương lai thậm chí cũng có thể không đồng ý với bạn!
 
-As you learn more, you will learn specific cases where some particular
-technology is best, where before you thought it wouldn't be. Be open to
-learning, and change when appropriate. This can be something as big as
-the choice of framework for the product that defines your entire
-company, or something as small as whether or not array variables are
-plural.
+Khi học hỏi thêm, bạn sẽ tìm hiểu về những trường hợp cụ thể mà một
+công nghệ nào đó là tốt nhất, trong khi trước đây bạn nghĩ nó sẽ không
+phù hợp. Hãy cởi mở để học hỏi và thay đổi khi thích hợp. Điều này có
+thể là điều gì đó lớn như việc lựa chọn framework cho sản phẩm định nghĩa
+toàn bộ công ty của bạn, hoặc điều gì đó nhỏ như việc các biến mảng có
+nên đặt tên số nhiều hay không.
 
-With growth, your choices will change. And, as long as you have a
-rationale behind it, that's a good thing.
+Khi trưởng thành, các lựa chọn của bạn sẽ thay đổi. Và, miễn là bạn có
+lý do đằng sau đó, đó là điều tốt.
 
 [i[Being opinionated]>]
 
-## Chapter Reflection
+## Suy Ngẫm Về Chương
 
-* Describe a typical experienced dev's position on which programming
-  language is best.
+* Mô tả quan điểm điển hình của một lập trình viên có kinh nghiệm về
+  ngôn ngữ lập trình nào là tốt nhất.
 
-* Why be opinionated about tech?
+* Tại sao cần có chính kiến về công nghệ?
 
-* What are some factors to consider when deciding which technology is
-  the right tool for the job?
+* Những yếu tố nào cần xem xét khi quyết định công nghệ nào là công cụ
+  phù hợp cho công việc?
 
-* What are some factors to consider when deciding which technology is
-  the right tool for the job that aren't listed in this chapter?
+* Những yếu tố nào cần xem xét khi quyết định công nghệ nào là công cụ
+  phù hợp cho công việc mà không được đề cập trong chương này?
 
-* Why is continuing your learning so important when choosing
-  technologies?
+* Tại sao việc tiếp tục học hỏi lại quan trọng đến vậy khi lựa chọn
+  công nghệ?
 
 [i[Right tool for the job]>]
-
