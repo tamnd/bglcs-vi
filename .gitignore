@@ -1,0 +1,12 @@
+# Build outputs
+src_vi/bglcs*.pdf
+src_vi/bglcs*.epub
+src_vi/bglcs*.html
+src_vi/bglcs*.zip
+src_vi/split/
+src_vi/split-wide/
+src_vi/temp/
+docs/
+
+# OS
+.DS_Store
